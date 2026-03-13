@@ -2,6 +2,9 @@ using System;
 
 public interface INetworkService
 {
+    // Bootstrap
+    void Initialize(); 
+
     // Événements
     event Action<ulong> OnPlayerJoined;
     event Action<ulong> OnPlayerLeft;

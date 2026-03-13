@@ -42,8 +42,13 @@ public class RelayService : MonoBehaviour
             Debug.Log($"[RelayService] Relay créé avec succès ! Join Code : {joinCode}");
 
             // 3. Configurer le transport réseau de Netcode (NGO) avec les données du Relay
-            RelayServerData relayServerData = new RelayServerData(allocation, "dtls");
-            NetworkManager.Singleton.GetComponent<UnityTransport>().SetRelayServerData(relayServerData);
+            NetworkManager.Singleton.GetComponent<UnityTransport>().SetHostRelayData(
+                allocation.RelayServer.IpV4,
+                (ushort)allocation.RelayServer.Port,
+                allocation.AllocationIdBytes,
+                allocation.Key,
+                allocation.ConnectionData
+            );
 
             // 4. Démarrer le NetworkManager en tant que Host (Le joueur VR ou AR qui crée la partie)
             NetworkManager.Singleton.StartHost();
@@ -72,8 +77,14 @@ public class RelayService : MonoBehaviour
             JoinAllocation joinAllocation = await Unity.Services.Relay.RelayService.Instance.JoinAllocationAsync(joinCode);
 
             // 2. Configurer le transport réseau de Netcode (NGO)
-            RelayServerData relayServerData = new RelayServerData(joinAllocation, "dtls");
-            NetworkManager.Singleton.GetComponent<UnityTransport>().SetRelayServerData(relayServerData);
+            NetworkManager.Singleton.GetComponent<UnityTransport>().SetClientRelayData(
+                joinAllocation.RelayServer.IpV4,
+                (ushort)joinAllocation.RelayServer.Port,
+                joinAllocation.AllocationIdBytes,
+                joinAllocation.Key,
+                joinAllocation.ConnectionData,
+                joinAllocation.HostConnectionData
+            );
 
             // 3. Démarrer le NetworkManager en tant que Client
             bool success = NetworkManager.Singleton.StartClient();

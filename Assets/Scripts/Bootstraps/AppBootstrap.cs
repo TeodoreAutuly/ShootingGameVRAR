@@ -60,9 +60,9 @@ public class AppBootstrap : MonoBehaviour
         
         Debug.Log("[Bootstrap] Initialisation des services locaux...");
         
-        // DeviceDetectionService.Instance.Initialize();
-        // RelayService.Instance.Initialize();
-        // NetworkService.Instance.Initialize();
+        DeviceDetectionService.Instance.Initialize();
+        //RelayService.Instance.Initialize();
+        NetworkService.Instance.Initialize();
         
         // Note : Ces services ne font pas de requêtes réseau lourdes ici, 
         // ils se préparent juste à être utilisés par tes Controllers.
