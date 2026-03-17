@@ -1,0 +1,24 @@
+# Unity source/text files
+*.cs text diff=csharp
+*.shader text
+*.cginc text
+*.hlsl text
+*.asmdef text
+*.json text
+
+# Unity YAML assets: use Unity Smart Merge when configured locally
+*.unity merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.anim merge=unityyamlmerge eol=lf
+*.mat merge=unityyamlmerge eol=lf
+*.meta eol=lf
+
+# Common binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.fbx binary
+*.mp4 binary
+*.wav binary
+*.mp3 binary
