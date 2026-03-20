@@ -3,14 +3,9 @@ using System.Threading.Tasks;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class AppBootstrap : MonoBehaviour
 {
-    [Header("Configuration")]
-    [Tooltip("Nom de la scène à charger une fois l'initialisation terminée (ex: MainMenu)")]
-    [SerializeField] private string nextSceneName = "MainMenu";
-
     private async void Start()
     {
         Debug.Log("[Bootstrap] Démarrage de la séquence d'initialisation...");
@@ -22,8 +17,7 @@ public class AppBootstrap : MonoBehaviour
             
             InitializeCustomServices();
 
-            Debug.Log("[Bootstrap] Séquence terminée avec succès. Chargement de la suite...");
-            LoadNextScene();
+            Debug.Log("[Bootstrap] Séquence terminée avec succès. Attente de l'action du joueur (LobbyController)...");
         }
         catch (Exception e)
         {
@@ -61,19 +55,9 @@ public class AppBootstrap : MonoBehaviour
         Debug.Log("[Bootstrap] Initialisation des services locaux...");
         
         DeviceDetectionService.Instance.Initialize();
-        //RelayService.Instance.Initialize();
         NetworkService.Instance.Initialize();
         
         // Note : Ces services ne font pas de requêtes réseau lourdes ici, 
         // ils se préparent juste à être utilisés par tes Controllers.
-    }
-
-    private void LoadNextScene()
-    {
-        // On charge la scène de Lobby/Menu où le joueur pourra créer ou rejoindre une partie
-        if (!string.IsNullOrEmpty(nextSceneName))
-        {
-            SceneManager.LoadScene(nextSceneName);
-        }
     }
 }

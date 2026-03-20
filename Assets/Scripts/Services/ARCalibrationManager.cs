@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
@@ -24,7 +23,7 @@ public class ARCalibrationManager : MonoBehaviour
     {
         if (trackedImageManager != null)
         {
-            trackedImageManager.trackedImagesChanged += OnTrackedImagesChanged;
+            trackedImageManager.trackablesChanged.AddListener(OnTrackedImagesChanged);
         }
     }
 
@@ -32,11 +31,11 @@ public class ARCalibrationManager : MonoBehaviour
     {
         if (trackedImageManager != null)
         {
-            trackedImageManager.trackedImagesChanged -= OnTrackedImagesChanged;
+            trackedImageManager.trackablesChanged.RemoveListener(OnTrackedImagesChanged);
         }
     }
 
-    private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
+    private void OnTrackedImagesChanged(ARTrackablesChangedEventArgs<ARTrackedImage> eventArgs)
     {
         if (isCalibrated) return;
 
