@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7041845485131837351}
   - component: {fileID: 5468383059909522153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visual Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 2262273470678443444}
   - component: {fileID: 6935544628341436714}
   - component: {fileID: 6797885973515650749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Left Hand Proxy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 6032814586154991851}
   - component: {fileID: 1761985010754831784}
   - component: {fileID: 4346109533671056353}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Head Proxy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 1067371748275220508}
   - component: {fileID: 1046423793971798014}
   - component: {fileID: 8245333369272298178}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VR Networked Player 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -492,7 +492,7 @@ GameObject:
   - component: {fileID: 8341959915048000085}
   - component: {fileID: 7569151207969847500}
   - component: {fileID: 9048773460016162577}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Right Hand Proxy
   m_TagString: Untagged
   m_Icon: {fileID: 0}

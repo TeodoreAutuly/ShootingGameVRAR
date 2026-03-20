@@ -11,7 +11,7 @@ using UnityEngine;
 public class ConnectionManager : MonoBehaviour
 {
     [Header("Session")]
-    [SerializeField] private string sessionName = "bulleblanche12"; 
+    [SerializeField] private string sessionName = "popo2"; 
     [SerializeField] private int maxPlayers = 10;
 
     [Header("Debug")]

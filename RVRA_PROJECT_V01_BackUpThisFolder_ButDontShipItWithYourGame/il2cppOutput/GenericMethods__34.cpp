@@ -15000,7 +15000,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Buffer_Memmove_TisPolygonGeometryElement
 		return;
 	}
 }
-// Method Definition Index: 86873
+// Method Definition Index: 86874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializerReader_SerializeNetworkSerializable_TisHalfVector4_t493672846617D0E05AE7C0B3E38E7B460948A1BD_m02F45F0389973342AA3A103A346A6126B553BF38_gshared (BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091* __this, HalfVector4_t493672846617D0E05AE7C0B3E38E7B460948A1BD* ___0_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15019,7 +15019,7 @@ IL2CPP_EXTERN_C  void BufferSerializerReader_SerializeNetworkSerializable_TisHal
 	_thisAdjusted = reinterpret_cast<BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091*>(__this + _offset);
 	BufferSerializerReader_SerializeNetworkSerializable_TisHalfVector4_t493672846617D0E05AE7C0B3E38E7B460948A1BD_m02F45F0389973342AA3A103A346A6126B553BF38(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 86873
+// Method Definition Index: 86874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializerReader_SerializeNetworkSerializable_TisNetworkDeltaPosition_tD1DE84F6587BF2B08490254D05F79F260D234FE9_mEE1C163D0B76F633CB3F6222F3C96DE42EF54D63_gshared (BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091* __this, NetworkDeltaPosition_tD1DE84F6587BF2B08490254D05F79F260D234FE9* ___0_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15038,7 +15038,7 @@ IL2CPP_EXTERN_C  void BufferSerializerReader_SerializeNetworkSerializable_TisNet
 	_thisAdjusted = reinterpret_cast<BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091*>(__this + _offset);
 	BufferSerializerReader_SerializeNetworkSerializable_TisNetworkDeltaPosition_tD1DE84F6587BF2B08490254D05F79F260D234FE9_mEE1C163D0B76F633CB3F6222F3C96DE42EF54D63(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 86873
+// Method Definition Index: 86874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializerReader_SerializeNetworkSerializable_TisIl2CppFullySharedGenericAny_m6F3D19D5A7BA721F53ED7E649575F3AFCA9F6A6A_gshared (BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091* __this, Il2CppFullySharedGenericAny* ___0_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15057,7 +15057,7 @@ IL2CPP_EXTERN_C  void BufferSerializerReader_SerializeNetworkSerializable_TisIl2
 	_thisAdjusted = reinterpret_cast<BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091*>(__this + _offset);
 	BufferSerializerReader_SerializeNetworkSerializable_TisIl2CppFullySharedGenericAny_m6F3D19D5A7BA721F53ED7E649575F3AFCA9F6A6A(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 86873
+// Method Definition Index: 86874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializerReader_SerializeNetworkSerializable_TisAnimationState_t90091AD2757C132602279750EFF7907F066817B0_m97A470E6D5570BA8F352922927D206DECF7634D8_gshared (BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091* __this, AnimationState_t90091AD2757C132602279750EFF7907F066817B0* ___0_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15076,7 +15076,7 @@ IL2CPP_EXTERN_C  void BufferSerializerReader_SerializeNetworkSerializable_TisAni
 	_thisAdjusted = reinterpret_cast<BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091*>(__this + _offset);
 	BufferSerializerReader_SerializeNetworkSerializable_TisAnimationState_t90091AD2757C132602279750EFF7907F066817B0_m97A470E6D5570BA8F352922927D206DECF7634D8(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 86840
+// Method Definition Index: 86841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializerReader_SerializeValue_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m5868BF6C5DADEBF3F233A5135378440496A2E461_gshared (BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091* __this, bool* ___0_value, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 ___1_unused, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15099,7 +15099,7 @@ IL2CPP_EXTERN_C  void BufferSerializerReader_SerializeValue_TisBoolean_t09A6377A
 	_thisAdjusted = reinterpret_cast<BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091*>(__this + _offset);
 	BufferSerializerReader_SerializeValue_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m5868BF6C5DADEBF3F233A5135378440496A2E461(_thisAdjusted, ___0_value, ___1_unused, method);
 }
-// Method Definition Index: 86841
+// Method Definition Index: 86842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializerReader_SerializeValue_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m5703598D333410A3BE8855CA12F730C9126EFE62_gshared (BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** ___0_value, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 ___1_unused, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15122,7 +15122,7 @@ IL2CPP_EXTERN_C  void BufferSerializerReader_SerializeValue_TisByte_t94D9231AC21
 	_thisAdjusted = reinterpret_cast<BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091*>(__this + _offset);
 	BufferSerializerReader_SerializeValue_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m5703598D333410A3BE8855CA12F730C9126EFE62(_thisAdjusted, ___0_value, ___1_unused, method);
 }
-// Method Definition Index: 86847
+// Method Definition Index: 86848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializerReader_SerializeValue_TisHalfVector3_t921D176C4A9C03F0C05F55B8440B72BB3730EC02_m6B1B568238B9E414747353AE4E6C256939B70173_gshared (BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091* __this, HalfVector3_t921D176C4A9C03F0C05F55B8440B72BB3730EC02* ___0_value, ForNetworkSerializable_t9761409AA2A84D519B485A78188E85CFF1A9C7E3 ___1_unused, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15141,7 +15141,7 @@ IL2CPP_EXTERN_C  void BufferSerializerReader_SerializeValue_TisHalfVector3_t921D
 	_thisAdjusted = reinterpret_cast<BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091*>(__this + _offset);
 	BufferSerializerReader_SerializeValue_TisHalfVector3_t921D176C4A9C03F0C05F55B8440B72BB3730EC02_m6B1B568238B9E414747353AE4E6C256939B70173(_thisAdjusted, ___0_value, ___1_unused, method);
 }
-// Method Definition Index: 86840
+// Method Definition Index: 86841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializerReader_SerializeValue_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m55B9DA5CD9CFDC6F62C26F46C2F40D384009CE30_gshared (BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091* __this, int32_t* ___0_value, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 ___1_unused, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15164,7 +15164,7 @@ IL2CPP_EXTERN_C  void BufferSerializerReader_SerializeValue_TisInt32_t680FF22E76
 	_thisAdjusted = reinterpret_cast<BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091*>(__this + _offset);
 	BufferSerializerReader_SerializeValue_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m55B9DA5CD9CFDC6F62C26F46C2F40D384009CE30(_thisAdjusted, ___0_value, ___1_unused, method);
 }
-// Method Definition Index: 86842
+// Method Definition Index: 86843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializerReader_SerializeValue_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m30B208D3CC1F14BB6ED557CD6737C676CE001465_gshared (BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091* __this, int32_t* ___0_value, ForEnums_tD6A048FB8E80A3A6DC7DE4B6DE48D635362F7511 ___1_unused, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15187,7 +15187,7 @@ IL2CPP_EXTERN_C  void BufferSerializerReader_SerializeValue_TisInt32Enum_tCBAC8B
 	_thisAdjusted = reinterpret_cast<BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091*>(__this + _offset);
 	BufferSerializerReader_SerializeValue_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m30B208D3CC1F14BB6ED557CD6737C676CE001465(_thisAdjusted, ___0_value, ___1_unused, method);
 }
-// Method Definition Index: 86847
+// Method Definition Index: 86848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializerReader_SerializeValue_TisNetworkBehaviourReference_t0379C8F95B4B428FE10F98601188BF6420FA1986_mBFB8626F7C3B6EE6CC56F28C30E6F29DF9D85E37_gshared (BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091* __this, NetworkBehaviourReference_t0379C8F95B4B428FE10F98601188BF6420FA1986* ___0_value, ForNetworkSerializable_t9761409AA2A84D519B485A78188E85CFF1A9C7E3 ___1_unused, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15206,7 +15206,7 @@ IL2CPP_EXTERN_C  void BufferSerializerReader_SerializeValue_TisNetworkBehaviourR
 	_thisAdjusted = reinterpret_cast<BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091*>(__this + _offset);
 	BufferSerializerReader_SerializeValue_TisNetworkBehaviourReference_t0379C8F95B4B428FE10F98601188BF6420FA1986_mBFB8626F7C3B6EE6CC56F28C30E6F29DF9D85E37(_thisAdjusted, ___0_value, ___1_unused, method);
 }
-// Method Definition Index: 86847
+// Method Definition Index: 86848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializerReader_SerializeValue_TisNetworkSceneHandle_tA610B2527B1ACB80F5DD0846BC521C0319C71E6D_mD6970A7CCCB545E21C528553E34E6C93E3F82A38_gshared (BufferSerializerReader_t821F6D93FEA6652401EA14C2C96FB7328355A091* __this, NetworkSceneHandle_tA610B2527B1ACB80F5DD0846BC521C0319C71E6D* ___0_value, ForNetworkSerializable_t9761409AA2A84D519B485A78188E85CFF1A9C7E3 ___1_unused, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15233,7 +15233,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t RuntimeTypeHandle_get_Va
 		return L_0;
 	}
 }
-// Method Definition Index: 87115
+// Method Definition Index: 87116
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadValueSafe_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mBA2A4780714D114D8FC043702FB920DA35DACE31_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, bool* ___0_value, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 ___1_unused, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15244,7 +15244,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadValueSa
 		return;
 	}
 }
-// Method Definition Index: 87116
+// Method Definition Index: 87117
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadValueSafe_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mEBA9521249B441C5D53564AD206BCD3ADD995380_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** ___0_value, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 ___1_unused, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15255,7 +15255,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadValueSa
 		return;
 	}
 }
-// Method Definition Index: 87115
+// Method Definition Index: 87116
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadValueSafe_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m36F412A8CC69D06358846FD86C26688BE6C294A1_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, int32_t* ___0_value, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 ___1_unused, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15266,7 +15266,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadValueSa
 		return;
 	}
 }
-// Method Definition Index: 87119
+// Method Definition Index: 87120
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadValueSafe_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mA8A3541F98C0CA46EB42742872182D62DE933BE4_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, int32_t* ___0_value, ForEnums_tD6A048FB8E80A3A6DC7DE4B6DE48D635362F7511 ___1_unused, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15277,7 +15277,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadValueSa
 		return;
 	}
 }
-// Method Definition Index: 87095
+// Method Definition Index: 87096
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanagedSafe_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m63BB4F5002A00DEC6A44B9A5C7D8F82E24C54527_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, bool* ___0_value, const RuntimeMethod* method) 
 {
 	bool* V_0 = NULL;
@@ -15299,7 +15299,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanag
 		return;
 	}
 }
-// Method Definition Index: 87097
+// Method Definition Index: 87098
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanagedSafe_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mFDCCBB13F3F4E5DA7368811C55BD75B38146F3BE_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** ___0_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15367,7 +15367,7 @@ IL_0032:
 		return;
 	}
 }
-// Method Definition Index: 87095
+// Method Definition Index: 87096
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanagedSafe_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m22F05E4166BD259AEBE58A798FCAC53DB1FC9698_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, int32_t* ___0_value, const RuntimeMethod* method) 
 {
 	int32_t* V_0 = NULL;
@@ -15389,7 +15389,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanag
 		return;
 	}
 }
-// Method Definition Index: 87095
+// Method Definition Index: 87096
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanagedSafe_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m6F8C57456C51F7713E87998308BEF5034A63F5F8_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, int32_t* ___0_value, const RuntimeMethod* method) 
 {
 	int32_t* V_0 = 0;
@@ -15411,7 +15411,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanag
 		return;
 	}
 }
-// Method Definition Index: 87091
+// Method Definition Index: 87092
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadBytesSafe_m109629AE2B684CFCCFF9111790DE4E1E26445649_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, uint8_t* ___0_value, int32_t ___1_size, int32_t ___2_offset, const RuntimeMethod* method) 
 {
 	{
@@ -15456,7 +15456,7 @@ IL_0014:
 		return;
 	}
 }
-// Method Definition Index: 87085
+// Method Definition Index: 87086
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadLengthSafe_mDD98B4D17E62880405ADBCF33143533121BDAA5E_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, int32_t* ___0_length, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
@@ -15487,7 +15487,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 87072
+// Method Definition Index: 87073
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FastBufferReader_TryBeginReadInternal_m5C597FDF5DF8DA7AE28A0A441AF6542DD05B05B1_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, int32_t ___0_bytes, const RuntimeMethod* method) 
 {
 	{
@@ -15515,7 +15515,7 @@ IL_001c:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 87083
+// Method Definition Index: 87084
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadLengthSafe_mAED8D291AD6827C44CE42D64BB9B4B817A311F73_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, uint32_t* ___0_length, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15531,7 +15531,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadLengthS
 		return;
 	}
 }
-// Method Definition Index: 87095
+// Method Definition Index: 87096
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanagedSafe_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_m66062D26C8EC97E7EE20421CA11BA733F378A005_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, uint32_t* ___0_value, const RuntimeMethod* method) 
 {
 	uint32_t* V_0 = NULL;

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3458402049714652687}
   - component: {fileID: 1794292743047943073}
   - component: {fileID: 2231913451222154587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Right Hand Proxy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 6429473783278118499}
   - component: {fileID: 7003032133934787829}
   - component: {fileID: 5495817288928554721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VR Networked Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 3684582315
+  GlobalObjectIdHash: 3208404395
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 1
@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 6715830966308418252}
   - component: {fileID: 535435296973447065}
   - component: {fileID: 1323653266728990967}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Head Proxy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -407,7 +407,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6227945692947683798}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visual Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -445,7 +445,7 @@ GameObject:
   - component: {fileID: 134625031074164981}
   - component: {fileID: 5095158757115056253}
   - component: {fileID: 250968991319428341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Left Hand Proxy
   m_TagString: Untagged
   m_Icon: {fileID: 0}

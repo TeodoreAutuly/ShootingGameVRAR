@@ -932,7 +932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkBehaviour___initializeRpcs_mFDE0F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131480
+// Method Definition Index: 131517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE4CEF3CFB186D134EB398C80F4660F4AF2E58284 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mEC9BE75561A266E3D3146FEBCF9C6C732D3C9713 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -966,7 +966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE4CEF3CFB186D134EB398C80F4660
 		return L_6;
 	}
 }
-// Method Definition Index: 131481
+// Method Definition Index: 131518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m7C3469CE9DA6823D3914C2FFB1296EAD9D2C4E00 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t5B8AC7A0E1383754E79B5D68A650559BDFF962CF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1052,7 +1052,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tE4CEF3CFB186D134EB398C80F4660F4AF2E58284_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131482
+// Method Definition Index: 131519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BootstrapManager_OnGUI_mF097F83FD701DEA48C2B24390EAB900C99FB36FB (BootstrapManager_t27B94160508517AC2EFA3844B637ABEA6D120575* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1282,7 +1282,7 @@ IL_00f0:
 		return;
 	}
 }
-// Method Definition Index: 131483
+// Method Definition Index: 131520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BootstrapManager__ctor_m02E70059A1E07BB0295AFE183CC44EA641624BAC (BootstrapManager_t27B94160508517AC2EFA3844B637ABEA6D120575* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1298,7 +1298,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BootstrapManager__ctor_m02E70059A1E07BB0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131484
+// Method Definition Index: 131521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BootstrapPlayer_RandomTeleportServerRpc_mF21EE2A93D44D320309BD4DA87362481D27F82BF (BootstrapPlayer_t187A165314193B7E21072ACE25F8BD7AE9807D21* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1529,7 +1529,7 @@ IL_0105:
 		return;
 	}
 }
-// Method Definition Index: 131485
+// Method Definition Index: 131522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 BootstrapPlayer_GetRandomPositionOnXYPlane_m681E8E45C1C2F5D0A0814E8D2E8E0D59BD4570B5 (const RuntimeMethod* method) 
 {
 	{
@@ -1544,7 +1544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_2;
 	}
 }
-// Method Definition Index: 131486
+// Method Definition Index: 131523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BootstrapPlayer__ctor_m9EF34198E4FA700C0F4796D8CA7BFB6140756392 (BootstrapPlayer_t187A165314193B7E21072ACE25F8BD7AE9807D21* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1559,7 +1559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BootstrapPlayer__ctor_m9EF34198E4FA700C0
 		return;
 	}
 }
-// Method Definition Index: 131487
+// Method Definition Index: 131524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BootstrapPlayer___initializeVariables_mED2EF9C6A97E21A56D7A1CD30B282DA4EC5C6371 (BootstrapPlayer_t187A165314193B7E21072ACE25F8BD7AE9807D21* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -1568,7 +1568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BootstrapPlayer___initializeVariables_mE
 		return;
 	}
 }
-// Method Definition Index: 131488
+// Method Definition Index: 131525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BootstrapPlayer___initializeRpcs_mE7334033128DF49506C5B8DA5BDA6D1D1C8E3449 (BootstrapPlayer_t187A165314193B7E21072ACE25F8BD7AE9807D21* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1587,7 +1587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BootstrapPlayer___initializeRpcs_mE73340
 		return;
 	}
 }
-// Method Definition Index: 131489
+// Method Definition Index: 131526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BootstrapPlayer___rpc_handler_917836935_m2A7C654A485A53D17C91BD8E2CC5F0C509DD93F7 (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* ___0_target, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___1_reader, __RpcParams_tA4F5B2601A930BA667C4084C62B0FA7CABA5980E ___2_rpcParams, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1675,7 +1675,7 @@ IL_006f:
 		return;
 	}
 }
-// Method Definition Index: 131490
+// Method Definition Index: 131527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BootstrapPlayer___getTypeName_mDB506A36F50156CD61CECC74914AEE82B99B19C8 (BootstrapPlayer_t187A165314193B7E21072ACE25F8BD7AE9807D21* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1720,7 +1720,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BootstrapPlayer___getTypeName_mDB50
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131491
+// Method Definition Index: 131528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariableSerializationHelper_InitializeSerialization_m6F1EA98DFD5293CFDCCFDBF358D535932AC8B03D (const RuntimeMethod* method) 
 {
 	{
@@ -1745,7 +1745,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BE
 		return;
 	}
 }
-// Method Definition Index: 85357
+// Method Definition Index: 85358
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* NetworkManager_get_Singleton_m0F86FB1D52C8EDB866101D9CAE0CAA1D7DAE2266_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1761,7 +1761,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3C1F76E0C1B39BB36
 		return L_0;
 	}
 }
-// Method Definition Index: 85227
+// Method Definition Index: 85228
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkBehaviour_get_OwnerClientId_m59ED21DE97867ED0CAE0C553A2BBE369543360BF_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
