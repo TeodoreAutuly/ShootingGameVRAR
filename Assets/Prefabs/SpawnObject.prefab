@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 6986973580375456114}
   - component: {fileID: 2197546039987677771}
   - component: {fileID: 2778816036041400639}
-  - component: {fileID: 2373613985675671935}
+  - component: {fileID: 7319523843977370249}
+  - component: {fileID: 3861096333478281718}
   m_Layer: 0
   m_Name: SpawnObject
   m_TagString: View
@@ -67,7 +68,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b829476233228d0e924c84824371ff5, type: 2}
+  - {fileID: 2100000, guid: 19f2c5ff71326cfd7b4aee631ecba25c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -186,7 +187,7 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AutoFindParentInteractableInHierarchy: 0
   m_ParentInteractableObject: {fileID: 0}
---- !u!114 &2373613985675671935
+--- !u!114 &7319523843977370249
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -198,6 +199,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f6212e42ca5889e191cc5d7708fdbc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagVisible: View
-  tagHidden: Hide
   playerTag: Player
+--- !u!54 &3861096333478281718
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2946659171453785272}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

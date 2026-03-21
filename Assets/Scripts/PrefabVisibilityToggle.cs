@@ -2,30 +2,29 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
-[RequireComponent(typeof(Renderer))]
 [RequireComponent(typeof(XRSimpleInteractable))]
 public class PrefabVisibilityToggle : MonoBehaviour
 {
-    [Header("Tags")]
-    public string tagVisible = "View";
-    public string tagHidden  = "Hide";
-
     [Header("Tag physique du joueur")]
     public string playerTag = "Player";
 
-    private Renderer _renderer;
     private XRSimpleInteractable _interactable;
     private bool _hasToggledThisInteraction = false;
+    private bool _isVisible = true;
+
+    // Tous les renderers y compris les enfants
+    private Renderer[] _renderers;
 
     void Awake()
     {
-        _renderer     = GetComponent<Renderer>();
         _interactable = GetComponent<XRSimpleInteractable>();
 
-        // Applique l'état initial selon le tag assigné sur le prefab
-        ApplyCurrentState();
+        // Récupère TOUS les renderers (parent + enfants)
+        _renderers = GetComponentsInChildren<Renderer>();
 
-        // Abonnement aux events XR (rayon)
+        _isVisible = true;
+        SetVisibility(true);
+
         _interactable.hoverEntered.AddListener(OnHoverEnter);
         _interactable.hoverExited.AddListener(OnHoverExit);
     }
@@ -49,13 +48,20 @@ public class PrefabVisibilityToggle : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(playerTag))
+        {
+            Debug.Log($"TriggerEnter → {gameObject.name} | visible={_isVisible}");
             TryToggle();
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag(playerTag))
+        {
+            // Toujours reset au exit → permet de retraverser dans les 2 sens
             _hasToggledThisInteraction = false;
+            Debug.Log($"TriggerExit → {gameObject.name} | visible={_isVisible}");
+        }
     }
 
     // ─── Logique commune ──────────────────────────────────────────────────────
@@ -64,28 +70,16 @@ public class PrefabVisibilityToggle : MonoBehaviour
         if (_hasToggledThisInteraction) return;
         _hasToggledThisInteraction = true;
 
-        if (gameObject.CompareTag(tagVisible))
-        {
-            // View → Hide
-            gameObject.tag = tagHidden;
-            _renderer.enabled = false;
-            Debug.Log($"{gameObject.name} : View → Hide");
-        }
-        else if (gameObject.CompareTag(tagHidden))
-        {
-            // Hide → View
-            gameObject.tag = tagVisible;
-            _renderer.enabled = true;
-            Debug.Log($"{gameObject.name} : Hide → View");
-        }
+        _isVisible = !_isVisible;
+        SetVisibility(_isVisible);
+
+        Debug.Log($"{gameObject.name} → {(_isVisible ? "VISIBLE ✅" : "INVISIBLE ❌")}");
     }
 
-    // Applique l'état visuel selon le tag actuel
-    private void ApplyCurrentState()
+    // ─── Active/désactive tous les renderers ──────────────────────────────────
+    private void SetVisibility(bool visible)
     {
-        if (gameObject.CompareTag(tagVisible))
-            _renderer.enabled = true;
-        else if (gameObject.CompareTag(tagHidden))
-            _renderer.enabled = false;
+        foreach (Renderer r in _renderers)
+            r.enabled = visible;
     }
 }
