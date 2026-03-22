@@ -1,0 +1,4825 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1, typename T2>
+struct VirtualActionInvoker2
+{
+	typedef void (*Action)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2>
+struct VirtualFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct InterfaceActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct InterfaceFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+struct Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55;
+struct Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1;
+struct Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00;
+struct Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634;
+struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
+struct IEnumerable_1_tAD1527071FA5E8CB7F630444D06E10832DB4C971;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8;
+struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
+struct Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED;
+struct Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B;
+struct ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007;
+struct Delegate_t;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct DisconnectScenarioWithMonoBehaviour_tF127B9A31D7B91E476600F921AFED8E3B7B711F2;
+struct Exception_t;
+struct IAsyncStateMachine_t0680C7F905C553076B552D5A1A6E39E2F0F36AA2;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598;
+struct INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C;
+struct LagSpikeScenarioWithAsyncTask_t359DE384C3E8CDE57AB65AD22DA1E6FA4D80FD6B;
+struct MethodInfo_t;
+struct NetworkScenario_t9D80818E03CA1A3256BA1732E5C4844B265FFC46;
+struct NetworkScenarioBehaviour_t107D35A1BDE115A31DE8A213E13BF3BA28FF6220;
+struct NetworkScenarioTask_t49C5E3CD445AF449BB11ECD2F569C3D4091D79CA;
+struct NetworkSimulatorPreset_t87605F01665EAA7FE1C98FFBC874A1C42807AB41;
+struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E;
+struct StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352;
+struct String_t;
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572;
+struct TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0;
+struct TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t37A0416F932385F19BD3F3BF44EA2566FCCACBCF;
+struct UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaitCallback_tFB2C7FD58D024BBC2B0333DC7A4CB63B8DEBD5D3;
+struct U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304;
+struct PauseStateChangedHandler_t15AF1FD212A5CAD2D4761F57112C7D1F22FC0B76;
+struct ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540;
+struct U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96;
+struct U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333;
+struct U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F;
+struct EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F;
+struct LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A;
+struct PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7;
+struct PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697;
+struct PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939;
+struct PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80;
+
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsSamples_NetworkScenarios[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_Multiplayer_Tools_NetworkSimulator_Runtime[];
+IL2CPP_EXTERN_C RuntimeClass* AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t5F991B559C47A24EA83CBC247C19FBCB447FCF42____62261FEB8F8D51632E36FFAD9319E99CACA5B1420DE26F31FAFA7C3B2C0C3A8B_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t5F991B559C47A24EA83CBC247C19FBCB447FCF42____9BBF06D364058F17EB312296E12AB57B415452CFFB35C26E94391D587553F1D7_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral098342B73193AE2B560B023C71518BA3ED22161A;
+IL2CPP_EXTERN_C String_t* _stringLiteral541C0B695C2EC18E88EBD06004588B1F505413EA;
+IL2CPP_EXTERN_C String_t* _stringLiteralB062FA81DB9E45391F6C30AA4A549B53CEA85A79;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_mBA9B7E12CFD36CFA11804625927A74798E0C8484_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_m0A41CB55296D78FD59304009E6099DCF62FDF366_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_m599C26C96E7D0C4A71B51B18EF456C06F06AECC3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_mA59217D220FB22368B3B47FB79A6E31F06738E02_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_m416112F5EB93B782195F95D985376167289D11C5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_m105A95192F00EEE44EAE47711D5BF42C8D53C792_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_m4952AB865C6DB7F7F13067A77E745241C56034A0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_m1D275D404D07F630FF8B65A29585CF32302311A9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConnectionParametersWithCurves_Dispose_m75C25EFF4E676F5D1A8D5EEDD525331038A9070D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConnectionParametersWithCurves_Start_mB2F72A29BF8CBC2D575E9C4F388B4008DB26719A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConnectionParametersWithCurves_UpdateParameters_mCD90C56374641EA4AEE018B7B4B0BD453AC3B110_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConnectionParametersWithCurves_Update_m43357EB7AB82733E459C83770553D1FB8FA64207_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConnectionParametersWithCurves__ctor_mC9CE408616D4611F72D671997979E596A34D29A0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DisconnectScenarioWithMonoBehaviour_Start_m31A6BC10182D6FADA790FFEAAE9DF1F3CC2A4251_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DisconnectScenarioWithMonoBehaviour_Update_mF86A92CDD2E39A5185A034BA4546C329DDF0F296_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DisconnectScenarioWithMonoBehaviour__ctor_m5FB3DCBC86C7CEE8E1CED2AA0761999D325D4928_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToList_TisEventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_m2EBF678846B21A310638CF94856B22789CDD9A06_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Where_TisEventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_mEFB19C504E133DA6FA3CCB2D6066E65B0792FA10_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EventConfiguration__ctor_m4EE403F1CE3100BF52EE26A9962DF1F66A4C265B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EventConfiguration_get_IsActive_m32BF71C920D595EC9D87C81DF0440E67D315B11D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LagSpikeConfiguration_Activate_m8295A6D6A56A6D9BAACA0E3127DEACEB58FFBCAC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LagSpikeConfiguration__ctor_m7412FA41068EEBB372ACFB6E52226F3D603D001B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LagSpikeScenarioWithAsyncTask_Run_m5FDB3D2C7FD7B2A8160EBB6691C623450BC00B51_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LagSpikeScenarioWithAsyncTask__ctor_m8804714F6C623EBFEF82FF849432A1F4E38CC984_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_m062336884A07B63FD7D319899860DA26FBA78526_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m19DAC8A647E9C19196E8AD17D30246F0EDC4EF73_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m445D1BBD297E8C0108C79D34ED7F23A52E6CDC0F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NetworkScenario_get_IsPaused_m5E77869693549C8FF730EB0EC6DFD4AE636DBD63_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PacketDelayConfiguration_Activate_m2D433ED3E68F9D7071A0BB5CFBE7040428896C4B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PacketDelayConfiguration__ctor_m7560D1B7C13BBFAC038BA354A2A1C165A5953205_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PacketJitterConfiguration_Activate_m1875FA7D100DCA3CFE02305061A81501CD655C4F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PacketJitterConfiguration__ctor_m0714C94470DA7DF5D0FBE0398F9B0FBDC5BDD699_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PacketLossConfiguration_Activate_mE809D8AE28D5D0650FA76FB3AFB86E967DE47C25_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PacketLossConfiguration__ctor_mD444E190AAFBE27145B992F6461943DF99191CEE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PacketLossIntervalConfiguration_Activate_m597BFC04C63D5AC96B096055B7F619F954105620_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PacketLossIntervalConfiguration__ctor_mE1E57F174BB419FAF474A23D4BB08A4625D8FA46_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__2_MoveNext_m32879A42A7263957C074F6D2E8C485499C645D27_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__2_SetStateMachine_m63D5F5691F3C46A1BD5471600E36C79223D546B8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__2__ctor_m07D8970578CCDED3A95279529526EEA8B2A6D666_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__30_MoveNext_m703D2E489AFEABD88D2C13F18542C9FCF3FE072C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__30_SetStateMachine_mE797937543EADF985607C9A32BBE570114CF19BA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__30__ctor_mE6BA3BAE9949D53C167F7F3EB193C65583973CC4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CTriggerNetworkEventsU3Ed__32_MoveNext_m23E6ECBE2CFB2C6FA1B447B698257CBD03B6F4B0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CTriggerNetworkEventsU3Ed__32_SetStateMachine_mFEC3AA67883E483D8392B67C3094D1208A62F2D4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CTriggerNetworkEventsU3Ed__32__ctor_mD0A350610877B27CF92A390BAE56B8D258A15991_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTriggerNetworkEventsU3Eb__32_0_m97758608305009A2D1E4035973B7EAE331B8462C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__cctor_mFC4862C8BA7D715249EFCBD7285EB6C5ADD144EC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__ctor_mFC59147CC6382B473D62E51030EAC8BF019D9F7E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m95D514077EA97CBD63ED24FFB3EE1038AE0D2E98_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mECBF6D6E1055B964852D5577E945F9FC83883374_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnstableConnection_ResetScenarioConfiguration_m645B1CD11B109F056CCF39CAC06C6958C878E69A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnstableConnection_Run_mCB97720F766D431BCC253FE8BA2580BBF66580BA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnstableConnection_TriggerNetworkEvents_m46A77DBED4886CFCB15A73683A76C7C1233957FF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnstableConnection__ctor_m786AECBCC2828558C88D51F7390A792AF399DEEB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnstableConnection_get_ShouldResetBetweenEvents_m796664201E6D9782A804A38C53AA8C4AD72A5A7A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnstableConnection_set_Randomizer_m4655283CCAA86B6CDBCD735BAC17C04E55A51365_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnstableConnection_set_ScenarioConfiguration_mC02BA48E92475F8556E408727E32FF0BF3756D61_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* DisconnectScenarioWithMonoBehaviour_tF127B9A31D7B91E476600F921AFED8E3B7B711F2_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Exception_t_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* NetworkScenario_t9D80818E03CA1A3256BA1732E5C4844B265FFC46_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_0_0_0_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3;
+struct EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t6FCADAD61F25071D80F6686EC3E6A6DF6C834A7E 
+{
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8  : public RuntimeObject
+{
+	EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_t5F991B559C47A24EA83CBC247C19FBCB447FCF42  : public RuntimeObject
+{
+};
+struct NetworkScenario_t9D80818E03CA1A3256BA1732E5C4844B265FFC46  : public RuntimeObject
+{
+	RuntimeObject* ___m_NetworkEventsApi;
+	bool ___m_Initialized;
+	bool ___m_HasStarted;
+	bool ___m_IsPaused;
+	PauseStateChangedHandler_t15AF1FD212A5CAD2D4761F57112C7D1F22FC0B76* ___PauseStateChangedEvent;
+};
+struct NetworkSimulatorPreset_t87605F01665EAA7FE1C98FFBC874A1C42807AB41  : public RuntimeObject
+{
+	String_t* ___U3CNameU3Ek__BackingField;
+	String_t* ___U3CDescriptionU3Ek__BackingField;
+	int32_t ___U3CPacketDelayMsU3Ek__BackingField;
+	int32_t ___U3CPacketJitterMsU3Ek__BackingField;
+	int32_t ___U3CPacketLossIntervalU3Ek__BackingField;
+	int32_t ___U3CPacketLossPercentU3Ek__BackingField;
+};
+struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8  : public RuntimeObject
+{
+	int32_t ____inext;
+	int32_t ____inextp;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____seedArray;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
+{
+	int32_t ___m_taskId;
+	Delegate_t* ___m_action;
+	RuntimeObject* ___m_stateObject;
+	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_taskScheduler;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_parent;
+	int32_t ___m_stateFlags;
+	RuntimeObject* ___m_continuationObject;
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t37A0416F932385F19BD3F3BF44EA2566FCCACBCF  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96  : public RuntimeObject
+{
+};
+struct EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F  : public RuntimeObject
+{
+	bool ___m_Active;
+};
+struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF 
+{
+	RuntimeObject* ___m_stateMachine;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___m_defaultContextAction;
+};
+struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_pinvoke
+{
+	RuntimeObject* ___m_stateMachine;
+	Il2CppMethodPointer ___m_defaultContextAction;
+};
+struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_com
+{
+	RuntimeObject* ___m_stateMachine;
+	Il2CppMethodPointer ___m_defaultContextAction;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED 
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ____source;
+};
+struct CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_marshaled_pinvoke
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ____source;
+};
+struct CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_marshaled_com
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ____source;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 
+{
+	float ___m_Time;
+	float ___m_Value;
+	float ___m_InTangent;
+	float ___m_OutTangent;
+	int32_t ___m_WeightedMode;
+	float ___m_InWeight;
+	float ___m_OutWeight;
+};
+struct NetworkScenarioBehaviour_t107D35A1BDE115A31DE8A213E13BF3BA28FF6220  : public NetworkScenario_t9D80818E03CA1A3256BA1732E5C4844B265FFC46
+{
+};
+struct NetworkScenarioTask_t49C5E3CD445AF449BB11ECD2F569C3D4091D79CA  : public NetworkScenario_t9D80818E03CA1A3256BA1732E5C4844B265FFC46
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_Cancellation;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 
+{
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task;
+};
+struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_marshaled_pinvoke
+{
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task;
+};
+struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_marshaled_com
+{
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task;
+};
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
+{
+	int64_t ____ticks;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D416_t7482B75EEFCF879C5043863FBBB7CA4E43793608 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D416_t7482B75EEFCF879C5043863FBBB7CA4E43793608__padding[416];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D898_t4967EE71A1AB069FDE8EDFFD24408A9BD1FA6430 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D898_t4967EE71A1AB069FDE8EDFFD24408A9BD1FA6430__padding[898];
+	};
+};
+#pragma pack(pop, tp)
+struct MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A__padding[1];
+	};
+};
+struct AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC 
+{
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState;
+	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___m_task;
+};
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354  : public RuntimeObject
+{
+	intptr_t ___m_Ptr;
+	bool ___m_RequiresNativeCleanup;
+};
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+	int32_t ___m_RequiresNativeCleanup;
+};
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com
+{
+	intptr_t ___m_Ptr;
+	int32_t ___m_RequiresNativeCleanup;
+};
+struct ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B  : public NetworkScenarioBehaviour_t107D35A1BDE115A31DE8A213E13BF3BA28FF6220
+{
+	float ___m_LoopDurationMs;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___m_PacketDelayMs;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___m_PacketJitterMs;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___m_PacketLossInterval;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___m_PacketLossPercent;
+	RuntimeObject* ___m_NetworkEventsApi;
+	RuntimeObject* ___m_CustomPreset;
+	RuntimeObject* ___m_PreviousPreset;
+	float ___m_ElapsedTime;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct DisconnectScenarioWithMonoBehaviour_tF127B9A31D7B91E476600F921AFED8E3B7B711F2  : public NetworkScenarioBehaviour_t107D35A1BDE115A31DE8A213E13BF3BA28FF6220
+{
+	RuntimeObject* ___m_NetworkEventsApi;
+	float ___m_ElapsedTime;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct LagSpikeScenarioWithAsyncTask_t359DE384C3E8CDE57AB65AD22DA1E6FA4D80FD6B  : public NetworkScenarioTask_t49C5E3CD445AF449BB11ECD2F569C3D4091D79CA
+{
+	int32_t ___m_LagSpikeIntervalMs;
+	int32_t ___m_LagSpikeDurationMs;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49  : public NetworkScenarioTask_t49C5E3CD445AF449BB11ECD2F569C3D4091D79CA
+{
+	int32_t ___m_MinimumWaitTimeMs;
+	int32_t ___m_MaximumWaitTimeMs;
+	int32_t ___m_EventFrequency;
+	int32_t ___m_RandomizerSeed;
+	int32_t ___m_EventCount;
+	bool ___m_ResetConfigurationBetweenEvents;
+	LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A* ___m_LagSpikeConfiguration;
+	PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7* ___m_PacketDelayConfiguration;
+	PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697* ___m_PacketJitterConfiguration;
+	PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939* ___m_PacketLossConfiguration;
+	PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80* ___m_PacketLossIntervalConfiguration;
+	RuntimeObject* ___m_SimulatorCache;
+	bool ___m_IsFirstEventOfTrigger;
+	Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* ___U3CRandomizerU3Ek__BackingField;
+	RuntimeObject* ___U3CScenarioConfigurationU3Ek__BackingField;
+	EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4* ___m_EventConfigurations;
+};
+struct LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A  : public EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_TimeRangeInMs;
+};
+struct PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7  : public EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_DelayRangeInMs;
+};
+struct PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697  : public EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_JitterRangeInMs;
+};
+struct PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939  : public EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PacketLossRangeInPercent;
+};
+struct PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80  : public EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_MinimumInterval;
+};
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 
+{
+	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder;
+};
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshaled_pinvoke
+{
+	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder;
+};
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshaled_com
+{
+	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder;
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634  : public MulticastDelegate_t
+{
+};
+struct U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder;
+	RuntimeObject* ___networkEventsApi;
+	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___cancellationToken;
+	LagSpikeScenarioWithAsyncTask_t359DE384C3E8CDE57AB65AD22DA1E6FA4D80FD6B* ___U3CU3E4__this;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1;
+	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A ___U3CU3Eu__2;
+};
+struct U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder;
+	RuntimeObject* ___networkEventsApi;
+	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___cancellationToken;
+	UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* ___U3CU3E4__this;
+	float ___U3ClastTriggerTimeU3E5__1;
+	bool ___U3CshouldDoSomethingU3E5__2;
+	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A ___U3CU3Eu__1;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__2;
+};
+struct U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder;
+	RuntimeObject* ___networkEventsApi;
+	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___cancellationToken;
+	UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* ___U3CU3E4__this;
+	List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* ___U3CactiveConfigurationsU3E5__1;
+	int32_t ___U3CeventCountU3E5__2;
+	int32_t ___U3CconfigIndexU3E5__3;
+	EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* ___U3CconfigurationU3E5__4;
+	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A ___U3CU3Eu__1;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8_StaticFields
+{
+	EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t5F991B559C47A24EA83CBC247C19FBCB447FCF42_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D416_t7482B75EEFCF879C5043863FBBB7CA4E43793608 ___62261FEB8F8D51632E36FFAD9319E99CACA5B1420DE26F31FAFA7C3B2C0C3A8B;
+	__StaticArrayInitTypeSizeU3D898_t4967EE71A1AB069FDE8EDFFD24408A9BD1FA6430 ___9BBF06D364058F17EB312296E12AB57B415452CFFB35C26E94391D587553F1D7;
+};
+struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_StaticFields
+{
+	Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* ___s_globalRandom;
+};
+struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_ThreadStaticFields
+{
+	Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* ___t_threadRandom;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
+{
+	int32_t ___s_taskIdCounter;
+	RuntimeObject* ___s_taskCompletionSentinel;
+	bool ___s_asyncDebuggingEnabled;
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback;
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties;
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField;
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate;
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback;
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate;
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks;
+	RuntimeObject* ___s_activeTasksLock;
+};
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
+{
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask;
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard;
+};
+struct U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_StaticFields
+{
+	U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96* ___U3CU3E9;
+	Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634* ___U3CU3E9__32_0;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_StaticFields
+{
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_actionToActionObjShunt;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
+{
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_StaticFields
+{
+	WaitCallback_tFB2C7FD58D024BBC2B0333DC7A4CB63B8DEBD5D3* ___s_waitCallbackRunAction;
+	SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E* ___s_sendOrPostCallbackRunAction;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFields
+{
+	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_cachedCompleted;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 m_Items[1];
+
+	inline Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4  : public RuntimeArray
+{
+	ALIGN_FIELD (8) EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* m_Items[1];
+
+	inline EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisRuntimeObject_mEFE065A20533413CD8BB8FAEAF761102588337FB_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, RuntimeObject** ___0_stateMachine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisRuntimeObject_mA57D17CC22941935FA487582A05C7D7807AC9DCF_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, RuntimeObject** ___1_stateMachine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisRuntimeObject_m6DE7DDF0974300190F853D2995CDDD8758A86BCF_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A* ___0_awaiter, RuntimeObject** ___1_stateMachine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m13C0A7F33154D861E2A041B52E88461832DA1697_gshared (Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Where_TisRuntimeObject_m5DAF16724887B42DDBBF391C7F375749E8AA4AD7_gshared (RuntimeObject* ___0_source, Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* ___1_predicate, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* Enumerable_ToList_TisRuntimeObject_m6456D63764F29E6B5B2422C3DE25113577CF51EE_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Remove_m4DFA48F4CEB9169601E75FC28517C5C06EFA5AD7_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkSimulatorPreset_t87605F01665EAA7FE1C98FFBC874A1C42807AB41* NetworkSimulatorPreset_Create_m775ACEE4899B2CC6B0BE7B252310C8BBFB34DEF8 (String_t* ___0_name, String_t* ___1_description, int32_t ___2_packetDelayMs, int32_t ___3_packetJitterMs, int32_t ___4_packetLossInterval, int32_t ___5_packetLossPercent, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionParametersWithCurves_UpdateParameters_mCD90C56374641EA4AEE018B7B4B0BD453AC3B110 (ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* __this, float ___0_time, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34 (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0* __this, float ___0_time, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationCurve__ctor_mEABC98C03805713354D61E50D9340766BD5B717E (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* __this, KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* ___0_keys, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* AnimationCurve_Constant_mFD6DD93789F3F8D9B36F44D7297018C35B9B6D62 (float ___0_timeStart, float ___1_timeEnd, float ___2_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkScenarioBehaviour__ctor_mAF9D0B4C23700A50C918BAAE6ED3BE571B0AACEF (NetworkScenarioBehaviour_t107D35A1BDE115A31DE8A213E13BF3BA28FF6220* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__2__ctor_m07D8970578CCDED3A95279529526EEA8B2A6D666 (U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 AsyncTaskMethodBuilder_Create_m24F3F260A79CA2B9EC4F1F15693A33F5EC58735A (const RuntimeMethod* method) ;
+inline void AsyncTaskMethodBuilder_Start_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_m105A95192F00EEE44EAE47711D5BF42C8D53C792 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304** ___0_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304**, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisRuntimeObject_mEFE065A20533413CD8BB8FAEAF761102588337FB_gshared)(__this, ___0_stateMachine, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* AsyncTaskMethodBuilder_get_Task_mE9125D5F8B96F26D1BA5A5347ED82669521C7F9E (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkScenarioTask__ctor_m6F60691F5D7CFF390FD9F9C7DBE26DB5F8024335 (NetworkScenarioTask_t49C5E3CD445AF449BB11ECD2F569C3D4091D79CA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A TimeSpan_FromMilliseconds_mFDCBE9EDA3F6743302C3DD81259AF5D2F00EF775 (double ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_Delay_m45BDEF20A70DDB28B6C600D58D9E1B7EE17FB24C (TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___0_delay, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_cancellationToken, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8 (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* __this, const RuntimeMethod* method) ;
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_mBA9B7E12CFD36CFA11804625927A74798E0C8484 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304** ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304**, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisRuntimeObject_mA57D17CC22941935FA487582A05C7D7807AC9DCF_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkScenario_get_IsPaused_m5E77869693549C8FF730EB0EC6DFD4AE636DBD63_inline (NetworkScenario_t9D80818E03CA1A3256BA1732E5C4844B265FFC46* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB Task_Yield_m27EE257EF53788244C5B2E874C514C24C693F9B1 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A YieldAwaitable_GetAwaiter_m359A05B8C1B9F3F1E9CAE29AD231C0987718DE5E (YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool YieldAwaiter_get_IsCompleted_m783B6E67654FDBF490A65AC59972AF6B985A9286 (YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A* __this, const RuntimeMethod* method) ;
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_m599C26C96E7D0C4A71B51B18EF456C06F06AECC3 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A* ___0_awaiter, U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304** ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A*, U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304**, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisRuntimeObject_m6DE7DDF0974300190F853D2995CDDD8758A86BCF_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YieldAwaiter_GetResult_m83C9B35D4BBEB09AC5B560912436454D69794F07 (YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CancellationToken_get_IsCancellationRequested_m9744F7A1A82946FDD1DC68E905F1ED826471D350 (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, Exception_t* ___0_exception, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__30__ctor_mE6BA3BAE9949D53C167F7F3EB193C65583973CC4 (U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* __this, const RuntimeMethod* method) ;
+inline void AsyncTaskMethodBuilder_Start_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_m4952AB865C6DB7F7F13067A77E745241C56034A0 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333** ___0_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333**, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisRuntimeObject_mEFE065A20533413CD8BB8FAEAF761102588337FB_gshared)(__this, ___0_stateMachine, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnstableConnection_set_ScenarioConfiguration_mC02BA48E92475F8556E408727E32FF0BF3756D61_inline (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerNetworkEventsU3Ed__32__ctor_mD0A350610877B27CF92A390BAE56B8D258A15991 (U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* __this, const RuntimeMethod* method) ;
+inline void AsyncTaskMethodBuilder_Start_TisU3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_m1D275D404D07F630FF8B65A29585CF32302311A9 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F** ___0_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F**, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisRuntimeObject_mEFE065A20533413CD8BB8FAEAF761102588337FB_gshared)(__this, ___0_stateMachine, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LagSpikeConfiguration__ctor_m7412FA41068EEBB372ACFB6E52226F3D603D001B (LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketDelayConfiguration__ctor_m7560D1B7C13BBFAC038BA354A2A1C165A5953205 (PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketJitterConfiguration__ctor_m0714C94470DA7DF5D0FBE0398F9B0FBDC5BDD699 (PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketLossConfiguration__ctor_mD444E190AAFBE27145B992F6461943DF99191CEE (PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketLossIntervalConfiguration__ctor_mE1E57F174BB419FAF474A23D4BB08A4625D8FA46 (PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_inline (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventConfiguration__ctor_m4EE403F1CE3100BF52EE26A9962DF1F66A4C265B (EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnstableConnection_get_ShouldResetBetweenEvents_m796664201E6D9782A804A38C53AA8C4AD72A5A7A (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnstableConnection_ResetScenarioConfiguration_m645B1CD11B109F056CCF39CAC06C6958C878E69A (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB_inline (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mFC59147CC6382B473D62E51030EAC8BF019D9F7E (U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool EventConfiguration_get_IsActive_m32BF71C920D595EC9D87C81DF0440E67D315B11D_inline (EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Random__ctor_mFB386F0C0ED85F26CD069C3527052B81878A2F1E (Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* __this, int32_t ___0_Seed, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Random__ctor_m151183BD4F021499A98B9DE8502DAD4B12DD16AC (Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnstableConnection_set_Randomizer_m4655283CCAA86B6CDBCD735BAC17C04E55A51365_inline (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* ___0_value, const RuntimeMethod* method) ;
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_mA59217D220FB22368B3B47FB79A6E31F06738E02 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A* ___0_awaiter, U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333** ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A*, U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333**, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisRuntimeObject_m6DE7DDF0974300190F853D2995CDDD8758A86BCF_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* UnstableConnection_TriggerNetworkEvents_m46A77DBED4886CFCB15A73683A76C7C1233957FF (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, RuntimeObject* ___0_networkEventsApi, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_cancellationToken, const RuntimeMethod* method) ;
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_m0A41CB55296D78FD59304009E6099DCF62FDF366 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333** ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333**, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisRuntimeObject_mA57D17CC22941935FA487582A05C7D7807AC9DCF_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_Delay_mE80CABEC364832FBA3042CA2460AA3913B74C10B (int32_t ___0_millisecondsDelay, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_cancellationToken, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+inline void Func_2__ctor_m533AF293457C8592CD97B8F31F110C47A4264A0A (Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m13C0A7F33154D861E2A041B52E88461832DA1697_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline RuntimeObject* Enumerable_Where_TisEventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_mEFB19C504E133DA6FA3CCB2D6066E65B0792FA10 (RuntimeObject* ___0_source, Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634* ___1_predicate, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634*, const RuntimeMethod*))Enumerable_Where_TisRuntimeObject_m5DAF16724887B42DDBBF391C7F375749E8AA4AD7_gshared)(___0_source, ___1_predicate, method);
+}
+inline List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* Enumerable_ToList_TisEventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_m2EBF678846B21A310638CF94856B22789CDD9A06 (RuntimeObject* ___0_source, const RuntimeMethod* method)
+{
+	return ((  List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToList_TisRuntimeObject_m6456D63764F29E6B5B2422C3DE25113577CF51EE_gshared)(___0_source, method);
+}
+inline int32_t List_1_get_Count_m19DAC8A647E9C19196E8AD17D30246F0EDC4EF73_inline (List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_m416112F5EB93B782195F95D985376167289D11C5 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A* ___0_awaiter, U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F** ___1_stateMachine, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A*, U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F**, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisRuntimeObject_m6DE7DDF0974300190F853D2995CDDD8758A86BCF_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
+}
+inline EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* List_1_get_Item_m445D1BBD297E8C0108C79D34ED7F23A52E6CDC0F (List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* (*) (List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+inline bool List_1_Remove_m062336884A07B63FD7D319899860DA26FBA78526 (List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* __this, EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8*, EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F*, const RuntimeMethod*))List_1_Remove_m4DFA48F4CEB9169601E75FC28517C5C06EFA5AD7_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139336
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m95D514077EA97CBD63ED24FFB3EE1038AE0D2E98 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t5F991B559C47A24EA83CBC247C19FBCB447FCF42____62261FEB8F8D51632E36FFAD9319E99CACA5B1420DE26F31FAFA7C3B2C0C3A8B_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t5F991B559C47A24EA83CBC247C19FBCB447FCF42____9BBF06D364058F17EB312296E12AB57B415452CFFB35C26E94391D587553F1D7_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m95D514077EA97CBD63ED24FFB3EE1038AE0D2E98_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m95D514077EA97CBD63ED24FFB3EE1038AE0D2E98_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 1));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 3));
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)416));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t5F991B559C47A24EA83CBC247C19FBCB447FCF42____62261FEB8F8D51632E36FFAD9319E99CACA5B1420DE26F31FAFA7C3B2C0C3A8B_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 4));
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 4));
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)898));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t5F991B559C47A24EA83CBC247C19FBCB447FCF42____9BBF06D364058F17EB312296E12AB57B415452CFFB35C26E94391D587553F1D7_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 5));
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 5));
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 4;
+		(&V_0)->___TotalTypes = ((int32_t)10);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2 L_6 = V_0;
+		V_1 = L_6;
+		goto IL_005e;
+	}
+
+IL_005e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 6));
+		MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2 L_7 = V_1;
+		return L_7;
+	}
+}
+// Method Definition Index: 139337
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mECBF6D6E1055B964852D5577E945F9FC83883374 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t37A0416F932385F19BD3F3BF44EA2566FCCACBCF* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mECBF6D6E1055B964852D5577E945F9FC83883374_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mECBF6D6E1055B964852D5577E945F9FC83883374_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshal_pinvoke(const MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2& unmarshaled, MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshal_pinvoke_back(const MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshaled_pinvoke& marshaled, MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshal_pinvoke_cleanup(MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshal_com(const MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2& unmarshaled, MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshal_com_back(const MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshaled_com& marshaled, MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshal_com_cleanup(MonoScriptData_t115806C4AB784475EF142ED8D7F28AE0EAF5EAC2_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139338
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionParametersWithCurves_Start_mB2F72A29BF8CBC2D575E9C4F388B4008DB26719A (ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B* __this, RuntimeObject* ___0_networkEventsApi, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionParametersWithCurves_Start_mB2F72A29BF8CBC2D575E9C4F388B4008DB26719A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral541C0B695C2EC18E88EBD06004588B1F505413EA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_networkEventsApi));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ConnectionParametersWithCurves_Start_mB2F72A29BF8CBC2D575E9C4F388B4008DB26719A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 7));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 8));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 9));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:37>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 10));
+		RuntimeObject* L_0 = ___0_networkEventsApi;
+		__this->___m_NetworkEventsApi = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_NetworkEventsApi), (void*)L_0);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:40>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 11));
+		RuntimeObject* L_1 = __this->___m_NetworkEventsApi;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 12));
+		NullCheck(L_1);
+		RuntimeObject* L_2;
+		L_2 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(7, INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var, L_1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 12));
+		__this->___m_PreviousPreset = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PreviousPreset), (void*)L_2);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:43>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 13));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 14));
+		NetworkSimulatorPreset_t87605F01665EAA7FE1C98FFBC874A1C42807AB41* L_3;
+		L_3 = NetworkSimulatorPreset_Create_m775ACEE4899B2CC6B0BE7B252310C8BBFB34DEF8(_stringLiteral541C0B695C2EC18E88EBD06004588B1F505413EA, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, 0, 0, 0, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 14));
+		__this->___m_CustomPreset = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CustomPreset), (void*)L_3);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:45>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 15));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 16));
+		ConnectionParametersWithCurves_UpdateParameters_mCD90C56374641EA4AEE018B7B4B0BD453AC3B110(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 16));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:46>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 17));
+		return;
+	}
+}
+// Method Definition Index: 139339
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionParametersWithCurves_Update_m43357EB7AB82733E459C83770553D1FB8FA64207 (ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B* __this, float ___0_deltaTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionParametersWithCurves_Update_m43357EB7AB82733E459C83770553D1FB8FA64207_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_deltaTime));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ConnectionParametersWithCurves_Update_m43357EB7AB82733E459C83770553D1FB8FA64207_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 18));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 19));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 20));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:51>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 21));
+		float L_0 = __this->___m_ElapsedTime;
+		float L_1 = ___0_deltaTime;
+		__this->___m_ElapsedTime = ((float)il2cpp_codegen_add(L_0, L_1));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:54>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 22));
+		float L_2 = __this->___m_ElapsedTime;
+		float L_3 = __this->___m_LoopDurationMs;
+		V_0 = (bool)((((int32_t)((!(((float)L_2) >= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 23));
+		bool L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 24));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:56>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 25));
+		float L_5 = __this->___m_ElapsedTime;
+		float L_6 = __this->___m_LoopDurationMs;
+		__this->___m_ElapsedTime = ((float)il2cpp_codegen_subtract(L_5, L_6));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 26));
+	}
+
+IL_0039:
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:59>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 27));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 28));
+		ConnectionParametersWithCurves_UpdateParameters_mCD90C56374641EA4AEE018B7B4B0BD453AC3B110(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 28));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:60>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 29));
+		return;
+	}
+}
+// Method Definition Index: 139340
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionParametersWithCurves_UpdateParameters_mCD90C56374641EA4AEE018B7B4B0BD453AC3B110 (ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionParametersWithCurves_UpdateParameters_mCD90C56374641EA4AEE018B7B4B0BD453AC3B110_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ConnectionParametersWithCurves_UpdateParameters_mCD90C56374641EA4AEE018B7B4B0BD453AC3B110_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 30));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 31));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 32));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:65>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 33));
+		float L_0 = __this->___m_ElapsedTime;
+		float L_1 = __this->___m_LoopDurationMs;
+		V_0 = ((float)(L_0/L_1));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:68>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 34));
+		RuntimeObject* L_2 = __this->___m_CustomPreset;
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_3 = __this->___m_PacketDelayMs;
+		float L_4 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 35));
+		NullCheck(L_3);
+		float L_5;
+		L_5 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_3, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 35));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 36));
+		NullCheck(L_2);
+		InterfaceActionInvoker1< int32_t >::Invoke(5, INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var, L_2, il2cpp_codegen_cast_double_to_int<int32_t>(L_5));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 36));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:69>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 37));
+		RuntimeObject* L_6 = __this->___m_CustomPreset;
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_7 = __this->___m_PacketJitterMs;
+		float L_8 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 38));
+		NullCheck(L_7);
+		float L_9;
+		L_9 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_7, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 38));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 39));
+		NullCheck(L_6);
+		InterfaceActionInvoker1< int32_t >::Invoke(7, INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var, L_6, il2cpp_codegen_cast_double_to_int<int32_t>(L_9));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 39));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:70>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 40));
+		RuntimeObject* L_10 = __this->___m_CustomPreset;
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_11 = __this->___m_PacketLossInterval;
+		float L_12 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 41));
+		NullCheck(L_11);
+		float L_13;
+		L_13 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_11, L_12, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 41));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 42));
+		NullCheck(L_10);
+		InterfaceActionInvoker1< int32_t >::Invoke(9, INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var, L_10, il2cpp_codegen_cast_double_to_int<int32_t>(L_13));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 42));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:71>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 43));
+		RuntimeObject* L_14 = __this->___m_CustomPreset;
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_15 = __this->___m_PacketLossPercent;
+		float L_16 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 44));
+		NullCheck(L_15);
+		float L_17;
+		L_17 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_15, L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 44));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 45));
+		NullCheck(L_14);
+		InterfaceActionInvoker1< int32_t >::Invoke(11, INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var, L_14, il2cpp_codegen_cast_double_to_int<int32_t>(L_17));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 45));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:74>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 46));
+		RuntimeObject* L_18 = __this->___m_NetworkEventsApi;
+		RuntimeObject* L_19 = __this->___m_CustomPreset;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 47));
+		NullCheck(L_18);
+		InterfaceActionInvoker1< RuntimeObject* >::Invoke(6, INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var, L_18, L_19);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 47));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:75>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 48));
+		return;
+	}
+}
+// Method Definition Index: 139341
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionParametersWithCurves_Dispose_m75C25EFF4E676F5D1A8D5EEDD525331038A9070D (ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionParametersWithCurves_Dispose_m75C25EFF4E676F5D1A8D5EEDD525331038A9070D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ConnectionParametersWithCurves_Dispose_m75C25EFF4E676F5D1A8D5EEDD525331038A9070D_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 49));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 50));
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 51));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:80>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 52));
+		RuntimeObject* L_0 = __this->___m_NetworkEventsApi;
+		RuntimeObject* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000d;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		goto IL_0019;
+	}
+
+IL_000d:
+	{
+		RuntimeObject* L_2 = __this->___m_PreviousPreset;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 53));
+		NullCheck(G_B2_0);
+		InterfaceActionInvoker1< RuntimeObject* >::Invoke(6, INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var, G_B2_0, L_2);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 53));
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:81>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 54));
+		return;
+	}
+}
+// Method Definition Index: 139342
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionParametersWithCurves__ctor_mC9CE408616D4611F72D671997979E596A34D29A0 (ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionParametersWithCurves__ctor_mC9CE408616D4611F72D671997979E596A34D29A0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConnectionParametersWithCurves_t5761C6B4D0E38E673A67EFF8089A121FBB0DBA0B_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ConnectionParametersWithCurves__ctor_mC9CE408616D4611F72D671997979E596A34D29A0_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 55));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 56));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:13>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 57));
+		__this->___m_LoopDurationMs = (10.0f);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 58));
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_0 = (KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)SZArrayNew(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var, (uint32_t)3);
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_1 = L_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 59));
+		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_2), (0.5f), (100.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 59));
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(1), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_2);
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_3 = L_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 60));
+		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_4), (1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 60));
+		NullCheck(L_3);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(2), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_4);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 61));
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_5 = (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354*)il2cpp_codegen_object_new(AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var);
+		AnimationCurve__ctor_mEABC98C03805713354D61E50D9340766BD5B717E(L_5, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 61));
+		__this->___m_PacketDelayMs = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PacketDelayMs), (void*)L_5);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:21>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 62));
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_6 = (KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)SZArrayNew(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var, (uint32_t)3);
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_7 = L_6;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 63));
+		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_8), (0.5f), (50.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 63));
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_8);
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_9 = L_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 64));
+		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_10;
+		memset((&L_10), 0, sizeof(L_10));
+		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_10), (1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 64));
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_10);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 65));
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_11 = (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354*)il2cpp_codegen_object_new(AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var);
+		AnimationCurve__ctor_mEABC98C03805713354D61E50D9340766BD5B717E(L_11, L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 65));
+		__this->___m_PacketJitterMs = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PacketJitterMs), (void*)L_11);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:24>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 66));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 67));
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_12;
+		L_12 = AnimationCurve_Constant_mFD6DD93789F3F8D9B36F44D7297018C35B9B6D62((0.0f), (1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 67));
+		__this->___m_PacketLossInterval = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PacketLossInterval), (void*)L_12);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/ConnectionParametersWithCurves.cs:27>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 68));
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_13 = (KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)SZArrayNew(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var, (uint32_t)3);
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_14 = L_13;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 69));
+		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_15), (0.5f), (3.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 69));
+		NullCheck(L_14);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(1), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_15);
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_16 = L_14;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 70));
+		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_17), (1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 70));
+		NullCheck(L_16);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(2), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_17);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 71));
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_18 = (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354*)il2cpp_codegen_object_new(AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var);
+		AnimationCurve__ctor_mEABC98C03805713354D61E50D9340766BD5B717E(L_18, L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 71));
+		__this->___m_PacketLossPercent = L_18;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PacketLossPercent), (void*)L_18);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 72));
+		NetworkScenarioBehaviour__ctor_mAF9D0B4C23700A50C918BAAE6ED3BE571B0AACEF(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 72));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139343
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisconnectScenarioWithMonoBehaviour_Start_m31A6BC10182D6FADA790FFEAAE9DF1F3CC2A4251 (DisconnectScenarioWithMonoBehaviour_tF127B9A31D7B91E476600F921AFED8E3B7B711F2* __this, RuntimeObject* ___0_networkEventsApi, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DisconnectScenarioWithMonoBehaviour_Start_m31A6BC10182D6FADA790FFEAAE9DF1F3CC2A4251_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DisconnectScenarioWithMonoBehaviour_tF127B9A31D7B91E476600F921AFED8E3B7B711F2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_networkEventsApi));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DisconnectScenarioWithMonoBehaviour_Start_m31A6BC10182D6FADA790FFEAAE9DF1F3CC2A4251_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 73));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 74));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 75));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/DisconnectScenarioWithMonoBehaviour.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 76));
+		RuntimeObject* L_0 = ___0_networkEventsApi;
+		__this->___m_NetworkEventsApi = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_NetworkEventsApi), (void*)L_0);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/DisconnectScenarioWithMonoBehaviour.cs:15>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 77));
+		return;
+	}
+}
+// Method Definition Index: 139344
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisconnectScenarioWithMonoBehaviour_Update_mF86A92CDD2E39A5185A034BA4546C329DDF0F296 (DisconnectScenarioWithMonoBehaviour_tF127B9A31D7B91E476600F921AFED8E3B7B711F2* __this, float ___0_deltaTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DisconnectScenarioWithMonoBehaviour_Update_mF86A92CDD2E39A5185A034BA4546C329DDF0F296_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DisconnectScenarioWithMonoBehaviour_tF127B9A31D7B91E476600F921AFED8E3B7B711F2_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_deltaTime));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DisconnectScenarioWithMonoBehaviour_Update_mF86A92CDD2E39A5185A034BA4546C329DDF0F296_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 78));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 79));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 80));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/DisconnectScenarioWithMonoBehaviour.cs:19>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 81));
+		float L_0 = __this->___m_ElapsedTime;
+		float L_1 = ___0_deltaTime;
+		__this->___m_ElapsedTime = ((float)il2cpp_codegen_add(L_0, L_1));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/DisconnectScenarioWithMonoBehaviour.cs:21>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 82));
+		float L_2 = __this->___m_ElapsedTime;
+		V_0 = (bool)((((float)L_2) < ((float)(1000.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 83));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 84));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/DisconnectScenarioWithMonoBehaviour.cs:23>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 85));
+		goto IL_0062;
+	}
+
+IL_0023:
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/DisconnectScenarioWithMonoBehaviour.cs:26>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 86));
+		float L_4 = __this->___m_ElapsedTime;
+		__this->___m_ElapsedTime = ((float)il2cpp_codegen_subtract(L_4, (1000.0f)));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/DisconnectScenarioWithMonoBehaviour.cs:28>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 87));
+		RuntimeObject* L_5 = __this->___m_NetworkEventsApi;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 88));
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = InterfaceFuncInvoker0< bool >::Invoke(1, INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var, L_5);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 88));
+		V_1 = L_6;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 89));
+		bool L_7 = V_1;
+		if (!L_7)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 90));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/DisconnectScenarioWithMonoBehaviour.cs:30>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 91));
+		RuntimeObject* L_8 = __this->___m_NetworkEventsApi;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 92));
+		NullCheck(L_8);
+		InterfaceActionInvoker0::Invoke(2, INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var, L_8);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 92));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 93));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 94));
+		goto IL_0062;
+	}
+
+IL_0054:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 95));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/DisconnectScenarioWithMonoBehaviour.cs:34>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 96));
+		RuntimeObject* L_9 = __this->___m_NetworkEventsApi;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 97));
+		NullCheck(L_9);
+		InterfaceActionInvoker0::Invoke(3, INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var, L_9);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 97));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 98));
+	}
+
+IL_0062:
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/DisconnectScenarioWithMonoBehaviour.cs:36>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 99));
+		return;
+	}
+}
+// Method Definition Index: 139345
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisconnectScenarioWithMonoBehaviour__ctor_m5FB3DCBC86C7CEE8E1CED2AA0761999D325D4928 (DisconnectScenarioWithMonoBehaviour_tF127B9A31D7B91E476600F921AFED8E3B7B711F2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DisconnectScenarioWithMonoBehaviour__ctor_m5FB3DCBC86C7CEE8E1CED2AA0761999D325D4928_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DisconnectScenarioWithMonoBehaviour__ctor_m5FB3DCBC86C7CEE8E1CED2AA0761999D325D4928_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		NetworkScenarioBehaviour__ctor_mAF9D0B4C23700A50C918BAAE6ED3BE571B0AACEF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139346
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* LagSpikeScenarioWithAsyncTask_Run_m5FDB3D2C7FD7B2A8160EBB6691C623450BC00B51 (LagSpikeScenarioWithAsyncTask_t359DE384C3E8CDE57AB65AD22DA1E6FA4D80FD6B* __this, RuntimeObject* ___0_networkEventsApi, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_cancellationToken, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_Start_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_m105A95192F00EEE44EAE47711D5BF42C8D53C792_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LagSpikeScenarioWithAsyncTask_Run_m5FDB3D2C7FD7B2A8160EBB6691C623450BC00B51_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LagSpikeScenarioWithAsyncTask_Run_m5FDB3D2C7FD7B2A8160EBB6691C623450BC00B51_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* L_0 = (U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304*)il2cpp_codegen_object_new(U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_il2cpp_TypeInfo_var);
+		U3CRunU3Ed__2__ctor_m07D8970578CCDED3A95279529526EEA8B2A6D666(L_0, NULL);
+		V_0 = L_0;
+		U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* L_1 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 L_2;
+		L_2 = AsyncTaskMethodBuilder_Create_m24F3F260A79CA2B9EC4F1F15693A33F5EC58735A(NULL);
+		NullCheck(L_1);
+		L_1->___U3CU3Et__builder = L_2;
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&L_1->___U3CU3Et__builder))->___m_builder))->___m_coreState))->___m_stateMachine), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&L_1->___U3CU3Et__builder))->___m_builder))->___m_coreState))->___m_defaultContextAction), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&L_1->___U3CU3Et__builder))->___m_builder))->___m_task), (void*)NULL);
+		#endif
+		U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* L_3 = V_0;
+		NullCheck(L_3);
+		L_3->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___U3CU3E4__this), (void*)__this);
+		U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* L_4 = V_0;
+		RuntimeObject* L_5 = ___0_networkEventsApi;
+		NullCheck(L_4);
+		L_4->___networkEventsApi = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&L_4->___networkEventsApi), (void*)L_5);
+		U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* L_6 = V_0;
+		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_7 = ___1_cancellationToken;
+		NullCheck(L_6);
+		L_6->___cancellationToken = L_7;
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_6->___cancellationToken))->____source), (void*)NULL);
+		U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* L_8 = V_0;
+		NullCheck(L_8);
+		L_8->___U3CU3E1__state = (-1);
+		U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* L_9 = V_0;
+		NullCheck(L_9);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_10 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&L_9->___U3CU3Et__builder);
+		AsyncTaskMethodBuilder_Start_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_m105A95192F00EEE44EAE47711D5BF42C8D53C792(L_10, (&V_0), AsyncTaskMethodBuilder_Start_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_m105A95192F00EEE44EAE47711D5BF42C8D53C792_RuntimeMethod_var);
+		U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* L_11 = V_0;
+		NullCheck(L_11);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_12 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&L_11->___U3CU3Et__builder);
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_13;
+		L_13 = AsyncTaskMethodBuilder_get_Task_mE9125D5F8B96F26D1BA5A5347ED82669521C7F9E(L_12, NULL);
+		return L_13;
+	}
+}
+// Method Definition Index: 139347
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LagSpikeScenarioWithAsyncTask__ctor_m8804714F6C623EBFEF82FF849432A1F4E38CC984 (LagSpikeScenarioWithAsyncTask_t359DE384C3E8CDE57AB65AD22DA1E6FA4D80FD6B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LagSpikeScenarioWithAsyncTask__ctor_m8804714F6C623EBFEF82FF849432A1F4E38CC984_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LagSpikeScenarioWithAsyncTask__ctor_m8804714F6C623EBFEF82FF849432A1F4E38CC984_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		NetworkScenarioTask__ctor_m6F60691F5D7CFF390FD9F9C7DBE26DB5F8024335(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139348
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__2__ctor_m07D8970578CCDED3A95279529526EEA8B2A6D666 (U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRunU3Ed__2__ctor_m07D8970578CCDED3A95279529526EEA8B2A6D666_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CRunU3Ed__2__ctor_m07D8970578CCDED3A95279529526EEA8B2A6D666_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 139349
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__2_MoveNext_m32879A42A7263957C074F6D2E8C485499C645D27 (U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_mBA9B7E12CFD36CFA11804625927A74798E0C8484_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_m599C26C96E7D0C4A71B51B18EF456C06F06AECC3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRunU3Ed__2_MoveNext_m32879A42A7263957C074F6D2E8C485499C645D27_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* V_2 = NULL;
+	bool V_3 = false;
+	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	bool V_7 = false;
+	Exception_t* V_8 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CRunU3Ed__2_MoveNext_m32879A42A7263957C074F6D2E8C485499C645D27_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 100));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 101));
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	int32_t G_B13_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 102));
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+	}
+	try
+	{
+		STORE_TRY_ID(methodExecutionContext, 0);
+		{
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 103));
+			int32_t L_1 = V_0;
+			switch (L_1)
+			{
+				case 0:
+				{
+					goto IL_001b_1;
+				}
+				case 1:
+				{
+					goto IL_001d_1;
+				}
+				case 2:
+				{
+					goto IL_0022_1;
+				}
+			}
+		}
+		{
+			goto IL_0027_1;
+		}
+
+IL_001b_1:
+		{
+			goto IL_0080_1;
+		}
+
+IL_001d_1:
+		{
+			goto IL_0108_1;
+		}
+
+IL_0022_1:
+		{
+			goto IL_0180_1;
+		}
+
+IL_0027_1:
+		{
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 104));
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 105));
+			goto IL_01a6_1;
+		}
+
+IL_002d_1:
+		{
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 106));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/LagSpikeScenarioWithAsyncTask.cs:24>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 107));
+			LagSpikeScenarioWithAsyncTask_t359DE384C3E8CDE57AB65AD22DA1E6FA4D80FD6B* L_2 = __this->___U3CU3E4__this;
+			NullCheck(L_2);
+			int32_t L_3 = L_2->___m_LagSpikeIntervalMs;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 108));
+			il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
+			TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_4;
+			L_4 = TimeSpan_FromMilliseconds_mFDCBE9EDA3F6743302C3DD81259AF5D2F00EF775(((double)L_3), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 108));
+			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_5 = __this->___cancellationToken;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 109));
+			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
+			L_6 = Task_Delay_m45BDEF20A70DDB28B6C600D58D9E1B7EE17FB24C(L_4, L_5, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 109));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 110));
+			NullCheck(L_6);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_7;
+			L_7 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_6, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 110));
+			V_1 = L_7;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 111));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 112));
+			bool L_8;
+			L_8 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_1), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 112));
+			if (L_8)
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			int32_t L_9 = 0;
+			V_0 = L_9;
+			__this->___U3CU3E1__state = L_9;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_10 = V_1;
+			__this->___U3CU3Eu__1 = L_10;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1))->___m_task), (void*)NULL);
+			V_2 = __this;
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_11 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 113));
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_mBA9B7E12CFD36CFA11804625927A74798E0C8484(L_11, (&V_1), (&V_2), AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_mBA9B7E12CFD36CFA11804625927A74798E0C8484_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 113));
+			goto IL_01ed;
+		}
+
+IL_0080_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_12 = __this->___U3CU3Eu__1;
+			V_1 = L_12;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_13 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1);
+			il2cpp_codegen_initobj(L_13, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_14 = (-1);
+			V_0 = L_14;
+			__this->___U3CU3E1__state = L_14;
+		}
+
+IL_009c_1:
+		{
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 114));
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_1), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 114));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/LagSpikeScenarioWithAsyncTask.cs:29>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 115));
+			LagSpikeScenarioWithAsyncTask_t359DE384C3E8CDE57AB65AD22DA1E6FA4D80FD6B* L_15 = __this->___U3CU3E4__this;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 116));
+			NullCheck(L_15);
+			bool L_16;
+			L_16 = NetworkScenario_get_IsPaused_m5E77869693549C8FF730EB0EC6DFD4AE636DBD63_inline(L_15, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 116));
+			if (L_16)
+			{
+				goto IL_00c1_1;
+			}
+		}
+		{
+			LagSpikeScenarioWithAsyncTask_t359DE384C3E8CDE57AB65AD22DA1E6FA4D80FD6B* L_17 = __this->___U3CU3E4__this;
+			NullCheck(L_17);
+			int32_t L_18 = L_17->___m_LagSpikeDurationMs;
+			G_B13_0 = ((((int32_t)L_18) == ((int32_t)0))? 1 : 0);
+			goto IL_00c2_1;
+		}
+
+IL_00c1_1:
+		{
+			G_B13_0 = 1;
+		}
+
+IL_00c2_1:
+		{
+			V_3 = (bool)G_B13_0;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 117));
+			bool L_19 = V_3;
+			if (!L_19)
+			{
+				goto IL_012f_1;
+			}
+		}
+		{
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 118));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/LagSpikeScenarioWithAsyncTask.cs:31>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 119));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 120));
+			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+			YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB L_20;
+			L_20 = Task_Yield_m27EE257EF53788244C5B2E874C514C24C693F9B1(NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 120));
+			V_5 = L_20;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 121));
+			YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A L_21;
+			L_21 = YieldAwaitable_GetAwaiter_m359A05B8C1B9F3F1E9CAE29AD231C0987718DE5E((&V_5), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 121));
+			V_4 = L_21;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 122));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 123));
+			il2cpp_codegen_runtime_class_init_inline(YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_il2cpp_TypeInfo_var);
+			bool L_22;
+			L_22 = YieldAwaiter_get_IsCompleted_m783B6E67654FDBF490A65AC59972AF6B985A9286((&V_4), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 123));
+			if (L_22)
+			{
+				goto IL_0125_1;
+			}
+		}
+		{
+			int32_t L_23 = 1;
+			V_0 = L_23;
+			__this->___U3CU3E1__state = L_23;
+			YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A L_24 = V_4;
+			__this->___U3CU3Eu__2 = L_24;
+			V_2 = __this;
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_25 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 124));
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_m599C26C96E7D0C4A71B51B18EF456C06F06AECC3(L_25, (&V_4), (&V_2), AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_m599C26C96E7D0C4A71B51B18EF456C06F06AECC3_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 124));
+			goto IL_01ed;
+		}
+
+IL_0108_1:
+		{
+			YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A L_26 = __this->___U3CU3Eu__2;
+			V_4 = L_26;
+			YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A* L_27 = (YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A*)(&__this->___U3CU3Eu__2);
+			il2cpp_codegen_initobj(L_27, sizeof(YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A));
+			int32_t L_28 = (-1);
+			V_0 = L_28;
+			__this->___U3CU3E1__state = L_28;
+		}
+
+IL_0125_1:
+		{
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 125));
+			il2cpp_codegen_runtime_class_init_inline(YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_il2cpp_TypeInfo_var);
+			YieldAwaiter_GetResult_m83C9B35D4BBEB09AC5B560912436454D69794F07((&V_4), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 125));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/LagSpikeScenarioWithAsyncTask.cs:32>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 126));
+			goto IL_01a6_1;
+		}
+
+IL_012f_1:
+		{
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/LagSpikeScenarioWithAsyncTask.cs:35>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 127));
+			RuntimeObject* L_29 = __this->___networkEventsApi;
+			LagSpikeScenarioWithAsyncTask_t359DE384C3E8CDE57AB65AD22DA1E6FA4D80FD6B* L_30 = __this->___U3CU3E4__this;
+			NullCheck(L_30);
+			int32_t L_31 = L_30->___m_LagSpikeDurationMs;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 128));
+			il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
+			TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_32;
+			L_32 = TimeSpan_FromMilliseconds_mFDCBE9EDA3F6743302C3DD81259AF5D2F00EF775(((double)L_31), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 128));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 129));
+			NullCheck(L_29);
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_33;
+			L_33 = InterfaceFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A >::Invoke(5, INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var, L_29, L_32);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 129));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 130));
+			NullCheck(L_33);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_34;
+			L_34 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_33, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 130));
+			V_6 = L_34;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 131));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 132));
+			bool L_35;
+			L_35 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_6), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 132));
+			if (L_35)
+			{
+				goto IL_019d_1;
+			}
+		}
+		{
+			int32_t L_36 = 2;
+			V_0 = L_36;
+			__this->___U3CU3E1__state = L_36;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_37 = V_6;
+			__this->___U3CU3Eu__1 = L_37;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1))->___m_task), (void*)NULL);
+			V_2 = __this;
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_38 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 133));
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_mBA9B7E12CFD36CFA11804625927A74798E0C8484(L_38, (&V_6), (&V_2), AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304_mBA9B7E12CFD36CFA11804625927A74798E0C8484_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 133));
+			goto IL_01ed;
+		}
+
+IL_0180_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_39 = __this->___U3CU3Eu__1;
+			V_6 = L_39;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_40 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1);
+			il2cpp_codegen_initobj(L_40, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_41 = (-1);
+			V_0 = L_41;
+			__this->___U3CU3E1__state = L_41;
+		}
+
+IL_019d_1:
+		{
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 134));
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_6), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 134));
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 135));
+		}
+
+IL_01a6_1:
+		{
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/LagSpikeScenarioWithAsyncTask.cs:22>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 136));
+			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* L_42 = (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED*)(&__this->___cancellationToken);
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 137));
+			il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
+			bool L_43;
+			L_43 = CancellationToken_get_IsCancellationRequested_m9744F7A1A82946FDD1DC68E905F1ED826471D350(L_42, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 137));
+			V_7 = (bool)((((int32_t)L_43) == ((int32_t)0))? 1 : 0);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 138));
+			bool L_44 = V_7;
+			if (L_44)
+			{
+				goto IL_002d_1;
+			}
+		}
+		{
+			goto IL_01d9;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_01bf;
+		}
+		throw e;
+	}
+
+CATCH_01bf:
+	{
+		STORE_TRY_ID(methodExecutionContext, -1);
+		Exception_t* L_45 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 139));
+		V_8 = L_45;
+		__this->___U3CU3E1__state = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_46 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+		Exception_t* L_47 = V_8;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 140));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_46, L_47, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 140));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_01ed;
+	}
+
+IL_01d9:
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/LagSpikeScenarioWithAsyncTask.cs:37>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 141));
+		__this->___U3CU3E1__state = ((int32_t)-2);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 142));
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_48 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 143));
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_48, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 143));
+	}
+
+IL_01ed:
+	{
+		return;
+	}
+}
+// Method Definition Index: 139350
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__2_SetStateMachine_m63D5F5691F3C46A1BD5471600E36C79223D546B8 (U3CRunU3Ed__2_t08C1CFDE661898F19760D5FE835E6F49FB73F304* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRunU3Ed__2_SetStateMachine_m63D5F5691F3C46A1BD5471600E36C79223D546B8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CRunU3Ed__2_SetStateMachine_m63D5F5691F3C46A1BD5471600E36C79223D546B8_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139351
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23 (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 144));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 145));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:158>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 146));
+		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_0 = __this->___U3CRandomizerU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 139352
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnstableConnection_set_Randomizer_m4655283CCAA86B6CDBCD735BAC17C04E55A51365 (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_set_Randomizer_m4655283CCAA86B6CDBCD735BAC17C04E55A51365_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection_set_Randomizer_m4655283CCAA86B6CDBCD735BAC17C04E55A51365_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 147));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 148));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:158>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 149));
+		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_0 = ___0_value;
+		__this->___U3CRandomizerU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRandomizerU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 139353
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 150));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 151));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:159>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 152));
+		RuntimeObject* L_0 = __this->___U3CScenarioConfigurationU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 139354
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnstableConnection_set_ScenarioConfiguration_mC02BA48E92475F8556E408727E32FF0BF3756D61 (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_set_ScenarioConfiguration_mC02BA48E92475F8556E408727E32FF0BF3756D61_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection_set_ScenarioConfiguration_mC02BA48E92475F8556E408727E32FF0BF3756D61_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 153));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 154));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:159>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 155));
+		RuntimeObject* L_0 = ___0_value;
+		__this->___U3CScenarioConfigurationU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CScenarioConfigurationU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 139355
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnstableConnection_get_ShouldResetBetweenEvents_m796664201E6D9782A804A38C53AA8C4AD72A5A7A (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_get_ShouldResetBetweenEvents_m796664201E6D9782A804A38C53AA8C4AD72A5A7A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection_get_ShouldResetBetweenEvents_m796664201E6D9782A804A38C53AA8C4AD72A5A7A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 156));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 157));
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:160>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 158));
+		bool L_0 = __this->___m_ResetConfigurationBetweenEvents;
+		if (!L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		bool L_1 = __this->___m_IsFirstEventOfTrigger;
+		G_B3_0 = ((int32_t)(L_1));
+		goto IL_0011;
+	}
+
+IL_0010:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0011:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// Method Definition Index: 139356
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* UnstableConnection_Run_mCB97720F766D431BCC253FE8BA2580BBF66580BA (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, RuntimeObject* ___0_networkEventsApi, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_cancellationToken, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_Start_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_m4952AB865C6DB7F7F13067A77E745241C56034A0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_Run_mCB97720F766D431BCC253FE8BA2580BBF66580BA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection_Run_mCB97720F766D431BCC253FE8BA2580BBF66580BA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* L_0 = (U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333*)il2cpp_codegen_object_new(U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_il2cpp_TypeInfo_var);
+		U3CRunU3Ed__30__ctor_mE6BA3BAE9949D53C167F7F3EB193C65583973CC4(L_0, NULL);
+		V_0 = L_0;
+		U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* L_1 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 L_2;
+		L_2 = AsyncTaskMethodBuilder_Create_m24F3F260A79CA2B9EC4F1F15693A33F5EC58735A(NULL);
+		NullCheck(L_1);
+		L_1->___U3CU3Et__builder = L_2;
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&L_1->___U3CU3Et__builder))->___m_builder))->___m_coreState))->___m_stateMachine), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&L_1->___U3CU3Et__builder))->___m_builder))->___m_coreState))->___m_defaultContextAction), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&L_1->___U3CU3Et__builder))->___m_builder))->___m_task), (void*)NULL);
+		#endif
+		U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* L_3 = V_0;
+		NullCheck(L_3);
+		L_3->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___U3CU3E4__this), (void*)__this);
+		U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* L_4 = V_0;
+		RuntimeObject* L_5 = ___0_networkEventsApi;
+		NullCheck(L_4);
+		L_4->___networkEventsApi = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&L_4->___networkEventsApi), (void*)L_5);
+		U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* L_6 = V_0;
+		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_7 = ___1_cancellationToken;
+		NullCheck(L_6);
+		L_6->___cancellationToken = L_7;
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_6->___cancellationToken))->____source), (void*)NULL);
+		U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* L_8 = V_0;
+		NullCheck(L_8);
+		L_8->___U3CU3E1__state = (-1);
+		U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* L_9 = V_0;
+		NullCheck(L_9);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_10 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&L_9->___U3CU3Et__builder);
+		AsyncTaskMethodBuilder_Start_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_m4952AB865C6DB7F7F13067A77E745241C56034A0(L_10, (&V_0), AsyncTaskMethodBuilder_Start_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_m4952AB865C6DB7F7F13067A77E745241C56034A0_RuntimeMethod_var);
+		U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* L_11 = V_0;
+		NullCheck(L_11);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_12 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&L_11->___U3CU3Et__builder);
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_13;
+		L_13 = AsyncTaskMethodBuilder_get_Task_mE9125D5F8B96F26D1BA5A5347ED82669521C7F9E(L_12, NULL);
+		return L_13;
+	}
+}
+// Method Definition Index: 139357
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnstableConnection_ResetScenarioConfiguration_m645B1CD11B109F056CCF39CAC06C6958C878E69A (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_ResetScenarioConfiguration_m645B1CD11B109F056CCF39CAC06C6958C878E69A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral098342B73193AE2B560B023C71518BA3ED22161A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection_ResetScenarioConfiguration_m645B1CD11B109F056CCF39CAC06C6958C878E69A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 159));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 160));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 161));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:220>
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:221>
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:222>
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:223>
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:224>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 162));
+		RuntimeObject* L_0 = __this->___m_SimulatorCache;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 163));
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(4, INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var, L_0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 163));
+		RuntimeObject* L_2 = __this->___m_SimulatorCache;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 164));
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(6, INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var, L_2);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 164));
+		RuntimeObject* L_4 = __this->___m_SimulatorCache;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 165));
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(10, INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var, L_4);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 165));
+		V_0 = L_5;
+		RuntimeObject* L_6 = __this->___m_SimulatorCache;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 166));
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = InterfaceFuncInvoker0< int32_t >::Invoke(8, INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var, L_6);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 166));
+		int32_t L_8 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 167));
+		NetworkSimulatorPreset_t87605F01665EAA7FE1C98FFBC874A1C42807AB41* L_9;
+		L_9 = NetworkSimulatorPreset_Create_m775ACEE4899B2CC6B0BE7B252310C8BBFB34DEF8(_stringLiteral098342B73193AE2B560B023C71518BA3ED22161A, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, L_1, L_3, L_7, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 167));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 168));
+		UnstableConnection_set_ScenarioConfiguration_mC02BA48E92475F8556E408727E32FF0BF3756D61_inline(__this, L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 168));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:225>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 169));
+		return;
+	}
+}
+// Method Definition Index: 139358
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* UnstableConnection_TriggerNetworkEvents_m46A77DBED4886CFCB15A73683A76C7C1233957FF (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, RuntimeObject* ___0_networkEventsApi, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_cancellationToken, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_Start_TisU3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_m1D275D404D07F630FF8B65A29585CF32302311A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_TriggerNetworkEvents_m46A77DBED4886CFCB15A73683A76C7C1233957FF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection_TriggerNetworkEvents_m46A77DBED4886CFCB15A73683A76C7C1233957FF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* L_0 = (U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F*)il2cpp_codegen_object_new(U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_il2cpp_TypeInfo_var);
+		U3CTriggerNetworkEventsU3Ed__32__ctor_mD0A350610877B27CF92A390BAE56B8D258A15991(L_0, NULL);
+		V_0 = L_0;
+		U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* L_1 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 L_2;
+		L_2 = AsyncTaskMethodBuilder_Create_m24F3F260A79CA2B9EC4F1F15693A33F5EC58735A(NULL);
+		NullCheck(L_1);
+		L_1->___U3CU3Et__builder = L_2;
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&L_1->___U3CU3Et__builder))->___m_builder))->___m_coreState))->___m_stateMachine), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&L_1->___U3CU3Et__builder))->___m_builder))->___m_coreState))->___m_defaultContextAction), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&L_1->___U3CU3Et__builder))->___m_builder))->___m_task), (void*)NULL);
+		#endif
+		U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* L_3 = V_0;
+		NullCheck(L_3);
+		L_3->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___U3CU3E4__this), (void*)__this);
+		U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* L_4 = V_0;
+		RuntimeObject* L_5 = ___0_networkEventsApi;
+		NullCheck(L_4);
+		L_4->___networkEventsApi = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&L_4->___networkEventsApi), (void*)L_5);
+		U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* L_6 = V_0;
+		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_7 = ___1_cancellationToken;
+		NullCheck(L_6);
+		L_6->___cancellationToken = L_7;
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_6->___cancellationToken))->____source), (void*)NULL);
+		U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* L_8 = V_0;
+		NullCheck(L_8);
+		L_8->___U3CU3E1__state = (-1);
+		U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* L_9 = V_0;
+		NullCheck(L_9);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_10 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&L_9->___U3CU3Et__builder);
+		AsyncTaskMethodBuilder_Start_TisU3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_m1D275D404D07F630FF8B65A29585CF32302311A9(L_10, (&V_0), AsyncTaskMethodBuilder_Start_TisU3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_m1D275D404D07F630FF8B65A29585CF32302311A9_RuntimeMethod_var);
+		U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* L_11 = V_0;
+		NullCheck(L_11);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_12 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&L_11->___U3CU3Et__builder);
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_13;
+		L_13 = AsyncTaskMethodBuilder_get_Task_mE9125D5F8B96F26D1BA5A5347ED82669521C7F9E(L_12, NULL);
+		return L_13;
+	}
+}
+// Method Definition Index: 139359
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnstableConnection__ctor_m786AECBCC2828558C88D51F7390A792AF399DEEB (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection__ctor_m786AECBCC2828558C88D51F7390A792AF399DEEB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection__ctor_m786AECBCC2828558C88D51F7390A792AF399DEEB_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 170));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 171));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:117>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 172));
+		__this->___m_MinimumWaitTimeMs = ((int32_t)3000);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:121>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 173));
+		__this->___m_MaximumWaitTimeMs = ((int32_t)5000);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:125>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 174));
+		__this->___m_EventFrequency = ((int32_t)50);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:129>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 175));
+		__this->___m_RandomizerSeed = (-1);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:133>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 176));
+		__this->___m_EventCount = 1;
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:141>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 177));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 178));
+		LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A* L_0 = (LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A*)il2cpp_codegen_object_new(LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A_il2cpp_TypeInfo_var);
+		LagSpikeConfiguration__ctor_m7412FA41068EEBB372ACFB6E52226F3D603D001B(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 178));
+		__this->___m_LagSpikeConfiguration = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LagSpikeConfiguration), (void*)L_0);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:144>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 179));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 180));
+		PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7* L_1 = (PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7*)il2cpp_codegen_object_new(PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7_il2cpp_TypeInfo_var);
+		PacketDelayConfiguration__ctor_m7560D1B7C13BBFAC038BA354A2A1C165A5953205(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 180));
+		__this->___m_PacketDelayConfiguration = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PacketDelayConfiguration), (void*)L_1);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:147>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 181));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 182));
+		PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697* L_2 = (PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697*)il2cpp_codegen_object_new(PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697_il2cpp_TypeInfo_var);
+		PacketJitterConfiguration__ctor_m0714C94470DA7DF5D0FBE0398F9B0FBDC5BDD699(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 182));
+		__this->___m_PacketJitterConfiguration = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PacketJitterConfiguration), (void*)L_2);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:150>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 183));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 184));
+		PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939* L_3 = (PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939*)il2cpp_codegen_object_new(PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939_il2cpp_TypeInfo_var);
+		PacketLossConfiguration__ctor_mD444E190AAFBE27145B992F6461943DF99191CEE(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 184));
+		__this->___m_PacketLossConfiguration = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PacketLossConfiguration), (void*)L_3);
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:153>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 185));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 186));
+		PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80* L_4 = (PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80*)il2cpp_codegen_object_new(PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80_il2cpp_TypeInfo_var);
+		PacketLossIntervalConfiguration__ctor_mE1E57F174BB419FAF474A23D4BB08A4625D8FA46(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 186));
+		__this->___m_PacketLossIntervalConfiguration = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PacketLossIntervalConfiguration), (void*)L_4);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 187));
+		NetworkScenarioTask__ctor_m6F60691F5D7CFF390FD9F9C7DBE26DB5F8024335(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 187));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139360
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EventConfiguration_get_IsActive_m32BF71C920D595EC9D87C81DF0440E67D315B11D (EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventConfiguration_get_IsActive_m32BF71C920D595EC9D87C81DF0440E67D315B11D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EventConfiguration_get_IsActive_m32BF71C920D595EC9D87C81DF0440E67D315B11D_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 188));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 189));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:23>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 190));
+		bool L_0 = __this->___m_Active;
+		return L_0;
+	}
+}
+// Method Definition Index: 139362
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventConfiguration__ctor_m4EE403F1CE3100BF52EE26A9962DF1F66A4C265B (EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventConfiguration__ctor_m4EE403F1CE3100BF52EE26A9962DF1F66A4C265B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EventConfiguration__ctor_m4EE403F1CE3100BF52EE26A9962DF1F66A4C265B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139363
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LagSpikeConfiguration_Activate_m8295A6D6A56A6D9BAACA0E3127DEACEB58FFBCAC (LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A* __this, RuntimeObject* ___0_networkEventsApi, UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* ___1_scenario, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LagSpikeConfiguration_Activate_m8295A6D6A56A6D9BAACA0E3127DEACEB58FFBCAC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_networkEventsApi), (&___1_scenario));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LagSpikeConfiguration_Activate_m8295A6D6A56A6D9BAACA0E3127DEACEB58FFBCAC_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 191));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 192));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 193));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:37>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 194));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_0 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 195));
+		NullCheck(L_0);
+		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_1;
+		L_1 = UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_inline(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 195));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_TimeRangeInMs);
+		float L_3 = L_2->___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_4 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_TimeRangeInMs);
+		float L_5 = L_4->___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 196));
+		NullCheck(L_1);
+		int32_t L_6;
+		L_6 = VirtualFuncInvoker2< int32_t, int32_t, int32_t >::Invoke(6, L_1, il2cpp_codegen_cast_double_to_int<int32_t>(L_3), il2cpp_codegen_cast_double_to_int<int32_t>(L_5));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 196));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 197));
+		il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_7;
+		L_7 = TimeSpan_FromMilliseconds_mFDCBE9EDA3F6743302C3DD81259AF5D2F00EF775(((double)L_6), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 197));
+		V_0 = L_7;
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:38>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 198));
+		RuntimeObject* L_8 = ___0_networkEventsApi;
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_9 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 199));
+		NullCheck(L_8);
+		InterfaceActionInvoker1< TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A >::Invoke(4, INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var, L_8, L_9);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 199));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:39>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 200));
+		return;
+	}
+}
+// Method Definition Index: 139364
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LagSpikeConfiguration__ctor_m7412FA41068EEBB372ACFB6E52226F3D603D001B (LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LagSpikeConfiguration__ctor_m7412FA41068EEBB372ACFB6E52226F3D603D001B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LagSpikeConfiguration__ctor_m7412FA41068EEBB372ACFB6E52226F3D603D001B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 201));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 202));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:33>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 203));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 204));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_0), (0.0f), (5000.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 204));
+		__this->___m_TimeRangeInMs = L_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 205));
+		EventConfiguration__ctor_m4EE403F1CE3100BF52EE26A9962DF1F66A4C265B(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 205));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139365
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketDelayConfiguration_Activate_m2D433ED3E68F9D7071A0BB5CFBE7040428896C4B (PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7* __this, RuntimeObject* ___0__, UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* ___1_scenario, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketDelayConfiguration_Activate_m2D433ED3E68F9D7071A0BB5CFBE7040428896C4B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0__), (&___1_scenario));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PacketDelayConfiguration_Activate_m2D433ED3E68F9D7071A0BB5CFBE7040428896C4B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 206));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 207));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 208));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:51>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 209));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_0 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 210));
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = UnstableConnection_get_ShouldResetBetweenEvents_m796664201E6D9782A804A38C53AA8C4AD72A5A7A(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 210));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 211));
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 212));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:53>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 213));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_3 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 214));
+		NullCheck(L_3);
+		UnstableConnection_ResetScenarioConfiguration_m645B1CD11B109F056CCF39CAC06C6958C878E69A(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 214));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 215));
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:56>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 216));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_4 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 217));
+		NullCheck(L_4);
+		RuntimeObject* L_5;
+		L_5 = UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB_inline(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 217));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_6 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 218));
+		NullCheck(L_6);
+		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_7;
+		L_7 = UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_inline(L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 218));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_8 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_DelayRangeInMs);
+		float L_9 = L_8->___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_10 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_DelayRangeInMs);
+		float L_11 = L_10->___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 219));
+		NullCheck(L_7);
+		int32_t L_12;
+		L_12 = VirtualFuncInvoker2< int32_t, int32_t, int32_t >::Invoke(6, L_7, il2cpp_codegen_cast_double_to_int<int32_t>(L_9), il2cpp_codegen_cast_double_to_int<int32_t>(L_11));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 219));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 220));
+		NullCheck(L_5);
+		InterfaceActionInvoker1< int32_t >::Invoke(5, INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var, L_5, L_12);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 220));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:57>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 221));
+		return;
+	}
+}
+// Method Definition Index: 139366
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketDelayConfiguration__ctor_m7560D1B7C13BBFAC038BA354A2A1C165A5953205 (PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketDelayConfiguration__ctor_m7560D1B7C13BBFAC038BA354A2A1C165A5953205_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PacketDelayConfiguration__ctor_m7560D1B7C13BBFAC038BA354A2A1C165A5953205_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 222));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 223));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:47>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 224));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 225));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_0), (50.0f), (150.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 225));
+		__this->___m_DelayRangeInMs = L_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 226));
+		EventConfiguration__ctor_m4EE403F1CE3100BF52EE26A9962DF1F66A4C265B(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 226));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139367
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketJitterConfiguration_Activate_m1875FA7D100DCA3CFE02305061A81501CD655C4F (PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697* __this, RuntimeObject* ___0__, UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* ___1_scenario, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketJitterConfiguration_Activate_m1875FA7D100DCA3CFE02305061A81501CD655C4F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0__), (&___1_scenario));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PacketJitterConfiguration_Activate_m1875FA7D100DCA3CFE02305061A81501CD655C4F_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 227));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 228));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 229));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:69>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 230));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_0 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 231));
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = UnstableConnection_get_ShouldResetBetweenEvents_m796664201E6D9782A804A38C53AA8C4AD72A5A7A(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 231));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 232));
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 233));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:71>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 234));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_3 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 235));
+		NullCheck(L_3);
+		UnstableConnection_ResetScenarioConfiguration_m645B1CD11B109F056CCF39CAC06C6958C878E69A(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 235));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 236));
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:74>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 237));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_4 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 238));
+		NullCheck(L_4);
+		RuntimeObject* L_5;
+		L_5 = UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB_inline(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 238));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_6 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 239));
+		NullCheck(L_6);
+		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_7;
+		L_7 = UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_inline(L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 239));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_8 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_JitterRangeInMs);
+		float L_9 = L_8->___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_10 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_JitterRangeInMs);
+		float L_11 = L_10->___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 240));
+		NullCheck(L_7);
+		int32_t L_12;
+		L_12 = VirtualFuncInvoker2< int32_t, int32_t, int32_t >::Invoke(6, L_7, il2cpp_codegen_cast_double_to_int<int32_t>(L_9), il2cpp_codegen_cast_double_to_int<int32_t>(L_11));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 240));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 241));
+		NullCheck(L_5);
+		InterfaceActionInvoker1< int32_t >::Invoke(7, INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var, L_5, L_12);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 241));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:75>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 242));
+		return;
+	}
+}
+// Method Definition Index: 139368
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketJitterConfiguration__ctor_m0714C94470DA7DF5D0FBE0398F9B0FBDC5BDD699 (PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketJitterConfiguration__ctor_m0714C94470DA7DF5D0FBE0398F9B0FBDC5BDD699_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PacketJitterConfiguration__ctor_m0714C94470DA7DF5D0FBE0398F9B0FBDC5BDD699_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 243));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 244));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:65>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 245));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 246));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_0), (50.0f), (100.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 246));
+		__this->___m_JitterRangeInMs = L_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 247));
+		EventConfiguration__ctor_m4EE403F1CE3100BF52EE26A9962DF1F66A4C265B(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 247));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139369
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketLossConfiguration_Activate_mE809D8AE28D5D0650FA76FB3AFB86E967DE47C25 (PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939* __this, RuntimeObject* ___0__, UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* ___1_scenario, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketLossConfiguration_Activate_mE809D8AE28D5D0650FA76FB3AFB86E967DE47C25_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0__), (&___1_scenario));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PacketLossConfiguration_Activate_mE809D8AE28D5D0650FA76FB3AFB86E967DE47C25_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 248));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 249));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 250));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:87>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 251));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_0 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 252));
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = UnstableConnection_get_ShouldResetBetweenEvents_m796664201E6D9782A804A38C53AA8C4AD72A5A7A(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 252));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 253));
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 254));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:89>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 255));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_3 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 256));
+		NullCheck(L_3);
+		UnstableConnection_ResetScenarioConfiguration_m645B1CD11B109F056CCF39CAC06C6958C878E69A(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 256));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 257));
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:92>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 258));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_4 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 259));
+		NullCheck(L_4);
+		RuntimeObject* L_5;
+		L_5 = UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB_inline(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 259));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_6 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 260));
+		NullCheck(L_6);
+		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_7;
+		L_7 = UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_inline(L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 260));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_8 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_PacketLossRangeInPercent);
+		float L_9 = L_8->___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_10 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_PacketLossRangeInPercent);
+		float L_11 = L_10->___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 261));
+		NullCheck(L_7);
+		int32_t L_12;
+		L_12 = VirtualFuncInvoker2< int32_t, int32_t, int32_t >::Invoke(6, L_7, il2cpp_codegen_cast_double_to_int<int32_t>(L_9), il2cpp_codegen_cast_double_to_int<int32_t>(L_11));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 261));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 262));
+		NullCheck(L_5);
+		InterfaceActionInvoker1< int32_t >::Invoke(11, INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var, L_5, L_12);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 262));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:93>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 263));
+		return;
+	}
+}
+// Method Definition Index: 139370
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketLossConfiguration__ctor_mD444E190AAFBE27145B992F6461943DF99191CEE (PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketLossConfiguration__ctor_mD444E190AAFBE27145B992F6461943DF99191CEE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PacketLossConfiguration__ctor_mD444E190AAFBE27145B992F6461943DF99191CEE_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 264));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 265));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:83>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 266));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 267));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_0), (0.0f), (10.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 267));
+		__this->___m_PacketLossRangeInPercent = L_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 268));
+		EventConfiguration__ctor_m4EE403F1CE3100BF52EE26A9962DF1F66A4C265B(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 268));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139371
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketLossIntervalConfiguration_Activate_m597BFC04C63D5AC96B096055B7F619F954105620 (PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80* __this, RuntimeObject* ___0__, UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* ___1_scenario, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketLossIntervalConfiguration_Activate_m597BFC04C63D5AC96B096055B7F619F954105620_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0__), (&___1_scenario));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PacketLossIntervalConfiguration_Activate_m597BFC04C63D5AC96B096055B7F619F954105620_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 269));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 270));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 271));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:105>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 272));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_0 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 273));
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = UnstableConnection_get_ShouldResetBetweenEvents_m796664201E6D9782A804A38C53AA8C4AD72A5A7A(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 273));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 274));
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 275));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:107>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 276));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_3 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 277));
+		NullCheck(L_3);
+		UnstableConnection_ResetScenarioConfiguration_m645B1CD11B109F056CCF39CAC06C6958C878E69A(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 277));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 278));
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:110>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 279));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_4 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 280));
+		NullCheck(L_4);
+		RuntimeObject* L_5;
+		L_5 = UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB_inline(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 280));
+		UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_6 = ___1_scenario;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 281));
+		NullCheck(L_6);
+		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_7;
+		L_7 = UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_inline(L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 281));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_8 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_MinimumInterval);
+		float L_9 = L_8->___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_10 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_MinimumInterval);
+		float L_11 = L_10->___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 282));
+		NullCheck(L_7);
+		int32_t L_12;
+		L_12 = VirtualFuncInvoker2< int32_t, int32_t, int32_t >::Invoke(6, L_7, il2cpp_codegen_cast_double_to_int<int32_t>(L_9), il2cpp_codegen_cast_double_to_int<int32_t>(L_11));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 282));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 283));
+		NullCheck(L_5);
+		InterfaceActionInvoker1< int32_t >::Invoke(9, INetworkSimulatorPreset_tA1318D9D6A61E4738B86E5A549EE8F4A1E50745C_il2cpp_TypeInfo_var, L_5, L_12);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 283));
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:111>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 284));
+		return;
+	}
+}
+// Method Definition Index: 139372
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketLossIntervalConfiguration__ctor_mE1E57F174BB419FAF474A23D4BB08A4625D8FA46 (PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketLossIntervalConfiguration__ctor_mE1E57F174BB419FAF474A23D4BB08A4625D8FA46_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PacketLossIntervalConfiguration__ctor_mE1E57F174BB419FAF474A23D4BB08A4625D8FA46_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 285));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 286));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:101>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 287));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 288));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_0), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 288));
+		__this->___m_MinimumInterval = L_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 289));
+		EventConfiguration__ctor_m4EE403F1CE3100BF52EE26A9962DF1F66A4C265B(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 289));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139373
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mFC4862C8BA7D715249EFCBD7285EB6C5ADD144EC (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__cctor_mFC4862C8BA7D715249EFCBD7285EB6C5ADD144EC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__cctor_mFC4862C8BA7D715249EFCBD7285EB6C5ADD144EC_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96* L_0 = (U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96*)il2cpp_codegen_object_new(U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_mFC59147CC6382B473D62E51030EAC8BF019D9F7E(L_0, NULL);
+		((U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_il2cpp_TypeInfo_var))->___U3CU3E9 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_il2cpp_TypeInfo_var))->___U3CU3E9), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 139374
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mFC59147CC6382B473D62E51030EAC8BF019D9F7E (U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__ctor_mFC59147CC6382B473D62E51030EAC8BF019D9F7E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__ctor_mFC59147CC6382B473D62E51030EAC8BF019D9F7E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 139375
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CTriggerNetworkEventsU3Eb__32_0_m97758608305009A2D1E4035973B7EAE331B8462C (U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96* __this, EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* ___0_x, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTriggerNetworkEventsU3Eb__32_0_m97758608305009A2D1E4035973B7EAE331B8462C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec_U3CTriggerNetworkEventsU3Eb__32_0_m97758608305009A2D1E4035973B7EAE331B8462C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 290));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 291));
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:229>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 292));
+		EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* L_0 = ___0_x;
+		if (L_0)
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		G_B3_0 = 0;
+		goto IL_000c;
+	}
+
+IL_0006:
+	{
+		EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* L_1 = ___0_x;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 293));
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = EventConfiguration_get_IsActive_m32BF71C920D595EC9D87C81DF0440E67D315B11D_inline(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 293));
+		G_B3_0 = ((int32_t)(L_2));
+	}
+
+IL_000c:
+	{
+		return (bool)G_B3_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139376
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__30__ctor_mE6BA3BAE9949D53C167F7F3EB193C65583973CC4 (U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRunU3Ed__30__ctor_mE6BA3BAE9949D53C167F7F3EB193C65583973CC4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CRunU3Ed__30__ctor_mE6BA3BAE9949D53C167F7F3EB193C65583973CC4_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 139377
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__30_MoveNext_m703D2E489AFEABD88D2C13F18542C9FCF3FE072C (U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_m0A41CB55296D78FD59304009E6099DCF62FDF366_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_mA59217D220FB22368B3B47FB79A6E31F06738E02_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRunU3Ed__30_MoveNext_m703D2E489AFEABD88D2C13F18542C9FCF3FE072C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* V_4 = NULL;
+	bool V_5 = false;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool V_9 = false;
+	Exception_t* V_10 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CRunU3Ed__30_MoveNext_m703D2E489AFEABD88D2C13F18542C9FCF3FE072C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 294));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 295));
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* G_B6_0 = NULL;
+	UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* G_B5_0 = NULL;
+	Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* G_B7_0 = NULL;
+	UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* G_B7_1 = NULL;
+	U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* G_B26_0 = NULL;
+	U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* G_B22_0 = NULL;
+	U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* G_B24_0 = NULL;
+	U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* G_B23_0 = NULL;
+	int32_t G_B25_0 = 0;
+	U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* G_B25_1 = NULL;
+	int32_t G_B27_0 = 0;
+	U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* G_B27_1 = NULL;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 296));
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+	}
+	try
+	{
+		STORE_TRY_ID(methodExecutionContext, 0);
+		{
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 297));
+			int32_t L_1 = V_0;
+			if ((!(((uint32_t)L_1) > ((uint32_t)3))))
+			{
+				goto IL_000d_1;
+			}
+		}
+		{
+			goto IL_0012_1;
+		}
+
+IL_000d_1:
+		{
+			goto IL_00c8_1;
+		}
+
+IL_0012_1:
+		{
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 298));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:166>
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:167>
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:168>
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:169>
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:170>
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:171>
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:172>
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:173>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 299));
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_2 = __this->___U3CU3E4__this;
+			EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4* L_3 = (EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4*)(EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4*)SZArrayNew(EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4_il2cpp_TypeInfo_var, (uint32_t)5);
+			EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4* L_4 = L_3;
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_5 = __this->___U3CU3E4__this;
+			NullCheck(L_5);
+			LagSpikeConfiguration_t8AB67086E66B489D201B7A24FA4FF4EBA28FD85A* L_6 = L_5->___m_LagSpikeConfiguration;
+			NullCheck(L_4);
+			ArrayElementTypeCheck (L_4, L_6);
+			(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F*)L_6);
+			EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4* L_7 = L_4;
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_8 = __this->___U3CU3E4__this;
+			NullCheck(L_8);
+			PacketDelayConfiguration_t23CBC190DA192E6528FBC3370CC3A7F1D17838A7* L_9 = L_8->___m_PacketDelayConfiguration;
+			NullCheck(L_7);
+			ArrayElementTypeCheck (L_7, L_9);
+			(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F*)L_9);
+			EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4* L_10 = L_7;
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_11 = __this->___U3CU3E4__this;
+			NullCheck(L_11);
+			PacketJitterConfiguration_t1E30CA3B8941AB60A57909CFCD84A4BADA835697* L_12 = L_11->___m_PacketJitterConfiguration;
+			NullCheck(L_10);
+			ArrayElementTypeCheck (L_10, L_12);
+			(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F*)L_12);
+			EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4* L_13 = L_10;
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_14 = __this->___U3CU3E4__this;
+			NullCheck(L_14);
+			PacketLossConfiguration_t0425E35D7F8E407A4B23E331EA882F8735746939* L_15 = L_14->___m_PacketLossConfiguration;
+			NullCheck(L_13);
+			ArrayElementTypeCheck (L_13, L_15);
+			(L_13)->SetAt(static_cast<il2cpp_array_size_t>(3), (EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F*)L_15);
+			EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4* L_16 = L_13;
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_17 = __this->___U3CU3E4__this;
+			NullCheck(L_17);
+			PacketLossIntervalConfiguration_tCC33F6461C598BB3527FCDB53FEA20AE27D6BF80* L_18 = L_17->___m_PacketLossIntervalConfiguration;
+			NullCheck(L_16);
+			ArrayElementTypeCheck (L_16, L_18);
+			(L_16)->SetAt(static_cast<il2cpp_array_size_t>(4), (EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F*)L_18);
+			NullCheck(L_2);
+			L_2->___m_EventConfigurations = L_16;
+			Il2CppCodeGenWriteBarrier((void**)(&L_2->___m_EventConfigurations), (void*)L_16);
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:175>
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:176>
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:177>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 300));
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_19 = __this->___U3CU3E4__this;
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_20 = __this->___U3CU3E4__this;
+			NullCheck(L_20);
+			int32_t L_21 = L_20->___m_RandomizerSeed;
+			if ((((int32_t)L_21) == ((int32_t)(-1))))
+			{
+				G_B6_0 = L_19;
+				goto IL_0090_1;
+			}
+			G_B5_0 = L_19;
+		}
+		{
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_22 = __this->___U3CU3E4__this;
+			NullCheck(L_22);
+			int32_t L_23 = L_22->___m_RandomizerSeed;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 301));
+			Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_24 = (Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8*)il2cpp_codegen_object_new(Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var);
+			Random__ctor_mFB386F0C0ED85F26CD069C3527052B81878A2F1E(L_24, L_23, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 301));
+			G_B7_0 = L_24;
+			G_B7_1 = G_B5_0;
+			goto IL_0095_1;
+		}
+
+IL_0090_1:
+		{
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 302));
+			Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_25 = (Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8*)il2cpp_codegen_object_new(Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var);
+			Random__ctor_m151183BD4F021499A98B9DE8502DAD4B12DD16AC(L_25, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 302));
+			G_B7_0 = L_25;
+			G_B7_1 = G_B6_0;
+		}
+
+IL_0095_1:
+		{
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 303));
+			NullCheck(G_B7_1);
+			UnstableConnection_set_Randomizer_m4655283CCAA86B6CDBCD735BAC17C04E55A51365_inline(G_B7_1, G_B7_0, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 303));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:179>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 304));
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_26 = __this->___U3CU3E4__this;
+			RuntimeObject* L_27 = __this->___networkEventsApi;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 305));
+			NullCheck(L_27);
+			RuntimeObject* L_28;
+			L_28 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(7, INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var, L_27);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 305));
+			NullCheck(L_26);
+			L_26->___m_SimulatorCache = L_28;
+			Il2CppCodeGenWriteBarrier((void**)(&L_26->___m_SimulatorCache), (void*)L_28);
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:181>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 306));
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_29 = __this->___U3CU3E4__this;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 307));
+			NullCheck(L_29);
+			UnstableConnection_ResetScenarioConfiguration_m645B1CD11B109F056CCF39CAC06C6958C878E69A(L_29, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 307));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:182>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 308));
+			__this->___U3ClastTriggerTimeU3E5__1 = (0.0f);
+		}
+
+IL_00c8_1:
+		{
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 309));
+		}
+		{
+			auto __finallyBlock = il2cpp::utils::Finally([&]
+			{
+
+FINALLY_0371_1:
+				{
+					STORE_TRY_ID(methodExecutionContext, 0);
+					{
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 365));
+						int32_t L_30 = V_0;
+						if ((((int32_t)L_30) >= ((int32_t)0)))
+						{
+							goto IL_038e_1;
+						}
+					}
+					{
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 366));
+						//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:214>
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 367));
+						RuntimeObject* L_31 = __this->___networkEventsApi;
+						UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_32 = __this->___U3CU3E4__this;
+						NullCheck(L_32);
+						RuntimeObject* L_33 = L_32->___m_SimulatorCache;
+						STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 368));
+						NullCheck(L_31);
+						InterfaceActionInvoker1< RuntimeObject* >::Invoke(6, INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var, L_31, L_33);
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 368));
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 369));
+					}
+
+IL_038e_1:
+					{
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 370));
+						return;
+					}
+				}
+			});
+			try
+			{
+				STORE_TRY_ID(methodExecutionContext, 1);
+				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 310));
+					int32_t L_34 = V_0;
+					switch (L_34)
+					{
+						case 0:
+						{
+							goto IL_00e1_2;
+						}
+						case 1:
+						{
+							goto IL_00e3_2;
+						}
+						case 2:
+						{
+							goto IL_00e8_2;
+						}
+						case 3:
+						{
+							goto IL_00ed_2;
+						}
+					}
+				}
+				{
+					goto IL_00f2_2;
+				}
+
+IL_00e1_2:
+				{
+					goto IL_0148_2;
+				}
+
+IL_00e3_2:
+				{
+					goto IL_0225_2;
+				}
+
+IL_00e8_2:
+				{
+					goto IL_02ab_2;
+				}
+
+IL_00ed_2:
+				{
+					goto IL_0330_2;
+				}
+
+IL_00f2_2:
+				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 311));
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 312));
+					goto IL_0357_2;
+				}
+
+IL_00f8_2:
+				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 313));
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:188>
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 314));
+					UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_35 = __this->___U3CU3E4__this;
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 315));
+					NullCheck(L_35);
+					bool L_36;
+					L_36 = NetworkScenario_get_IsPaused_m5E77869693549C8FF730EB0EC6DFD4AE636DBD63_inline(L_35, NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 315));
+					V_1 = L_36;
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 316));
+					bool L_37 = V_1;
+					if (!L_37)
+					{
+						goto IL_0171_2;
+					}
+				}
+				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 317));
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:190>
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 318));
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 319));
+					il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+					YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB L_38;
+					L_38 = Task_Yield_m27EE257EF53788244C5B2E874C514C24C693F9B1(NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 319));
+					V_3 = L_38;
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 320));
+					YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A L_39;
+					L_39 = YieldAwaitable_GetAwaiter_m359A05B8C1B9F3F1E9CAE29AD231C0987718DE5E((&V_3), NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 320));
+					V_2 = L_39;
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 321));
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 322));
+					il2cpp_codegen_runtime_class_init_inline(YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_il2cpp_TypeInfo_var);
+					bool L_40;
+					L_40 = YieldAwaiter_get_IsCompleted_m783B6E67654FDBF490A65AC59972AF6B985A9286((&V_2), NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 322));
+					if (L_40)
+					{
+						goto IL_0164_2;
+					}
+				}
+				{
+					int32_t L_41 = 0;
+					V_0 = L_41;
+					__this->___U3CU3E1__state = L_41;
+					YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A L_42 = V_2;
+					__this->___U3CU3Eu__1 = L_42;
+					V_4 = __this;
+					AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_43 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 323));
+					il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+					AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_mA59217D220FB22368B3B47FB79A6E31F06738E02(L_43, (&V_2), (&V_4), AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_mA59217D220FB22368B3B47FB79A6E31F06738E02_RuntimeMethod_var);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 323));
+					goto IL_03bf;
+				}
+
+IL_0148_2:
+				{
+					YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A L_44 = __this->___U3CU3Eu__1;
+					V_2 = L_44;
+					YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A* L_45 = (YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A*)(&__this->___U3CU3Eu__1);
+					il2cpp_codegen_initobj(L_45, sizeof(YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A));
+					int32_t L_46 = (-1);
+					V_0 = L_46;
+					__this->___U3CU3E1__state = L_46;
+				}
+
+IL_0164_2:
+				{
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 324));
+					il2cpp_codegen_runtime_class_init_inline(YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_il2cpp_TypeInfo_var);
+					YieldAwaiter_GetResult_m83C9B35D4BBEB09AC5B560912436454D69794F07((&V_2), NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 324));
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:191>
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 325));
+					goto IL_0357_2;
+				}
+
+IL_0171_2:
+				{
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:194>
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:195>
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:196>
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 326));
+					float L_47 = __this->___U3ClastTriggerTimeU3E5__1;
+					UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_48 = __this->___U3CU3E4__this;
+					NullCheck(L_48);
+					int32_t L_49 = L_48->___m_MinimumWaitTimeMs;
+					if ((!(((float)L_47) > ((float)((float)L_49)))))
+					{
+						G_B26_0 = __this;
+						goto IL_01bf_2;
+					}
+					G_B22_0 = __this;
+				}
+				{
+					UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_50 = __this->___U3CU3E4__this;
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 327));
+					NullCheck(L_50);
+					Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_51;
+					L_51 = UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_inline(L_50, NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 327));
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 328));
+					NullCheck(L_51);
+					int32_t L_52;
+					L_52 = VirtualFuncInvoker2< int32_t, int32_t, int32_t >::Invoke(6, L_51, 0, ((int32_t)100));
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 328));
+					UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_53 = __this->___U3CU3E4__this;
+					NullCheck(L_53);
+					int32_t L_54 = L_53->___m_EventFrequency;
+					if ((((int32_t)L_52) < ((int32_t)L_54)))
+					{
+						G_B24_0 = G_B22_0;
+						goto IL_01bc_2;
+					}
+					G_B23_0 = G_B22_0;
+				}
+				{
+					float L_55 = __this->___U3ClastTriggerTimeU3E5__1;
+					UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_56 = __this->___U3CU3E4__this;
+					NullCheck(L_56);
+					int32_t L_57 = L_56->___m_MaximumWaitTimeMs;
+					G_B25_0 = ((((float)L_55) > ((float)((float)L_57)))? 1 : 0);
+					G_B25_1 = G_B23_0;
+					goto IL_01bd_2;
+				}
+
+IL_01bc_2:
+				{
+					G_B25_0 = 1;
+					G_B25_1 = G_B24_0;
+				}
+
+IL_01bd_2:
+				{
+					G_B27_0 = G_B25_0;
+					G_B27_1 = G_B25_1;
+					goto IL_01c0_2;
+				}
+
+IL_01bf_2:
+				{
+					G_B27_0 = 0;
+					G_B27_1 = G_B26_0;
+				}
+
+IL_01c0_2:
+				{
+					NullCheck(G_B27_1);
+					G_B27_1->___U3CshouldDoSomethingU3E5__2 = (bool)G_B27_0;
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:198>
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 329));
+					bool L_58 = __this->___U3CshouldDoSomethingU3E5__2;
+					V_5 = L_58;
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 330));
+					bool L_59 = V_5;
+					if (!L_59)
+					{
+						goto IL_02d6_2;
+					}
+				}
+				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 331));
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:200>
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 332));
+					UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_60 = __this->___U3CU3E4__this;
+					RuntimeObject* L_61 = __this->___networkEventsApi;
+					CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_62 = __this->___cancellationToken;
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 333));
+					NullCheck(L_60);
+					Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_63;
+					L_63 = UnstableConnection_TriggerNetworkEvents_m46A77DBED4886CFCB15A73683A76C7C1233957FF(L_60, L_61, L_62, NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 333));
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 334));
+					NullCheck(L_63);
+					TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_64;
+					L_64 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_63, NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 334));
+					V_6 = L_64;
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 335));
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 336));
+					bool L_65;
+					L_65 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_6), NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 336));
+					if (L_65)
+					{
+						goto IL_0242_2;
+					}
+				}
+				{
+					int32_t L_66 = 1;
+					V_0 = L_66;
+					__this->___U3CU3E1__state = L_66;
+					TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_67 = V_6;
+					__this->___U3CU3Eu__2 = L_67;
+					Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__2))->___m_task), (void*)NULL);
+					V_4 = __this;
+					AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_68 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 337));
+					il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+					AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_m0A41CB55296D78FD59304009E6099DCF62FDF366(L_68, (&V_6), (&V_4), AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_m0A41CB55296D78FD59304009E6099DCF62FDF366_RuntimeMethod_var);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 337));
+					goto IL_03bf;
+				}
+
+IL_0225_2:
+				{
+					TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_69 = __this->___U3CU3Eu__2;
+					V_6 = L_69;
+					TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_70 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__2);
+					il2cpp_codegen_initobj(L_70, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+					int32_t L_71 = (-1);
+					V_0 = L_71;
+					__this->___U3CU3E1__state = L_71;
+				}
+
+IL_0242_2:
+				{
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 338));
+					TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_6), NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 338));
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:201>
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 339));
+					UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_72 = __this->___U3CU3E4__this;
+					NullCheck(L_72);
+					int32_t L_73 = L_72->___m_MinimumWaitTimeMs;
+					__this->___U3ClastTriggerTimeU3E5__1 = ((float)L_73);
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:202>
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 340));
+					UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_74 = __this->___U3CU3E4__this;
+					NullCheck(L_74);
+					int32_t L_75 = L_74->___m_MinimumWaitTimeMs;
+					CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_76 = __this->___cancellationToken;
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 341));
+					il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+					Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_77;
+					L_77 = Task_Delay_mE80CABEC364832FBA3042CA2460AA3913B74C10B(L_75, L_76, NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 341));
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 342));
+					NullCheck(L_77);
+					TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_78;
+					L_78 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_77, NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 342));
+					V_7 = L_78;
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 343));
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 344));
+					bool L_79;
+					L_79 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_7), NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 344));
+					if (L_79)
+					{
+						goto IL_02c8_2;
+					}
+				}
+				{
+					int32_t L_80 = 2;
+					V_0 = L_80;
+					__this->___U3CU3E1__state = L_80;
+					TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_81 = V_7;
+					__this->___U3CU3Eu__2 = L_81;
+					Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__2))->___m_task), (void*)NULL);
+					V_4 = __this;
+					AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_82 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 345));
+					il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+					AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_m0A41CB55296D78FD59304009E6099DCF62FDF366(L_82, (&V_7), (&V_4), AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_m0A41CB55296D78FD59304009E6099DCF62FDF366_RuntimeMethod_var);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 345));
+					goto IL_03bf;
+				}
+
+IL_02ab_2:
+				{
+					TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_83 = __this->___U3CU3Eu__2;
+					V_7 = L_83;
+					TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_84 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__2);
+					il2cpp_codegen_initobj(L_84, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+					int32_t L_85 = (-1);
+					V_0 = L_85;
+					__this->___U3CU3E1__state = L_85;
+				}
+
+IL_02c8_2:
+				{
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 346));
+					TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_7), NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 346));
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 347));
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 348));
+					goto IL_0356_2;
+				}
+
+IL_02d6_2:
+				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 349));
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:206>
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 350));
+					float L_86 = __this->___U3ClastTriggerTimeU3E5__1;
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 351));
+					float L_87;
+					L_87 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 351));
+					__this->___U3ClastTriggerTimeU3E5__1 = ((float)il2cpp_codegen_add(L_86, ((float)il2cpp_codegen_multiply(L_87, (1000.0f)))));
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:207>
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 352));
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 353));
+					il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+					YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB L_88;
+					L_88 = Task_Yield_m27EE257EF53788244C5B2E874C514C24C693F9B1(NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 353));
+					V_3 = L_88;
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 354));
+					YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A L_89;
+					L_89 = YieldAwaitable_GetAwaiter_m359A05B8C1B9F3F1E9CAE29AD231C0987718DE5E((&V_3), NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 354));
+					V_8 = L_89;
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 355));
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 356));
+					il2cpp_codegen_runtime_class_init_inline(YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_il2cpp_TypeInfo_var);
+					bool L_90;
+					L_90 = YieldAwaiter_get_IsCompleted_m783B6E67654FDBF490A65AC59972AF6B985A9286((&V_8), NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 356));
+					if (L_90)
+					{
+						goto IL_034d_2;
+					}
+				}
+				{
+					int32_t L_91 = 3;
+					V_0 = L_91;
+					__this->___U3CU3E1__state = L_91;
+					YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A L_92 = V_8;
+					__this->___U3CU3Eu__1 = L_92;
+					V_4 = __this;
+					AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_93 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 357));
+					il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+					AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_mA59217D220FB22368B3B47FB79A6E31F06738E02(L_93, (&V_8), (&V_4), AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333_mA59217D220FB22368B3B47FB79A6E31F06738E02_RuntimeMethod_var);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 357));
+					goto IL_03bf;
+				}
+
+IL_0330_2:
+				{
+					YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A L_94 = __this->___U3CU3Eu__1;
+					V_8 = L_94;
+					YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A* L_95 = (YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A*)(&__this->___U3CU3Eu__1);
+					il2cpp_codegen_initobj(L_95, sizeof(YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A));
+					int32_t L_96 = (-1);
+					V_0 = L_96;
+					__this->___U3CU3E1__state = L_96;
+				}
+
+IL_034d_2:
+				{
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 358));
+					il2cpp_codegen_runtime_class_init_inline(YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_il2cpp_TypeInfo_var);
+					YieldAwaiter_GetResult_m83C9B35D4BBEB09AC5B560912436454D69794F07((&V_8), NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 358));
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 359));
+				}
+
+IL_0356_2:
+				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 360));
+				}
+
+IL_0357_2:
+				{
+					//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:186>
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 361));
+					CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* L_97 = (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED*)(&__this->___cancellationToken);
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 362));
+					il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
+					bool L_98;
+					L_98 = CancellationToken_get_IsCancellationRequested_m9744F7A1A82946FDD1DC68E905F1ED826471D350(L_97, NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 362));
+					V_9 = (bool)((((int32_t)L_98) == ((int32_t)0))? 1 : 0);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 363));
+					bool L_99 = V_9;
+					if (L_99)
+					{
+						goto IL_00f8_2;
+					}
+				}
+				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 364));
+					goto IL_038f_1;
+				}
+			}
+			catch(Il2CppExceptionWrapper& e)
+			{
+				__finallyBlock.StoreException(e.ex);
+			}
+		}
+
+IL_038f_1:
+		{
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 371));
+			goto IL_03ab;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0391;
+		}
+		throw e;
+	}
+
+CATCH_0391:
+	{
+		STORE_TRY_ID(methodExecutionContext, -1);
+		Exception_t* L_100 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 372));
+		V_10 = L_100;
+		__this->___U3CU3E1__state = ((int32_t)-2);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_101 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+		Exception_t* L_102 = V_10;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 373));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_101, L_102, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 373));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_03bf;
+	}
+
+IL_03ab:
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:216>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 374));
+		__this->___U3CU3E1__state = ((int32_t)-2);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 375));
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_103 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 376));
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_103, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 376));
+	}
+
+IL_03bf:
+	{
+		return;
+	}
+}
+// Method Definition Index: 139378
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__30_SetStateMachine_mE797937543EADF985607C9A32BBE570114CF19BA (U3CRunU3Ed__30_tCE3AF187EF5C3652E23C528234558D146468F333* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRunU3Ed__30_SetStateMachine_mE797937543EADF985607C9A32BBE570114CF19BA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CRunU3Ed__30_SetStateMachine_mE797937543EADF985607C9A32BBE570114CF19BA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 139379
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerNetworkEventsU3Ed__32__ctor_mD0A350610877B27CF92A390BAE56B8D258A15991 (U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CTriggerNetworkEventsU3Ed__32__ctor_mD0A350610877B27CF92A390BAE56B8D258A15991_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CTriggerNetworkEventsU3Ed__32__ctor_mD0A350610877B27CF92A390BAE56B8D258A15991_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 139380
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerNetworkEventsU3Ed__32_MoveNext_m23E6ECBE2CFB2C6FA1B447B698257CBD03B6F4B0 (U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_m416112F5EB93B782195F95D985376167289D11C5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToList_TisEventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_m2EBF678846B21A310638CF94856B22789CDD9A06_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Where_TisEventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_mEFB19C504E133DA6FA3CCB2D6066E65B0792FA10_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Remove_m062336884A07B63FD7D319899860DA26FBA78526_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m19DAC8A647E9C19196E8AD17D30246F0EDC4EF73_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m445D1BBD297E8C0108C79D34ED7F23A52E6CDC0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CTriggerNetworkEventsU3Ed__32_MoveNext_m23E6ECBE2CFB2C6FA1B447B698257CBD03B6F4B0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTriggerNetworkEventsU3Eb__32_0_m97758608305009A2D1E4035973B7EAE331B8462C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB062FA81DB9E45391F6C30AA4A549B53CEA85A79);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* V_4 = NULL;
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	Exception_t* V_7 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CTriggerNetworkEventsU3Ed__32_MoveNext_m23E6ECBE2CFB2C6FA1B447B698257CBD03B6F4B0_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 377));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 378));
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634* G_B6_0 = NULL;
+	EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4* G_B6_1 = NULL;
+	U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* G_B6_2 = NULL;
+	Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634* G_B5_0 = NULL;
+	EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4* G_B5_1 = NULL;
+	U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* G_B5_2 = NULL;
+	U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* G_B13_0 = NULL;
+	U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* G_B12_0 = NULL;
+	int32_t G_B14_0 = 0;
+	U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* G_B14_1 = NULL;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 379));
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+	}
+	try
+	{
+		STORE_TRY_ID(methodExecutionContext, 0);
+		{
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 380));
+			int32_t L_1 = V_0;
+			if (!L_1)
+			{
+				goto IL_000c_1;
+			}
+		}
+		{
+			goto IL_0011_1;
+		}
+
+IL_000c_1:
+		{
+			goto IL_00a9_1;
+		}
+
+IL_0011_1:
+		{
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 381));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:229>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 382));
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_2 = __this->___U3CU3E4__this;
+			NullCheck(L_2);
+			EventConfigurationU5BU5D_tFD41634567FF4623E240F57A244CB939CEE53BC4* L_3 = L_2->___m_EventConfigurations;
+			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_il2cpp_TypeInfo_var);
+			Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634* L_4 = ((U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_il2cpp_TypeInfo_var))->___U3CU3E9__32_0;
+			Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634* L_5 = L_4;
+			if (L_5)
+			{
+				G_B6_0 = L_5;
+				G_B6_1 = L_3;
+				G_B6_2 = __this;
+				goto IL_003d_1;
+			}
+			G_B5_0 = L_5;
+			G_B5_1 = L_3;
+			G_B5_2 = __this;
+		}
+		{
+			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_il2cpp_TypeInfo_var);
+			U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96* L_6 = ((U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_il2cpp_TypeInfo_var))->___U3CU3E9;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 383));
+			Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634* L_7 = (Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634*)il2cpp_codegen_object_new(Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634_il2cpp_TypeInfo_var);
+			Func_2__ctor_m533AF293457C8592CD97B8F31F110C47A4264A0A(L_7, L_6, (intptr_t)((void*)U3CU3Ec_U3CTriggerNetworkEventsU3Eb__32_0_m97758608305009A2D1E4035973B7EAE331B8462C_RuntimeMethod_var), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 383));
+			Func_2_tBEFE6CB0510DB69BCB3752B210690774A3581634* L_8 = L_7;
+			((U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_il2cpp_TypeInfo_var))->___U3CU3E9__32_0 = L_8;
+			Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t8798D80A73C004861F39FA1EE48A6B3A80C61C96_il2cpp_TypeInfo_var))->___U3CU3E9__32_0), (void*)L_8);
+			G_B6_0 = L_8;
+			G_B6_1 = G_B5_1;
+			G_B6_2 = G_B5_2;
+		}
+
+IL_003d_1:
+		{
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 384));
+			RuntimeObject* L_9;
+			L_9 = Enumerable_Where_TisEventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_mEFB19C504E133DA6FA3CCB2D6066E65B0792FA10((RuntimeObject*)G_B6_1, G_B6_0, Enumerable_Where_TisEventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_mEFB19C504E133DA6FA3CCB2D6066E65B0792FA10_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 384));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 385));
+			List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* L_10;
+			L_10 = Enumerable_ToList_TisEventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_m2EBF678846B21A310638CF94856B22789CDD9A06(L_9, Enumerable_ToList_TisEventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_m2EBF678846B21A310638CF94856B22789CDD9A06_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 385));
+			NullCheck(G_B6_2);
+			G_B6_2->___U3CactiveConfigurationsU3E5__1 = L_10;
+			Il2CppCodeGenWriteBarrier((void**)(&G_B6_2->___U3CactiveConfigurationsU3E5__1), (void*)L_10);
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:231>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 386));
+			List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* L_11 = __this->___U3CactiveConfigurationsU3E5__1;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 387));
+			NullCheck(L_11);
+			int32_t L_12;
+			L_12 = List_1_get_Count_m19DAC8A647E9C19196E8AD17D30246F0EDC4EF73_inline(L_11, List_1_get_Count_m19DAC8A647E9C19196E8AD17D30246F0EDC4EF73_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 387));
+			V_1 = (bool)((((int32_t)L_12) == ((int32_t)0))? 1 : 0);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 388));
+			bool L_13 = V_1;
+			if (!L_13)
+			{
+				goto IL_00d2_1;
+			}
+		}
+		{
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 389));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:233>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 390));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 391));
+			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralB062FA81DB9E45391F6C30AA4A549B53CEA85A79, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 391));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:234>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 392));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 393));
+			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+			YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB L_14;
+			L_14 = Task_Yield_m27EE257EF53788244C5B2E874C514C24C693F9B1(NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 393));
+			V_3 = L_14;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 394));
+			YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A L_15;
+			L_15 = YieldAwaitable_GetAwaiter_m359A05B8C1B9F3F1E9CAE29AD231C0987718DE5E((&V_3), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 394));
+			V_2 = L_15;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 395));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 396));
+			il2cpp_codegen_runtime_class_init_inline(YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_il2cpp_TypeInfo_var);
+			bool L_16;
+			L_16 = YieldAwaiter_get_IsCompleted_m783B6E67654FDBF490A65AC59972AF6B985A9286((&V_2), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 396));
+			if (L_16)
+			{
+				goto IL_00c5_1;
+			}
+		}
+		{
+			int32_t L_17 = 0;
+			V_0 = L_17;
+			__this->___U3CU3E1__state = L_17;
+			YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A L_18 = V_2;
+			__this->___U3CU3Eu__1 = L_18;
+			V_4 = __this;
+			AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_19 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 397));
+			il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_m416112F5EB93B782195F95D985376167289D11C5(L_19, (&V_2), (&V_4), AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisYieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_TisU3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F_m416112F5EB93B782195F95D985376167289D11C5_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 397));
+			goto IL_020f;
+		}
+
+IL_00a9_1:
+		{
+			YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A L_20 = __this->___U3CU3Eu__1;
+			V_2 = L_20;
+			YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A* L_21 = (YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A*)(&__this->___U3CU3Eu__1);
+			il2cpp_codegen_initobj(L_21, sizeof(YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A));
+			int32_t L_22 = (-1);
+			V_0 = L_22;
+			__this->___U3CU3E1__state = L_22;
+		}
+
+IL_00c5_1:
+		{
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 398));
+			il2cpp_codegen_runtime_class_init_inline(YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A_il2cpp_TypeInfo_var);
+			YieldAwaiter_GetResult_m83C9B35D4BBEB09AC5B560912436454D69794F07((&V_2), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 398));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:235>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 399));
+			goto IL_01f4;
+		}
+
+IL_00d2_1:
+		{
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:238>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 400));
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_23 = __this->___U3CU3E4__this;
+			NullCheck(L_23);
+			int32_t L_24 = L_23->___m_EventCount;
+			List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* L_25 = __this->___U3CactiveConfigurationsU3E5__1;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 401));
+			NullCheck(L_25);
+			int32_t L_26;
+			L_26 = List_1_get_Count_m19DAC8A647E9C19196E8AD17D30246F0EDC4EF73_inline(L_25, List_1_get_Count_m19DAC8A647E9C19196E8AD17D30246F0EDC4EF73_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 401));
+			if ((((int32_t)L_24) > ((int32_t)L_26)))
+			{
+				G_B13_0 = __this;
+				goto IL_00f8_1;
+			}
+			G_B12_0 = __this;
+		}
+		{
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_27 = __this->___U3CU3E4__this;
+			NullCheck(L_27);
+			int32_t L_28 = L_27->___m_EventCount;
+			G_B14_0 = L_28;
+			G_B14_1 = G_B12_0;
+			goto IL_0103_1;
+		}
+
+IL_00f8_1:
+		{
+			List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* L_29 = __this->___U3CactiveConfigurationsU3E5__1;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 402));
+			NullCheck(L_29);
+			int32_t L_30;
+			L_30 = List_1_get_Count_m19DAC8A647E9C19196E8AD17D30246F0EDC4EF73_inline(L_29, List_1_get_Count_m19DAC8A647E9C19196E8AD17D30246F0EDC4EF73_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 402));
+			G_B14_0 = L_30;
+			G_B14_1 = G_B13_0;
+		}
+
+IL_0103_1:
+		{
+			NullCheck(G_B14_1);
+			G_B14_1->___U3CeventCountU3E5__2 = G_B14_0;
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:240>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 403));
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_31 = __this->___U3CU3E4__this;
+			NullCheck(L_31);
+			L_31->___m_IsFirstEventOfTrigger = (bool)1;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 404));
+			goto IL_01a8_1;
+		}
+
+IL_0119_1:
+		{
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 405));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:243>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 406));
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_32 = __this->___U3CU3E4__this;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 407));
+			NullCheck(L_32);
+			Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_33;
+			L_33 = UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_inline(L_32, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 407));
+			List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* L_34 = __this->___U3CactiveConfigurationsU3E5__1;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 408));
+			NullCheck(L_34);
+			int32_t L_35;
+			L_35 = List_1_get_Count_m19DAC8A647E9C19196E8AD17D30246F0EDC4EF73_inline(L_34, List_1_get_Count_m19DAC8A647E9C19196E8AD17D30246F0EDC4EF73_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 408));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 409));
+			NullCheck(L_33);
+			int32_t L_36;
+			L_36 = VirtualFuncInvoker2< int32_t, int32_t, int32_t >::Invoke(6, L_33, 0, L_35);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 409));
+			__this->___U3CconfigIndexU3E5__3 = L_36;
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:244>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 410));
+			List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* L_37 = __this->___U3CactiveConfigurationsU3E5__1;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 411));
+			List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* L_38;
+			L_38 = Enumerable_ToList_TisEventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_m2EBF678846B21A310638CF94856B22789CDD9A06(L_37, Enumerable_ToList_TisEventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_m2EBF678846B21A310638CF94856B22789CDD9A06_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 411));
+			int32_t L_39 = __this->___U3CconfigIndexU3E5__3;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 412));
+			NullCheck(L_38);
+			EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* L_40;
+			L_40 = List_1_get_Item_m445D1BBD297E8C0108C79D34ED7F23A52E6CDC0F(L_38, L_39, List_1_get_Item_m445D1BBD297E8C0108C79D34ED7F23A52E6CDC0F_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 412));
+			__this->___U3CconfigurationU3E5__4 = L_40;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CconfigurationU3E5__4), (void*)L_40);
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:245>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 413));
+			EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* L_41 = __this->___U3CconfigurationU3E5__4;
+			RuntimeObject* L_42 = __this->___networkEventsApi;
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_43 = __this->___U3CU3E4__this;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 414));
+			NullCheck(L_41);
+			VirtualActionInvoker2< RuntimeObject*, UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* >::Invoke(4, L_41, L_42, L_43);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 414));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:246>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 415));
+			List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8* L_44 = __this->___U3CactiveConfigurationsU3E5__1;
+			EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* L_45 = __this->___U3CconfigurationU3E5__4;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 416));
+			NullCheck(L_44);
+			bool L_46;
+			L_46 = List_1_Remove_m062336884A07B63FD7D319899860DA26FBA78526(L_44, L_45, List_1_Remove_m062336884A07B63FD7D319899860DA26FBA78526_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 416));
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:247>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 417));
+			int32_t L_47 = __this->___U3CeventCountU3E5__2;
+			V_5 = ((int32_t)il2cpp_codegen_subtract(L_47, 1));
+			int32_t L_48 = V_5;
+			__this->___U3CeventCountU3E5__2 = L_48;
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:248>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 418));
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_49 = __this->___U3CU3E4__this;
+			NullCheck(L_49);
+			L_49->___m_IsFirstEventOfTrigger = (bool)0;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 419));
+			__this->___U3CconfigurationU3E5__4 = (EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CconfigurationU3E5__4), (void*)(EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F*)NULL);
+		}
+
+IL_01a8_1:
+		{
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:241>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 420));
+			int32_t L_50 = __this->___U3CeventCountU3E5__2;
+			V_6 = (bool)((((int32_t)L_50) > ((int32_t)0))? 1 : 0);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 421));
+			bool L_51 = V_6;
+			if (L_51)
+			{
+				goto IL_0119_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:251>
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 422));
+			RuntimeObject* L_52 = __this->___networkEventsApi;
+			UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* L_53 = __this->___U3CU3E4__this;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 423));
+			NullCheck(L_53);
+			RuntimeObject* L_54;
+			L_54 = UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB_inline(L_53, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 423));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 424));
+			NullCheck(L_52);
+			InterfaceActionInvoker1< RuntimeObject* >::Invoke(6, INetworkEventsApi_t4B9612E8FEC18DC5ABC00371950A996F75A13598_il2cpp_TypeInfo_var, L_52, L_54);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 424));
+			goto IL_01f4;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_01d3;
+		}
+		throw e;
+	}
+
+CATCH_01d3:
+	{
+		STORE_TRY_ID(methodExecutionContext, -1);
+		Exception_t* L_55 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 425));
+		V_7 = L_55;
+		__this->___U3CU3E1__state = ((int32_t)-2);
+		__this->___U3CactiveConfigurationsU3E5__1 = (List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CactiveConfigurationsU3E5__1), (void*)(List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8*)NULL);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_56 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+		Exception_t* L_57 = V_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 426));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var)));
+		AsyncTaskMethodBuilder_SetException_mBE41863F0571E0177A15731294087DE45E1FC10B(L_56, L_57, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 426));
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_020f;
+	}
+
+IL_01f4:
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:252>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 427));
+		__this->___U3CU3E1__state = ((int32_t)-2);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 428));
+		__this->___U3CactiveConfigurationsU3E5__1 = (List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CactiveConfigurationsU3E5__1), (void*)(List_1_t35455EA43E2E976672FE5AA95982F7CE20F148D8*)NULL);
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_58 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 429));
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_SetResult_m76D8B84F0068257C1823B1200B00E58E0C8DDDDE(L_58, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 429));
+	}
+
+IL_020f:
+	{
+		return;
+	}
+}
+// Method Definition Index: 139381
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerNetworkEventsU3Ed__32_SetStateMachine_mFEC3AA67883E483D8392B67C3094D1208A62F2D4 (U3CTriggerNetworkEventsU3Ed__32_tEB0786A73DBAC78B1E98F5C328DC5CFE71F6130F* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CTriggerNetworkEventsU3Ed__32_SetStateMachine_mFEC3AA67883E483D8392B67C3094D1208A62F2D4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CTriggerNetworkEventsU3Ed__32_SetStateMachine_mFEC3AA67883E483D8392B67C3094D1208A62F2D4_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 136591
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkScenario_get_IsPaused_m5E77869693549C8FF730EB0EC6DFD4AE636DBD63_inline (NetworkScenario_t9D80818E03CA1A3256BA1732E5C4844B265FFC46* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NetworkScenario_get_IsPaused_m5E77869693549C8FF730EB0EC6DFD4AE636DBD63_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NetworkScenario_t9D80818E03CA1A3256BA1732E5C4844B265FFC46_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NetworkScenario_get_IsPaused_m5E77869693549C8FF730EB0EC6DFD4AE636DBD63_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Multiplayer_Tools_NetworkSimulator_Runtime + 128));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Multiplayer_Tools_NetworkSimulator_Runtime + 129));
+	{
+		//<source_info:./Library/PackageCache/com.unity.multiplayer.tools@acc3b25185bb/NetworkSimulator/Runtime/NetworkScenario.cs:40>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Multiplayer_Tools_NetworkSimulator_Runtime + 130));
+		bool L_0 = __this->___m_IsPaused;
+		return L_0;
+	}
+}
+// Method Definition Index: 139354
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnstableConnection_set_ScenarioConfiguration_mC02BA48E92475F8556E408727E32FF0BF3756D61_inline (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_set_ScenarioConfiguration_mC02BA48E92475F8556E408727E32FF0BF3756D61_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection_set_ScenarioConfiguration_mC02BA48E92475F8556E408727E32FF0BF3756D61_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 153));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 154));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:159>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 155));
+		RuntimeObject* L_0 = ___0_value;
+		__this->___U3CScenarioConfigurationU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CScenarioConfigurationU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 139351
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_inline (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection_get_Randomizer_m7AD29403187A003C027E6C6724DF21860EE5CA23_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 144));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 145));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:158>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 146));
+		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_0 = __this->___U3CRandomizerU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 53027
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13382));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13383));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13384));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13385));
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13386));
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13387));
+		return;
+	}
+}
+// Method Definition Index: 139353
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB_inline (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection_get_ScenarioConfiguration_mDE88E7799790DA6E7EB14B3603CDB12B4C623CFB_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 150));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 151));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:159>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 152));
+		RuntimeObject* L_0 = __this->___U3CScenarioConfigurationU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 139360
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool EventConfiguration_get_IsActive_m32BF71C920D595EC9D87C81DF0440E67D315B11D_inline (EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventConfiguration_get_IsActive_m32BF71C920D595EC9D87C81DF0440E67D315B11D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventConfiguration_t0BFB6007643218283ABB539BBBC471F53A90431F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EventConfiguration_get_IsActive_m32BF71C920D595EC9D87C81DF0440E67D315B11D_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 188));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 189));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:23>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 190));
+		bool L_0 = __this->___m_Active;
+		return L_0;
+	}
+}
+// Method Definition Index: 139352
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnstableConnection_set_Randomizer_m4655283CCAA86B6CDBCD735BAC17C04E55A51365_inline (UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49* __this, Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_set_Randomizer_m4655283CCAA86B6CDBCD735BAC17C04E55A51365_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnstableConnection_t4F29DEA9A4140A4B7D968A2EB7F3802879E12A49_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnstableConnection_set_Randomizer_m4655283CCAA86B6CDBCD735BAC17C04E55A51365_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 147));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 148));
+	{
+		//<source_info:C:/Users/user/My project (2)/Assets/Samples/Multiplayer Tools/2.2.8/Network Scenario Samples/UnstableConnection.cs:158>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsSamples_NetworkScenarios + 149));
+		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_0 = ___0_value;
+		__this->___U3CRandomizerU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRandomizerU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 11626
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}

@@ -26,14 +26,17 @@ extern void ServicesInitialization_InitializeOnStartAsync_mF1D17B473A34695A8734A
 extern void ServicesInitialization_BuildInitializationOptions_mCC49852AB109F36AF17CB44E6AD09CDFD23AE826 (void);
 extern void ServicesInitialization_OnInitialized_mFBA5D0D8FE7BEEA6FB4C5F5D343B5D74CFD1792E (void);
 extern void ServicesInitialization_OnInitializeFailed_m77B8BBE8BEA19794B7A387270C50FBDA6519E921 (void);
+extern void U3CInitializeOnStartAsyncU3Ed__13__ctor_mFA89A9524023EA28870305F0253D861D2260F0C6 (void);
 extern void U3CInitializeOnStartAsyncU3Ed__13_MoveNext_m01ED5ABCD403B04ECE61D4AFACB57170C5C680EA (void);
 extern void U3CInitializeOnStartAsyncU3Ed__13_SetStateMachine_m4426AB91B58C58B67D20791111ADE8611C8BF16F (void);
+extern void U3COnServicesReadyU3Ed__9__ctor_mD6138B8B02F8C652FB881CB71E8A0D59E1624B5F (void);
 extern void U3COnServicesReadyU3Ed__9_MoveNext_m244D865603DB4E4CEE1DCDD5028A9C7E5AC7D9EF (void);
 extern void U3COnServicesReadyU3Ed__9_SetStateMachine_m782C155B9A43C1001243108988C17C161F7D3B68 (void);
+extern void U3CSetupAsyncU3Ed__12__ctor_m143F5D86CAC1CF62B8915C13D18F3E4710A7FD21 (void);
 extern void U3CSetupAsyncU3Ed__12_MoveNext_m937E72D665DA5981B2E5FA23F1BCE8B2696E4699 (void);
 extern void U3CSetupAsyncU3Ed__12_SetStateMachine_m9AA49ABF10AEF8EB53043223C5E7F59DB376EE25 (void);
 extern void ServicesInitializationEvents__ctor_m6E2A274328DAF745CEB9826E55B37B2048836796 (void);
-static Il2CppMethodPointer s_methodPointers[29] = 
+static Il2CppMethodPointer s_methodPointers[32] = 
 {
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA347E420C42AE02E1309EFE8A445211B3827AA3F,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3F020A1075D1B06EF6E69CF148F5B8407A50152A,
@@ -57,69 +60,61 @@ static Il2CppMethodPointer s_methodPointers[29] =
 	ServicesInitialization_BuildInitializationOptions_mCC49852AB109F36AF17CB44E6AD09CDFD23AE826,
 	ServicesInitialization_OnInitialized_mFBA5D0D8FE7BEEA6FB4C5F5D343B5D74CFD1792E,
 	ServicesInitialization_OnInitializeFailed_m77B8BBE8BEA19794B7A387270C50FBDA6519E921,
+	U3CInitializeOnStartAsyncU3Ed__13__ctor_mFA89A9524023EA28870305F0253D861D2260F0C6,
 	U3CInitializeOnStartAsyncU3Ed__13_MoveNext_m01ED5ABCD403B04ECE61D4AFACB57170C5C680EA,
 	U3CInitializeOnStartAsyncU3Ed__13_SetStateMachine_m4426AB91B58C58B67D20791111ADE8611C8BF16F,
+	U3COnServicesReadyU3Ed__9__ctor_mD6138B8B02F8C652FB881CB71E8A0D59E1624B5F,
 	U3COnServicesReadyU3Ed__9_MoveNext_m244D865603DB4E4CEE1DCDD5028A9C7E5AC7D9EF,
 	U3COnServicesReadyU3Ed__9_SetStateMachine_m782C155B9A43C1001243108988C17C161F7D3B68,
+	U3CSetupAsyncU3Ed__12__ctor_m143F5D86CAC1CF62B8915C13D18F3E4710A7FD21,
 	U3CSetupAsyncU3Ed__12_MoveNext_m937E72D665DA5981B2E5FA23F1BCE8B2696E4699,
 	U3CSetupAsyncU3Ed__12_SetStateMachine_m9AA49ABF10AEF8EB53043223C5E7F59DB376EE25,
 	ServicesInitializationEvents__ctor_m6E2A274328DAF745CEB9826E55B37B2048836796,
 };
-extern void U3CInitializeOnStartAsyncU3Ed__13_MoveNext_m01ED5ABCD403B04ECE61D4AFACB57170C5C680EA_AdjustorThunk (void);
-extern void U3CInitializeOnStartAsyncU3Ed__13_SetStateMachine_m4426AB91B58C58B67D20791111ADE8611C8BF16F_AdjustorThunk (void);
-extern void U3COnServicesReadyU3Ed__9_MoveNext_m244D865603DB4E4CEE1DCDD5028A9C7E5AC7D9EF_AdjustorThunk (void);
-extern void U3COnServicesReadyU3Ed__9_SetStateMachine_m782C155B9A43C1001243108988C17C161F7D3B68_AdjustorThunk (void);
-extern void U3CSetupAsyncU3Ed__12_MoveNext_m937E72D665DA5981B2E5FA23F1BCE8B2696E4699_AdjustorThunk (void);
-extern void U3CSetupAsyncU3Ed__12_SetStateMachine_m9AA49ABF10AEF8EB53043223C5E7F59DB376EE25_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[6] = 
+static const int32_t s_InvokerIndices[32] = 
 {
-	{ 0x06000017, U3CInitializeOnStartAsyncU3Ed__13_MoveNext_m01ED5ABCD403B04ECE61D4AFACB57170C5C680EA_AdjustorThunk },
-	{ 0x06000018, U3CInitializeOnStartAsyncU3Ed__13_SetStateMachine_m4426AB91B58C58B67D20791111ADE8611C8BF16F_AdjustorThunk },
-	{ 0x06000019, U3COnServicesReadyU3Ed__9_MoveNext_m244D865603DB4E4CEE1DCDD5028A9C7E5AC7D9EF_AdjustorThunk },
-	{ 0x0600001A, U3COnServicesReadyU3Ed__9_SetStateMachine_m782C155B9A43C1001243108988C17C161F7D3B68_AdjustorThunk },
-	{ 0x0600001B, U3CSetupAsyncU3Ed__12_MoveNext_m937E72D665DA5981B2E5FA23F1BCE8B2696E4699_AdjustorThunk },
-	{ 0x0600001C, U3CSetupAsyncU3Ed__12_SetStateMachine_m9AA49ABF10AEF8EB53043223C5E7F59DB376EE25_AdjustorThunk },
+	43228,
+	25527,
+	25243,
+	19155,
+	25527,
+	25527,
+	25527,
+	-1,
+	-1,
+	-1,
+	25527,
+	24972,
+	18881,
+	25527,
+	25527,
+	25527,
+	25527,
+	25243,
+	25243,
+	25243,
+	25527,
+	19155,
+	25527,
+	25527,
+	19155,
+	25527,
+	25527,
+	19155,
+	25527,
+	25527,
+	19155,
+	25527,
 };
-static const int32_t s_InvokerIndices[29] = 
-{
-	35905,
-	21511,
-	21257,
-	16381,
-	21511,
-	21511,
-	21511,
-	-1,
-	-1,
-	-1,
-	21511,
-	21011,
-	16133,
-	21511,
-	21511,
-	21511,
-	21511,
-	21257,
-	21257,
-	21257,
-	21511,
-	16381,
-	21511,
-	16381,
-	21511,
-	16381,
-	21511,
-	16381,
-	21511,
-};
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_Services_Core_Components;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Services_Core_Components_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Services_Core_Components_CodeGenModule = 
 {
 	"Unity.Services.Core.Components.dll",
-	29,
+	32,
 	s_methodPointers,
-	6,
-	s_adjustorThunks,
+	0,
+	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
@@ -127,7 +122,7 @@ const Il2CppCodeGenModule g_Unity_Services_Core_Components_CodeGenModule =
 	NULL,
 	0,
 	NULL,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnity_Services_Core_Components,
 	NULL,
 	NULL,
 	NULL,

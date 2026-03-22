@@ -35,33 +35,25 @@
         "dependencies": [
           {
             "name": "Animation",
-            "scenes": [
-              "Assets/Scenes/ARScene.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AnimationClip",
-            "scenes": [
-              "Assets/Scenes/ARScene.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "Animator",
-            "scenes": [
-              "Assets/Scenes/ARScene.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AnimatorController",
-            "scenes": [
-              "Assets/Scenes/ARScene.unity"
-            ],
+            "scenes": [],
             "dependencyType": 1,
             "icon": null
           },
@@ -72,9 +64,21 @@
             "icon": null
           },
           {
+            "name": "Avatar",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AvatarMask",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Motion",
             "scenes": [],
-            "dependencyType": 1,
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -82,6 +86,12 @@
             "scenes": [],
             "dependencyType": 1,
             "icon": null
+          },
+          {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
           }
         ]
       },
@@ -144,6 +154,12 @@
             "scenes": [],
             "dependencyType": 1,
             "icon": null
+          },
+          {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
           }
         ]
       },
@@ -579,10 +595,22 @@
             "icon": "package/com.unity.modules.crashreporting"
           },
           {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
+          },
+          {
             "name": "Required by GraphicsStateCollectionSerializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.graphicsstatecollectionserializer"
+          },
+          {
+            "name": "Required by Grid Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.grid"
           },
           {
             "name": "Required by HierarchyCore Module",
@@ -669,10 +697,28 @@
             "icon": "package/com.unity.modules.properties"
           },
           {
+            "name": "Required by RenderAs2D Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.renderas2d"
+          },
+          {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
+          },
+          {
+            "name": "Required by SpriteMask Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spritemask"
+          },
+          {
+            "name": "Required by SpriteShape Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spriteshape"
           },
           {
             "name": "Required by Subsystems Module",
@@ -709,6 +755,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.textrendering"
+          },
+          {
+            "name": "Required by Tilemap Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.tilemap"
           },
           {
             "name": "Required by UI Module",
@@ -784,6 +836,17 @@
         ]
       },
       {
+        "name": "Director",
+        "dependencies": [
+          {
+            "name": "PlayableDirector",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "GraphicsStateCollectionSerializer",
         "dependencies": [
           {
@@ -791,6 +854,23 @@
             "scenes": [],
             "dependencyType": 3,
             "icon": "class/DefaultAsset"
+          }
+        ]
+      },
+      {
+        "name": "Grid",
+        "dependencies": [
+          {
+            "name": "GridLayout",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by Tilemap Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.tilemap"
           }
         ]
       },
@@ -1109,7 +1189,19 @@
             "icon": null
           },
           {
+            "name": "BoxCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Collider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "CompositeCollider2D",
             "scenes": [],
             "dependencyType": 0,
             "icon": null
@@ -1133,10 +1225,22 @@
             "icon": null
           },
           {
+            "name": "PolygonCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Rigidbody2D",
             "scenes": [],
             "dependencyType": 0,
             "icon": null
+          },
+          {
+            "name": "Required by Tilemap Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.tilemap"
           }
         ]
       },
@@ -1161,6 +1265,10 @@
             "icon": "package/com.unity.modules.uielements"
           }
         ]
+      },
+      {
+        "name": "RenderAs2D",
+        "dependencies": []
       },
       {
         "name": "RuntimeInitializeOnLoadManagerInitializer",
@@ -1219,10 +1327,22 @@
             "icon": "package/com.unity.modules.crashreporting"
           },
           {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
+          },
+          {
             "name": "Required by GraphicsStateCollectionSerializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.graphicsstatecollectionserializer"
+          },
+          {
+            "name": "Required by Grid Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.grid"
           },
           {
             "name": "Required by HierarchyCore Module",
@@ -1309,10 +1429,28 @@
             "icon": "package/com.unity.modules.properties"
           },
           {
+            "name": "Required by RenderAs2D Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.renderas2d"
+          },
+          {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
+          },
+          {
+            "name": "Required by SpriteMask Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spritemask"
+          },
+          {
+            "name": "Required by SpriteShape Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spriteshape"
           },
           {
             "name": "Required by Subsystems Module",
@@ -1349,6 +1487,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.textrendering"
+          },
+          {
+            "name": "Required by Tilemap Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.tilemap"
           },
           {
             "name": "Required by UI Module",
@@ -1409,6 +1553,21 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.xr"
+          }
+        ]
+      },
+      {
+        "name": "SpriteMask",
+        "dependencies": []
+      },
+      {
+        "name": "SpriteShape",
+        "dependencies": [
+          {
+            "name": "Required by SpriteMask Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spritemask"
           }
         ]
       },
@@ -1543,6 +1702,29 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.uielements"
+          }
+        ]
+      },
+      {
+        "name": "Tilemap",
+        "dependencies": [
+          {
+            "name": "Tilemap",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "TilemapRenderer",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by SpriteMask Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spritemask"
           }
         ]
       },

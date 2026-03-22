@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9104425371117137886}
   - component: {fileID: 902696197218894241}
   - component: {fileID: 3057219130848585046}
-  - component: {fileID: 3628437450474166848}
+  - component: {fileID: 4306303808878111461}
   m_Layer: 0
   m_Name: Network Manager
   m_TagString: Untagged
@@ -61,7 +61,7 @@ MonoBehaviour:
     EnableTimeResync: 0
     TimeResyncInterval: 30
     EnsureNetworkVariableLengthSafety: 0
-    EnableSceneManagement: 1
+    EnableSceneManagement: 0
     ForceSamePrefabs: 1
     RecycleNetworkIds: 1
     NetworkIdRecycleDelay: 120
@@ -106,7 +106,7 @@ MonoBehaviour:
     PacketDelayMS: 0
     PacketJitterMS: 0
     PacketDropRate: 0
---- !u!114 &3628437450474166848
+--- !u!114 &4306303808878111461
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,9 +115,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1592996140958655772}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62ff00e2d1274f24b8b56192ac96e9b8, type: 3}
+  m_Script: {fileID: 11500000, guid: f519df9f07130f343bf43e4b4ad8d7de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ConnectionManager
-  sessionName: PUTANA145
+  installer: {fileID: 0}
   maxPlayers: 10
   enableLogs: 1

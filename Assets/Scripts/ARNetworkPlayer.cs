@@ -54,18 +54,44 @@ public class ARNetworkPlayer : NetworkBehaviour
         base.OnNetworkDespawn();
     }
 
+    // private void LateUpdate()
+    // {
+    //     if (!IsSpawned || !IsOwner)
+    //         return;
+
+    //     if (!_localRigBound)
+    //     {
+    //         TryLateBindLocalRig();
+    //         return;
+    //     }
+
+    //     CopyPose(_localArCamera, networkedCameraProxy);
+    //     // Debug.Log("LateUpdate Moving...");
+    // }
+
     private void LateUpdate()
     {
-        if (!IsSpawned || !IsOwner)
+        if (!IsSpawned)
             return;
 
-        if (!_localRigBound)
+        if (IsOwner)
         {
-            TryLateBindLocalRig();
-            return;
-        }
+            if (!_localRigBound)
+            {
+                TryLateBindLocalRig();
+                return;
+            }
 
-        CopyPose(_localArCamera, networkedCameraProxy);
+            CopyPose(_localArCamera, networkedCameraProxy);
+            
+            // Log owner
+            Debug.Log($"[ARNetworkPlayer] OWNER writing pos: {networkedCameraProxy.position}");
+        }
+        else
+        {
+            // Log non-owner — est-ce que la position bouge ?
+            Debug.Log($"[ARNetworkPlayer] NON-OWNER sees proxy pos: {networkedCameraProxy.position}");
+        }
     }
 
     private void BindLocalRig()
@@ -99,9 +125,11 @@ public class ARNetworkPlayer : NetworkBehaviour
 
     private void TryLateBindLocalRig()
     {
+        
         if (ARBootstrapper.Instance == null)
             return;
 
+        Debug.Log("TryLateBindLocalRig Moving...");
         BindLocalRig();
     }
 
@@ -136,8 +164,12 @@ public class ARNetworkPlayer : NetworkBehaviour
 
     private static void CopyPose(Transform source, Transform target)
     {
+        Debug.Log("AR CopyPose");
+
         if (source == null || target == null)
             return;
+
+        Debug.Log("AR Passed CopyPose");
 
         Transform parent = target.parent;
 
@@ -150,5 +182,7 @@ public class ARNetworkPlayer : NetworkBehaviour
 
         target.localPosition = parent.InverseTransformPoint(source.position);
         target.localRotation = Quaternion.Inverse(parent.rotation) * source.rotation;
+
+        // Debug.Log($"CopyPose Moving... Local {target.localPosition} ; pos {target.position}"); 
     }
 }

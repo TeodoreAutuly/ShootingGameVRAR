@@ -9,8 +9,11 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public class ARConnectionManager : MonoBehaviour
 {
+    private string sessionName = "";
+
     [Header("Session")]
-    [SerializeField] private string sessionName = "popo2"; 
+    [SerializeField] private ARConnectionUIView lobbyView ;     
+
     [SerializeField] private int maxPlayers = 10;
 
     [Header("Debug")]
@@ -29,9 +32,16 @@ public class ARConnectionManager : MonoBehaviour
         _networkManager.OnSessionOwnerPromoted += OnSessionOwnerPromoted;
     }
 
-    private async void Start()
+    private void Start()
     {
-        await ConnectAsync();
+        if (lobbyView != null)
+        {
+            lobbyView.OnCodeValidated += HandleCodeValidated;
+        }
+        else
+        {
+            Debug.LogWarning("[ARConnectionManager] Vue non disponible au Start.", this);
+        }
     }
 
     public async Task ConnectAsync()
@@ -116,14 +126,19 @@ public class ARConnectionManager : MonoBehaviour
                 $"[ARConnectionManager] Session ready. Name='{_session.Name}', Id='{_session.Id}'",
                 this
             );
+            lobbyView.HideUI();
         }
     }
+
+    [SerializeField] private NetworkObject playerPrefab;
 
     private void OnClientConnected(ulong clientId)
     {
         if (_networkManager.LocalClientId != clientId)
             return;
-
+        NetworkObject playerInstance = Instantiate(playerPrefab);
+        playerInstance.SpawnWithOwnership(clientId);
+        
         Debug.Log($"[ARConnectionManager] Local client connected. ClientId = {clientId}", this);
     }
 
@@ -152,6 +167,11 @@ public class ARConnectionManager : MonoBehaviour
             _networkManager.OnSessionOwnerPromoted -= OnSessionOwnerPromoted;
         }
 
+        if (lobbyView != null)
+        {
+            lobbyView.OnCodeValidated -= HandleCodeValidated;
+        }
+
         if (_session != null)
         {
             try
@@ -165,5 +185,21 @@ public class ARConnectionManager : MonoBehaviour
 
             _session = null;
         }
+    }
+
+    private async void HandleCodeValidated(string code)
+    {
+        if (string.IsNullOrWhiteSpace(code))
+        {
+            Debug.LogWarning("[ARConnectionManager] CodeValidated reçu, mais le code est vide.", this);
+            return;
+        }
+
+        sessionName = code;
+
+        if (enableLogs)
+            Debug.Log($"[ARConnectionManager] Nouveau sessionName reçu : {sessionName}", this);
+
+        await ConnectAsync();
     }
 }

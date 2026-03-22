@@ -7,7 +7,9 @@
 
 struct CurrentPlayerApi_tBA7E3D451058BF490343DD8582F0E1DA867DD63A;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_MultiplayerModule[];
 IL2CPP_EXTERN_C RuntimeClass* CurrentPlayer_tA38F5DE026D7800F8A64FB198765CD6F1D88EA68_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CurrentPlayer_ReloadLatestTagsOnEnterPlaymode_mE780AB0F8B1693982575A991C87FB3689BDBDFCD_RuntimeMethod_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -77,18 +79,25 @@ struct CurrentPlayer_tA38F5DE026D7800F8A64FB198765CD6F1D88EA68_StaticFields
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131666
+// Method Definition Index: 140223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayer_ReloadLatestTagsOnEnterPlaymode_mE780AB0F8B1693982575A991C87FB3689BDBDFCD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CurrentPlayer_ReloadLatestTagsOnEnterPlaymode_mE780AB0F8B1693982575A991C87FB3689BDBDFCD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CurrentPlayer_tA38F5DE026D7800F8A64FB198765CD6F1D88EA68_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CurrentPlayer_ReloadLatestTagsOnEnterPlaymode_mE780AB0F8B1693982575A991C87FB3689BDBDFCD_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_MultiplayerModule + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_MultiplayerModule + 1));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_MultiplayerModule + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_MultiplayerModule + 3));
 		((CurrentPlayer_tA38F5DE026D7800F8A64FB198765CD6F1D88EA68_StaticFields*)il2cpp_codegen_static_fields_for(CurrentPlayer_tA38F5DE026D7800F8A64FB198765CD6F1D88EA68_il2cpp_TypeInfo_var))->___s_CurrentPlayerApi = (CurrentPlayerApi_tBA7E3D451058BF490343DD8582F0E1DA867DD63A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((CurrentPlayer_tA38F5DE026D7800F8A64FB198765CD6F1D88EA68_StaticFields*)il2cpp_codegen_static_fields_for(CurrentPlayer_tA38F5DE026D7800F8A64FB198765CD6F1D88EA68_il2cpp_TypeInfo_var))->___s_CurrentPlayerApi), (void*)(CurrentPlayerApi_tBA7E3D451058BF490343DD8582F0E1DA867DD63A*)NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_MultiplayerModule + 4));
 		return;
 	}
 }

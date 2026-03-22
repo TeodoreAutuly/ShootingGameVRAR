@@ -18,10 +18,11 @@ static Il2CppMethodPointer s_methodPointers[3] =
 };
 static const int32_t s_InvokerIndices[3] = 
 {
-	21257,
-	16381,
-	21511,
+	25243,
+	19155,
+	25527,
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_Services_Core_Environments_Internal;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Services_Core_Environments_Internal_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Services_Core_Environments_Internal_CodeGenModule = 
 {
@@ -37,7 +38,7 @@ const Il2CppCodeGenModule g_Unity_Services_Core_Environments_Internal_CodeGenMod
 	NULL,
 	0,
 	NULL,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnity_Services_Core_Environments_Internal,
 	NULL,
 	NULL,
 	NULL,

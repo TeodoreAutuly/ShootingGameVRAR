@@ -59,6 +59,7 @@ struct UtcTimeProvider_t45FE04D3C9372C9089808CBF396C87E62AA26743;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_Services_Core_Scheduler[];
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var;
@@ -75,8 +76,13 @@ IL2CPP_EXTERN_C RuntimeClass* UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE95
 IL2CPP_EXTERN_C RuntimeClass* UtcTimeProvider_t45FE04D3C9372C9089808CBF396C87E62AA26743_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral7028C7CE8A2E408C86531D117C3BF7BE94AF10D4;
 IL2CPP_EXTERN_C String_t* _stringLiteralF9010398F7F524C05AB19445BDCE02E617A3E267;
+IL2CPP_EXTERN_C const RuntimeMethod* ActionScheduler_CancelAction_mDC93985AECBE933318100A3BC5530E1D63F37875_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ActionScheduler_ExecuteExpiredActions_mB683F55950DD543D90A479DF7E68539969F2B48C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ActionScheduler_JoinPlayerLoopSystem_mB998001E51285B4DF2406DE197A3A5377BD62892_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ActionScheduler_ScheduleAction_m6D586ADFCCA974FEBA1D7E23AA3D3DBBA517F8CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ActionScheduler_UpdateCurrentPlayerLoopWith_m32DBF6F37F3D8776484265E95830FEFA40C6A230_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ActionScheduler__ctor_m3F34A80C3965C10463085599131EA2A7A488C0AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ActionScheduler__ctor_m65721521873C0894B75820E4DC934F47E068495D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_mF48375565652F72160F059EB62C1FC8A6331A0AA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_m4EEA35DDD180B435CA4CCB7714A4FF4844ADFE34_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_mD4BDCE432034E3DD2E6E079602DF5CE6C804937C_RuntimeMethod_var;
@@ -98,10 +104,26 @@ IL2CPP_EXTERN_C const RuntimeMethod* MinimumBinaryHeap_1_Remove_mB0E42318CD57417
 IL2CPP_EXTERN_C const RuntimeMethod* MinimumBinaryHeap_1__ctor_m9C7E57F3215D01D6C3543B43940790F1AD3BA4F4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MinimumBinaryHeap_1_get_Count_m6E5BF62E288479F49068E184B79AFA6DD21ED588_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MinimumBinaryHeap_1_get_Min_m20F161E9A7C1A2CD4AAD86738EC2624ED43E6383_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MinimumBinaryHeap__ctor_mC63658A36EB912677E6346A2991932B83CED0B5F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_GetValueOrDefault_mBE26FDBA8873F7AE883FF290864E1D2665EAC52F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mB17304720EA19F5469A4883827F53A75FEB492CF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_m092C73DCE052BFB5C60A39EF9F4E3401AA95221C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScheduledInvocationComparer_Compare_m288DA5B3B9D15E393A57ADABBADD311975DD9FE4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScheduledInvocationComparer__ctor_mBC023A46362D70B10A4FB65D8C0BB653C9F5F972_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScheduledInvocation__ctor_mB7D79780A933DBF3A750A1FABB2DAA45852513BD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UtcTimeProvider__ctor_m0B5F5EE010F7BDBED40E139D11D931E90D82DFE2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UtcTimeProvider_get_Now_m2BBC0DB7893BDC8457768D897F441264BA779A3F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Enumerator_tAE300C7056BDE583F62C47321CE68904319DE228_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Exception_t_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MinimumBinaryHeap_1_t37ED37312921F6F3B0804DA2BCFC700038FC615A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ScheduledInvocationComparer_t785D4501646D05413E8F88FAECD14D9902742CC2_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* UtcTimeProvider_t45FE04D3C9372C9089808CBF396C87E62AA26743_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -731,31 +753,45 @@ inline void List_1_AddWithResize_m3315453B2B00D694353A29FE8E49681D72763A1D (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131483
+// Method Definition Index: 139996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler__ctor_m65721521873C0894B75820E4DC934F47E068495D (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler__ctor_m65721521873C0894B75820E4DC934F47E068495D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UtcTimeProvider_t45FE04D3C9372C9089808CBF396C87E62AA26743_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ActionScheduler__ctor_m65721521873C0894B75820E4DC934F47E068495D_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 1));
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:36>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 2));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 3));
 		UtcTimeProvider_t45FE04D3C9372C9089808CBF396C87E62AA26743* L_0 = (UtcTimeProvider_t45FE04D3C9372C9089808CBF396C87E62AA26743*)il2cpp_codegen_object_new(UtcTimeProvider_t45FE04D3C9372C9089808CBF396C87E62AA26743_il2cpp_TypeInfo_var);
 		UtcTimeProvider__ctor_m0B5F5EE010F7BDBED40E139D11D931E90D82DFE2(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 3));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 4));
 		ActionScheduler__ctor_m3F34A80C3965C10463085599131EA2A7A488C0AF(__this, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 4));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 5));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:36>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 6));
 		return;
 	}
 }
-// Method Definition Index: 131484
+// Method Definition Index: 139997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler__ctor_m3F34A80C3965C10463085599131EA2A7A488C0AF (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154* __this, RuntimeObject* ___0_timeProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler_ExecuteExpiredActions_mB683F55950DD543D90A479DF7E68539969F2B48C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler__ctor_m3F34A80C3965C10463085599131EA2A7A488C0AF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mC2C4F027C0F5DF5863AC1194299269D2907550D2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t2306F810ADE46E708DBCF5BFFD57ED345A61D8CA_il2cpp_TypeInfo_var);
@@ -763,6 +799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler__ctor_m3F34A80C3965C1046
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tFD4080EF47ACD067F2E4AB57C9E2E8E64CA953E3_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MinimumBinaryHeap_1__ctor_m9C7E57F3215D01D6C3543B43940790F1AD3BA4F4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MinimumBinaryHeap_1_tB7A85B4D870F0107AF6031545D6054927A1CB7AD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScheduledInvocationComparer_t785D4501646D05413E8F88FAECD14D9902742CC2_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4_il2cpp_TypeInfo_var);
@@ -770,36 +807,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler__ctor_m3F34A80C3965C1046
 	}
 	PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_timeProvider));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ActionScheduler__ctor_m3F34A80C3965C10463085599131EA2A7A488C0AF_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 7));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 8));
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:23>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 9));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 10));
 		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 10));
 		__this->___m_Lock = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Lock), (void*)L_0);
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:25>
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:26>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 11));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 12));
 		ScheduledInvocationComparer_t785D4501646D05413E8F88FAECD14D9902742CC2* L_1 = (ScheduledInvocationComparer_t785D4501646D05413E8F88FAECD14D9902742CC2*)il2cpp_codegen_object_new(ScheduledInvocationComparer_t785D4501646D05413E8F88FAECD14D9902742CC2_il2cpp_TypeInfo_var);
 		ScheduledInvocationComparer__ctor_mBC023A46362D70B10A4FB65D8C0BB653C9F5F972(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 12));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 13));
 		MinimumBinaryHeap_1_tB7A85B4D870F0107AF6031545D6054927A1CB7AD* L_2 = (MinimumBinaryHeap_1_tB7A85B4D870F0107AF6031545D6054927A1CB7AD*)il2cpp_codegen_object_new(MinimumBinaryHeap_1_tB7A85B4D870F0107AF6031545D6054927A1CB7AD_il2cpp_TypeInfo_var);
 		MinimumBinaryHeap_1__ctor_m9C7E57F3215D01D6C3543B43940790F1AD3BA4F4(L_2, L_1, ((int32_t)10), MinimumBinaryHeap_1__ctor_m9C7E57F3215D01D6C3543B43940790F1AD3BA4F4_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 13));
 		__this->___m_ScheduledActions = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ScheduledActions), (void*)L_2);
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:28>
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:29>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 14));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 15));
 		Dictionary_2_t2306F810ADE46E708DBCF5BFFD57ED345A61D8CA* L_3 = (Dictionary_2_t2306F810ADE46E708DBCF5BFFD57ED345A61D8CA*)il2cpp_codegen_object_new(Dictionary_2_t2306F810ADE46E708DBCF5BFFD57ED345A61D8CA_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mC2C4F027C0F5DF5863AC1194299269D2907550D2(L_3, Dictionary_2__ctor_mC2C4F027C0F5DF5863AC1194299269D2907550D2_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 15));
 		__this->___m_IdScheduledInvocationMap = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_IdScheduledInvocationMap), (void*)L_3);
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:31>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 16));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 17));
 		List_1_tFD4080EF47ACD067F2E4AB57C9E2E8E64CA953E3* L_4 = (List_1_tFD4080EF47ACD067F2E4AB57C9E2E8E64CA953E3*)il2cpp_codegen_object_new(List_1_tFD4080EF47ACD067F2E4AB57C9E2E8E64CA953E3_il2cpp_TypeInfo_var);
 		List_1__ctor_mDB148E7C9F949120117B65AD14BDD7A5832ABA2F(L_4, List_1__ctor_mDB148E7C9F949120117B65AD14BDD7A5832ABA2F_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 17));
 		__this->___m_ExpiredActions = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ExpiredActions), (void*)L_4);
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:33>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 18));
 		__this->___m_NextId = ((int64_t)1);
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:38>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 19));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 20));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 20));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 21));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:40>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 22));
 		RuntimeObject* L_5 = ___0_timeProvider;
 		__this->___m_TimeProvider = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TimeProvider), (void*)L_5);
@@ -808,15 +870,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler__ctor_m3F34A80C3965C1046
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:43>
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:44>
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:45>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 23));
 		il2cpp_codegen_initobj((&V_0), sizeof(PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F));
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154_0_0_0_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 24));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_7;
 		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 24));
 		(&V_0)->___type = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___type), (void*)L_7);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 25));
 		UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4* L_8 = (UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4*)il2cpp_codegen_object_new(UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4_il2cpp_TypeInfo_var);
 		UpdateFunction__ctor_m0D1D766F22D02176396DA6745A60EA046EE8227B(L_8, __this, (intptr_t)((void*)ActionScheduler_ExecuteExpiredActions_mB683F55950DD543D90A479DF7E68539969F2B48C_RuntimeMethod_var), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 25));
 		(&V_0)->___updateDelegate = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___updateDelegate), (void*)L_8);
 		PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F L_9 = V_0;
@@ -829,162 +896,225 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler__ctor_m3F34A80C3965C1046
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___SchedulerLoopSystem))->___updateDelegate), (void*)NULL);
 		#endif
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:46>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 26));
 		return;
 	}
 }
-// Method Definition Index: 131485
+// Method Definition Index: 139998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t ActionScheduler_ScheduleAction_m6D586ADFCCA974FEBA1D7E23AA3D3DBBA517F8CD (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_action, double ___1_delaySeconds, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler_ScheduleAction_m6D586ADFCCA974FEBA1D7E23AA3D3DBBA517F8CD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_mF48375565652F72160F059EB62C1FC8A6331A0AA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ITimeProvider_t6CB8C4316E58E0ABEFDEAAF4FA47B90DE03CD2E6_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MinimumBinaryHeap_1_Insert_m7AD50B20077FD1D21C8A8849E35493078CEB85C4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	RuntimeObject* V_0 = NULL;
+	bool V_0 = false;
 	bool V_1 = false;
-	ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* V_2 = NULL;
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_3;
-	memset((&V_3), 0, sizeof(V_3));
-	int64_t V_4 = 0;
+	RuntimeObject* V_2 = NULL;
+	bool V_3 = false;
+	ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* V_4 = NULL;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int64_t V_6 = 0;
+	bool V_7 = false;
+	int64_t V_8 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_action), (&___1_delaySeconds));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_4));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ActionScheduler_ScheduleAction_m6D586ADFCCA974FEBA1D7E23AA3D3DBBA517F8CD_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 27));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 28));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 29));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:52>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 30));
 		double L_0 = ___1_delaySeconds;
-		if ((!(((double)L_0) < ((double)(0.0)))))
+		V_0 = (bool)((((double)L_0) < ((double)(0.0)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 31));
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0017;
+			goto IL_001d;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 32));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:54>
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_1 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7028C7CE8A2E408C86531D117C3BF7BE94AF10D4)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ActionScheduler_ScheduleAction_m6D586ADFCCA974FEBA1D7E23AA3D3DBBA517F8CD_RuntimeMethod_var)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 33));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 34));
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_2 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7028C7CE8A2E408C86531D117C3BF7BE94AF10D4)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 34));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ActionScheduler_ScheduleAction_m6D586ADFCCA974FEBA1D7E23AA3D3DBBA517F8CD_RuntimeMethod_var)));
 	}
 
-IL_0017:
+IL_001d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:57>
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___0_action;
-		if (L_2)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 35));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_action;
+		V_1 = (bool)((((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_3) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 36));
+		bool L_4 = V_1;
+		if (!L_4)
 		{
-			goto IL_0025;
+			goto IL_0031;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 37));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:59>
-		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_3 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
-		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF9010398F7F524C05AB19445BDCE02E617A3E267)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ActionScheduler_ScheduleAction_m6D586ADFCCA974FEBA1D7E23AA3D3DBBA517F8CD_RuntimeMethod_var)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 38));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 39));
+		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_5 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF9010398F7F524C05AB19445BDCE02E617A3E267)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 39));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ActionScheduler_ScheduleAction_m6D586ADFCCA974FEBA1D7E23AA3D3DBBA517F8CD_RuntimeMethod_var)));
 	}
 
-IL_0025:
+IL_0031:
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:62>
-		RuntimeObject* L_4 = __this->___m_Lock;
-		V_0 = L_4;
-		V_1 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 40));
+		RuntimeObject* L_6 = __this->___m_Lock;
+		V_2 = L_6;
+		V_3 = (bool)0;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_00b2:
+FINALLY_00d0:
 			{
+				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					bool L_5 = V_1;
-					if (!L_5)
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 57));
+					bool L_7 = V_3;
+					if (!L_7)
 					{
-						goto IL_00bb;
+						goto IL_00da;
 					}
 				}
 				{
-					RuntimeObject* L_6 = V_0;
-					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_6, NULL);
+					RuntimeObject* L_8 = V_2;
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 58));
+					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_8, NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 58));
 				}
 
-IL_00bb:
+IL_00da:
 				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 59));
 					return;
 				}
 			}
 		});
 		try
 		{
+			STORE_TRY_ID(methodExecutionContext, 0);
 			{
-				RuntimeObject* L_7 = V_0;
-				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_7, (&V_1), NULL);
+				RuntimeObject* L_9 = V_2;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 41));
+				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_9, (&V_3), NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 41));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 42));
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:64>
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:65>
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:66>
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:67>
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:68>
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:69>
-				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_8 = (ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93*)il2cpp_codegen_object_new(ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93_il2cpp_TypeInfo_var);
-				ScheduledInvocation__ctor_mB7D79780A933DBF3A750A1FABB2DAA45852513BD(L_8, NULL);
-				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_9 = L_8;
-				Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = ___0_action;
-				NullCheck(L_9);
-				L_9->___Action = L_10;
-				Il2CppCodeGenWriteBarrier((void**)(&L_9->___Action), (void*)L_10);
-				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_11 = L_9;
-				RuntimeObject* L_12 = __this->___m_TimeProvider;
-				NullCheck(L_12);
-				DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_13;
-				L_13 = InterfaceFuncInvoker0< DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D >::Invoke(0, ITimeProvider_t6CB8C4316E58E0ABEFDEAAF4FA47B90DE03CD2E6_il2cpp_TypeInfo_var, L_12);
-				V_3 = L_13;
-				double L_14 = ___1_delaySeconds;
-				il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
-				DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_15;
-				L_15 = DateTime_AddSeconds_mC5FE3FB22A1295CA747746ECE48B9D4A4B6B2E81((&V_3), L_14, NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 43));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 44));
+				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_10 = (ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93*)il2cpp_codegen_object_new(ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93_il2cpp_TypeInfo_var);
+				ScheduledInvocation__ctor_mB7D79780A933DBF3A750A1FABB2DAA45852513BD(L_10, NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 44));
+				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_11 = L_10;
+				Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_12 = ___0_action;
 				NullCheck(L_11);
-				L_11->___InvocationTime = L_15;
-				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_16 = L_11;
-				int64_t L_17 = __this->___m_NextId;
-				V_4 = L_17;
-				int64_t L_18 = V_4;
-				__this->___m_NextId = ((int64_t)il2cpp_codegen_add(L_18, ((int64_t)1)));
-				int64_t L_19 = V_4;
-				NullCheck(L_16);
-				L_16->___ActionId = L_19;
-				V_2 = L_16;
+				L_11->___Action = L_12;
+				Il2CppCodeGenWriteBarrier((void**)(&L_11->___Action), (void*)L_12);
+				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_13 = L_11;
+				RuntimeObject* L_14 = __this->___m_TimeProvider;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 45));
+				NullCheck(L_14);
+				DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_15;
+				L_15 = InterfaceFuncInvoker0< DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D >::Invoke(0, ITimeProvider_t6CB8C4316E58E0ABEFDEAAF4FA47B90DE03CD2E6_il2cpp_TypeInfo_var, L_14);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 45));
+				V_5 = L_15;
+				double L_16 = ___1_delaySeconds;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 46));
+				il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+				DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_17;
+				L_17 = DateTime_AddSeconds_mC5FE3FB22A1295CA747746ECE48B9D4A4B6B2E81((&V_5), L_16, NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 46));
+				NullCheck(L_13);
+				L_13->___InvocationTime = L_17;
+				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_18 = L_13;
+				int64_t L_19 = __this->___m_NextId;
+				V_6 = L_19;
+				int64_t L_20 = V_6;
+				__this->___m_NextId = ((int64_t)il2cpp_codegen_add(L_20, ((int64_t)1)));
+				int64_t L_21 = V_6;
+				NullCheck(L_18);
+				L_18->___ActionId = L_21;
+				V_4 = L_18;
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:71>
-				int64_t L_20 = __this->___m_NextId;
-				if ((((int64_t)L_20) >= ((int64_t)((int64_t)1))))
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 47));
+				int64_t L_22 = __this->___m_NextId;
+				V_7 = (bool)((((int64_t)L_22) < ((int64_t)((int64_t)1)))? 1 : 0);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 48));
+				bool L_23 = V_7;
+				if (!L_23)
 				{
-					goto IL_008a_1;
+					goto IL_00a2_1;
 				}
 			}
 			{
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 49));
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:73>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 50));
 				__this->___m_NextId = ((int64_t)1);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 51));
 			}
 
-IL_008a_1:
+IL_00a2_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:76>
-				MinimumBinaryHeap_1_tB7A85B4D870F0107AF6031545D6054927A1CB7AD* L_21 = __this->___m_ScheduledActions;
-				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_22 = V_2;
-				NullCheck(L_21);
-				MinimumBinaryHeap_1_Insert_m7AD50B20077FD1D21C8A8849E35493078CEB85C4(L_21, L_22, MinimumBinaryHeap_1_Insert_m7AD50B20077FD1D21C8A8849E35493078CEB85C4_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:77>
-				Dictionary_2_t2306F810ADE46E708DBCF5BFFD57ED345A61D8CA* L_23 = __this->___m_IdScheduledInvocationMap;
-				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_24 = V_2;
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 52));
+				MinimumBinaryHeap_1_tB7A85B4D870F0107AF6031545D6054927A1CB7AD* L_24 = __this->___m_ScheduledActions;
+				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_25 = V_4;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 53));
 				NullCheck(L_24);
-				int64_t L_25 = L_24->___ActionId;
-				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_26 = V_2;
-				NullCheck(L_23);
-				Dictionary_2_Add_mF48375565652F72160F059EB62C1FC8A6331A0AA(L_23, L_25, L_26, Dictionary_2_Add_mF48375565652F72160F059EB62C1FC8A6331A0AA_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:79>
-				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_27 = V_2;
+				MinimumBinaryHeap_1_Insert_m7AD50B20077FD1D21C8A8849E35493078CEB85C4(L_24, L_25, MinimumBinaryHeap_1_Insert_m7AD50B20077FD1D21C8A8849E35493078CEB85C4_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 53));
+				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:77>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 54));
+				Dictionary_2_t2306F810ADE46E708DBCF5BFFD57ED345A61D8CA* L_26 = __this->___m_IdScheduledInvocationMap;
+				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_27 = V_4;
 				NullCheck(L_27);
 				int64_t L_28 = L_27->___ActionId;
-				V_4 = L_28;
-				goto IL_00bc;
+				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_29 = V_4;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 55));
+				NullCheck(L_26);
+				Dictionary_2_Add_mF48375565652F72160F059EB62C1FC8A6331A0AA(L_26, L_28, L_29, Dictionary_2_Add_mF48375565652F72160F059EB62C1FC8A6331A0AA_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 55));
+				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:79>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 56));
+				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_30 = V_4;
+				NullCheck(L_30);
+				int64_t L_31 = L_30->___ActionId;
+				V_8 = L_31;
+				goto IL_00db;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -993,29 +1123,42 @@ IL_008a_1:
 		}
 	}
 
-IL_00bc:
+IL_00db:
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:81>
-		int64_t L_29 = V_4;
-		return L_29;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 60));
+		int64_t L_32 = V_8;
+		return L_32;
 	}
 }
-// Method Definition Index: 131486
+// Method Definition Index: 139999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler_CancelAction_mDC93985AECBE933318100A3BC5530E1D63F37875 (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154* __this, int64_t ___0_actionId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler_CancelAction_mDC93985AECBE933318100A3BC5530E1D63F37875_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_m4EEA35DDD180B435CA4CCB7714A4FF4844ADFE34_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mD4BDCE432034E3DD2E6E079602DF5CE6C804937C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MinimumBinaryHeap_1_Remove_mB0E42318CD574177F32E7FECD9CE8C3B6F1DB464_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
 	ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* V_2 = NULL;
+	bool V_3 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_actionId));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ActionScheduler_CancelAction_mDC93985AECBE933318100A3BC5530E1D63F37875_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 61));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 62));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 63));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:85>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 64));
 		RuntimeObject* L_0 = __this->___m_Lock;
 		V_0 = L_0;
 		V_1 = (bool)0;
@@ -1024,64 +1167,87 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler_CancelAction_mDC93985AEC
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0043:
+FINALLY_004e:
 			{
+				STORE_TRY_ID(methodExecutionContext, -1);
 				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 77));
 					bool L_1 = V_1;
 					if (!L_1)
 					{
-						goto IL_004c;
+						goto IL_0058;
 					}
 				}
 				{
 					RuntimeObject* L_2 = V_0;
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 78));
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_2, NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 78));
 				}
 
-IL_004c:
+IL_0058:
 				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 79));
 					return;
 				}
 			}
 		});
 		try
 		{
+			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				RuntimeObject* L_3 = V_0;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 65));
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 65));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 66));
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:87>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 67));
 				Dictionary_2_t2306F810ADE46E708DBCF5BFFD57ED345A61D8CA* L_4 = __this->___m_IdScheduledInvocationMap;
 				int64_t L_5 = ___0_actionId;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 68));
 				NullCheck(L_4);
 				bool L_6;
 				L_6 = Dictionary_2_TryGetValue_mD4BDCE432034E3DD2E6E079602DF5CE6C804937C(L_4, L_5, (&V_2), Dictionary_2_TryGetValue_mD4BDCE432034E3DD2E6E079602DF5CE6C804937C_RuntimeMethod_var);
-				if (L_6)
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 68));
+				V_3 = (bool)((((int32_t)L_6) == ((int32_t)0))? 1 : 0);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 69));
+				bool L_7 = V_3;
+				if (!L_7)
 				{
-					goto IL_0023_1;
+					goto IL_002c_1;
 				}
 			}
 			{
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 70));
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:89>
-				goto IL_004d;
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 71));
+				goto IL_0059;
 			}
 
-IL_0023_1:
+IL_002c_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:92>
-				MinimumBinaryHeap_1_tB7A85B4D870F0107AF6031545D6054927A1CB7AD* L_7 = __this->___m_ScheduledActions;
-				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_8 = V_2;
-				NullCheck(L_7);
-				MinimumBinaryHeap_1_Remove_mB0E42318CD574177F32E7FECD9CE8C3B6F1DB464(L_7, L_8, MinimumBinaryHeap_1_Remove_mB0E42318CD574177F32E7FECD9CE8C3B6F1DB464_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 72));
+				MinimumBinaryHeap_1_tB7A85B4D870F0107AF6031545D6054927A1CB7AD* L_8 = __this->___m_ScheduledActions;
+				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_9 = V_2;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 73));
+				NullCheck(L_8);
+				MinimumBinaryHeap_1_Remove_mB0E42318CD574177F32E7FECD9CE8C3B6F1DB464(L_8, L_9, MinimumBinaryHeap_1_Remove_mB0E42318CD574177F32E7FECD9CE8C3B6F1DB464_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 73));
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:93>
-				Dictionary_2_t2306F810ADE46E708DBCF5BFFD57ED345A61D8CA* L_9 = __this->___m_IdScheduledInvocationMap;
-				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_10 = V_2;
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 74));
+				Dictionary_2_t2306F810ADE46E708DBCF5BFFD57ED345A61D8CA* L_10 = __this->___m_IdScheduledInvocationMap;
+				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_11 = V_2;
+				NullCheck(L_11);
+				int64_t L_12 = L_11->___ActionId;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 75));
 				NullCheck(L_10);
-				int64_t L_11 = L_10->___ActionId;
-				NullCheck(L_9);
-				bool L_12;
-				L_12 = Dictionary_2_Remove_m4EEA35DDD180B435CA4CCB7714A4FF4844ADFE34(L_9, L_11, Dictionary_2_Remove_m4EEA35DDD180B435CA4CCB7714A4FF4844ADFE34_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:94>
-				goto IL_004d;
+				bool L_13;
+				L_13 = Dictionary_2_Remove_m4EEA35DDD180B435CA4CCB7714A4FF4844ADFE34(L_10, L_12, Dictionary_2_Remove_m4EEA35DDD180B435CA4CCB7714A4FF4844ADFE34_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 75));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 76));
+				goto IL_0059;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -1090,23 +1256,29 @@ IL_0023_1:
 		}
 	}
 
-IL_004d:
+IL_0059:
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:95>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 80));
 		return;
 	}
 }
-// Method Definition Index: 131487
+// Method Definition Index: 140000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler_ExecuteExpiredActions_mB683F55950DD543D90A479DF7E68539969F2B48C (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler_ExecuteExpiredActions_mB683F55950DD543D90A479DF7E68539969F2B48C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_m4EEA35DDD180B435CA4CCB7714A4FF4844ADFE34_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mAC237D510E358726C014DD3F610942E989613559_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m46C4F2A2917BB3C219137A08B6E29579FCBF6CA5_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m76478B2825D5D7493DFBD3E478233114BE128B35_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_tAE300C7056BDE583F62C47321CE68904319DE228_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ITimeProvider_t6CB8C4316E58E0ABEFDEAAF4FA47B90DE03CD2E6_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m3539AF736216DC060382909AAC2FAD2AA49EF16C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m708BB07A967216E1312094EBD2CD7C393B281926_RuntimeMethod_var);
@@ -1118,28 +1290,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler_ExecuteExpiredActions_mB
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_GetValueOrDefault_mBE26FDBA8873F7AE883FF290864E1D2665EAC52F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_mB17304720EA19F5469A4883827F53A75FEB492CF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_m092C73DCE052BFB5C60A39EF9F4E3401AA95221C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
 	ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* V_2 = NULL;
-	Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC V_3;
-	memset((&V_3), 0, sizeof(V_3));
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_4;
+	bool V_3 = false;
+	Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC V_4;
 	memset((&V_4), 0, sizeof(V_4));
-	Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC V_5;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_5;
 	memset((&V_5), 0, sizeof(V_5));
-	Enumerator_tAE300C7056BDE583F62C47321CE68904319DE228 V_6;
+	Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC V_6;
 	memset((&V_6), 0, sizeof(V_6));
-	ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* V_7 = NULL;
+	Enumerator_tAE300C7056BDE583F62C47321CE68904319DE228 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* V_8 = NULL;
+	Exception_t* V_9 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_2), (&V_8), (&V_9));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ActionScheduler_ExecuteExpiredActions_mB683F55950DD543D90A479DF7E68539969F2B48C_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 81));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 82));
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* G_B6_0 = NULL;
 	ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* G_B5_0 = NULL;
 	Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC G_B7_0;
 	memset((&G_B7_0), 0, sizeof(G_B7_0));
 	int32_t G_B10_0 = 0;
+	int32_t G_B12_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 83));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:99>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 84));
 		RuntimeObject* L_0 = __this->___m_Lock;
 		V_0 = L_0;
 		V_1 = (bool)0;
@@ -1148,229 +1332,325 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler_ExecuteExpiredActions_mB
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_00fa:
+FINALLY_0119:
 			{
+				STORE_TRY_ID(methodExecutionContext, -1);
 				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 131));
 					bool L_1 = V_1;
 					if (!L_1)
 					{
-						goto IL_0103;
+						goto IL_0123;
 					}
 				}
 				{
 					RuntimeObject* L_2 = V_0;
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 132));
 					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_2, NULL);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 132));
 				}
 
-IL_0103:
+IL_0123:
 				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 133));
 					return;
 				}
 			}
 		});
 		try
 		{
+			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				RuntimeObject* L_3 = V_0;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 85));
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 85));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 86));
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:101>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 87));
 				List_1_tFD4080EF47ACD067F2E4AB57C9E2E8E64CA953E3* L_4 = __this->___m_ExpiredActions;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 88));
 				NullCheck(L_4);
 				List_1_Clear_m708BB07A967216E1312094EBD2CD7C393B281926_inline(L_4, List_1_Clear_m708BB07A967216E1312094EBD2CD7C393B281926_RuntimeMethod_var);
-				goto IL_0054_1;
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 88));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 89));
+				goto IL_005c_1;
 			}
 
-IL_001e_1:
+IL_0022_1:
 			{
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 90));
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:106>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 91));
 				MinimumBinaryHeap_1_tB7A85B4D870F0107AF6031545D6054927A1CB7AD* L_5 = __this->___m_ScheduledActions;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 92));
 				NullCheck(L_5);
 				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_6;
 				L_6 = MinimumBinaryHeap_1_ExtractMin_m65CF7190823530D1EC9BB094AE57526F0B7FE155(L_5, MinimumBinaryHeap_1_ExtractMin_m65CF7190823530D1EC9BB094AE57526F0B7FE155_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 92));
 				V_2 = L_6;
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:107>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 93));
 				List_1_tFD4080EF47ACD067F2E4AB57C9E2E8E64CA953E3* L_7 = __this->___m_ExpiredActions;
 				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_8 = V_2;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 94));
 				NullCheck(L_7);
 				List_1_Add_m3539AF736216DC060382909AAC2FAD2AA49EF16C_inline(L_7, L_8, List_1_Add_m3539AF736216DC060382909AAC2FAD2AA49EF16C_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 94));
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:108>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 95));
 				MinimumBinaryHeap_1_tB7A85B4D870F0107AF6031545D6054927A1CB7AD* L_9 = __this->___m_ScheduledActions;
 				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_10 = V_2;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 96));
 				NullCheck(L_9);
 				MinimumBinaryHeap_1_Remove_mB0E42318CD574177F32E7FECD9CE8C3B6F1DB464(L_9, L_10, MinimumBinaryHeap_1_Remove_mB0E42318CD574177F32E7FECD9CE8C3B6F1DB464_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 96));
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:109>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 97));
 				Dictionary_2_t2306F810ADE46E708DBCF5BFFD57ED345A61D8CA* L_11 = __this->___m_IdScheduledInvocationMap;
 				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_12 = V_2;
 				NullCheck(L_12);
 				int64_t L_13 = L_12->___ActionId;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 98));
 				NullCheck(L_11);
 				bool L_14;
 				L_14 = Dictionary_2_Remove_m4EEA35DDD180B435CA4CCB7714A4FF4844ADFE34(L_11, L_13, Dictionary_2_Remove_m4EEA35DDD180B435CA4CCB7714A4FF4844ADFE34_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 98));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 99));
 			}
 
-IL_0054_1:
+IL_005c_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:103>
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:104>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 100));
 				MinimumBinaryHeap_1_tB7A85B4D870F0107AF6031545D6054927A1CB7AD* L_15 = __this->___m_ScheduledActions;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 101));
 				NullCheck(L_15);
 				int32_t L_16;
 				L_16 = MinimumBinaryHeap_1_get_Count_m6E5BF62E288479F49068E184B79AFA6DD21ED588_inline(L_15, MinimumBinaryHeap_1_get_Count_m6E5BF62E288479F49068E184B79AFA6DD21ED588_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 101));
 				if ((((int32_t)L_16) <= ((int32_t)0)))
 				{
-					goto IL_00b4_1;
+					goto IL_00ba_1;
 				}
 			}
 			{
 				MinimumBinaryHeap_1_tB7A85B4D870F0107AF6031545D6054927A1CB7AD* L_17 = __this->___m_ScheduledActions;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 102));
 				NullCheck(L_17);
 				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_18;
 				L_18 = MinimumBinaryHeap_1_get_Min_m20F161E9A7C1A2CD4AAD86738EC2624ED43E6383(L_17, MinimumBinaryHeap_1_get_Min_m20F161E9A7C1A2CD4AAD86738EC2624ED43E6383_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 102));
 				ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_19 = L_18;
 				if (L_19)
 				{
 					G_B6_0 = L_19;
-					goto IL_007d_1;
+					goto IL_0085_1;
 				}
 				G_B5_0 = L_19;
 			}
 			{
-				il2cpp_codegen_initobj((&V_5), sizeof(Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC));
-				Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC L_20 = V_5;
+				il2cpp_codegen_initobj((&V_6), sizeof(Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC));
+				Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC L_20 = V_6;
 				G_B7_0 = L_20;
-				goto IL_0087_1;
+				goto IL_008f_1;
 			}
 
-IL_007d_1:
+IL_0085_1:
 			{
 				NullCheck(G_B6_0);
 				DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_21 = G_B6_0->___InvocationTime;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 103));
 				Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC L_22;
 				memset((&L_22), 0, sizeof(L_22));
 				Nullable_1__ctor_mB17304720EA19F5469A4883827F53A75FEB492CF((&L_22), L_21, Nullable_1__ctor_mB17304720EA19F5469A4883827F53A75FEB492CF_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 103));
 				G_B7_0 = L_22;
 			}
 
-IL_0087_1:
+IL_008f_1:
 			{
-				V_3 = G_B7_0;
+				V_4 = G_B7_0;
 				RuntimeObject* L_23 = __this->___m_TimeProvider;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 104));
 				NullCheck(L_23);
 				DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_24;
 				L_24 = InterfaceFuncInvoker0< DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D >::Invoke(0, ITimeProvider_t6CB8C4316E58E0ABEFDEAAF4FA47B90DE03CD2E6_il2cpp_TypeInfo_var, L_23);
-				V_4 = L_24;
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 104));
+				V_5 = L_24;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 105));
 				bool L_25;
-				L_25 = Nullable_1_get_HasValue_m092C73DCE052BFB5C60A39EF9F4E3401AA95221C_inline((&V_3), Nullable_1_get_HasValue_m092C73DCE052BFB5C60A39EF9F4E3401AA95221C_RuntimeMethod_var);
+				L_25 = Nullable_1_get_HasValue_m092C73DCE052BFB5C60A39EF9F4E3401AA95221C_inline((&V_4), Nullable_1_get_HasValue_m092C73DCE052BFB5C60A39EF9F4E3401AA95221C_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 105));
 				if (L_25)
 				{
-					goto IL_00a1_1;
+					goto IL_00aa_1;
 				}
 			}
 			{
 				G_B10_0 = 0;
-				goto IL_00af_1;
+				goto IL_00b8_1;
 			}
 
-IL_00a1_1:
+IL_00aa_1:
 			{
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 106));
 				DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_26;
-				L_26 = Nullable_1_GetValueOrDefault_mBE26FDBA8873F7AE883FF290864E1D2665EAC52F_inline((&V_3), Nullable_1_GetValueOrDefault_mBE26FDBA8873F7AE883FF290864E1D2665EAC52F_RuntimeMethod_var);
-				DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_27 = V_4;
+				L_26 = Nullable_1_GetValueOrDefault_mBE26FDBA8873F7AE883FF290864E1D2665EAC52F_inline((&V_4), Nullable_1_GetValueOrDefault_mBE26FDBA8873F7AE883FF290864E1D2665EAC52F_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 106));
+				DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_27 = V_5;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 107));
 				il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 				bool L_28;
 				L_28 = DateTime_op_LessThanOrEqual_mC22EB236042D9E1C17C64393FB429E58B8F952F8(L_26, L_27, NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 107));
 				G_B10_0 = ((int32_t)(L_28));
 			}
 
-IL_00af_1:
+IL_00b8_1:
 			{
-				if (G_B10_0)
-				{
-					goto IL_001e_1;
-				}
+				G_B12_0 = G_B10_0;
+				goto IL_00bb_1;
 			}
 
-IL_00b4_1:
+IL_00ba_1:
 			{
+				G_B12_0 = 0;
+			}
+
+IL_00bb_1:
+			{
+				V_3 = (bool)G_B12_0;
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 108));
+				bool L_29 = V_3;
+				if (L_29)
+				{
+					goto IL_0022_1;
+				}
+			}
+			{
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 109));
 				//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:112>
-				List_1_tFD4080EF47ACD067F2E4AB57C9E2E8E64CA953E3* L_29 = __this->___m_ExpiredActions;
-				NullCheck(L_29);
-				Enumerator_tAE300C7056BDE583F62C47321CE68904319DE228 L_30;
-				L_30 = List_1_GetEnumerator_m1E92478DAD982718EEF541288BFDEEFBD906EB0A(L_29, List_1_GetEnumerator_m1E92478DAD982718EEF541288BFDEEFBD906EB0A_RuntimeMethod_var);
-				V_6 = L_30;
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 110));
+				List_1_tFD4080EF47ACD067F2E4AB57C9E2E8E64CA953E3* L_30 = __this->___m_ExpiredActions;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 111));
+				NullCheck(L_30);
+				Enumerator_tAE300C7056BDE583F62C47321CE68904319DE228 L_31;
+				L_31 = List_1_GetEnumerator_m1E92478DAD982718EEF541288BFDEEFBD906EB0A(L_30, List_1_GetEnumerator_m1E92478DAD982718EEF541288BFDEEFBD906EB0A_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 111));
+				V_7 = L_31;
 			}
 			{
 				auto __finallyBlock = il2cpp::utils::Finally([&]
 				{
 
-FINALLY_00ec_1:
+FINALLY_0107_1:
 					{
-						Enumerator_Dispose_mAC237D510E358726C014DD3F610942E989613559((&V_6), Enumerator_Dispose_mAC237D510E358726C014DD3F610942E989613559_RuntimeMethod_var);
+						STORE_TRY_ID(methodExecutionContext, 0);
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 128));
+						STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 129));
+						Enumerator_Dispose_mAC237D510E358726C014DD3F610942E989613559((&V_7), Enumerator_Dispose_mAC237D510E358726C014DD3F610942E989613559_RuntimeMethod_var);
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 129));
 						return;
 					}
 				});
 				try
 				{
+					STORE_TRY_ID(methodExecutionContext, 1);
 					{
-						goto IL_00e1_2;
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 112));
+						goto IL_00fc_2;
 					}
 
-IL_00c3_2:
+IL_00d2_2:
 					{
 						//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:112>
-						ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_31;
-						L_31 = Enumerator_get_Current_m76478B2825D5D7493DFBD3E478233114BE128B35_inline((&V_6), Enumerator_get_Current_m76478B2825D5D7493DFBD3E478233114BE128B35_RuntimeMethod_var);
-						V_7 = L_31;
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 113));
+						STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 114));
+						ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_32;
+						L_32 = Enumerator_get_Current_m76478B2825D5D7493DFBD3E478233114BE128B35_inline((&V_7), Enumerator_get_Current_m76478B2825D5D7493DFBD3E478233114BE128B35_RuntimeMethod_var);
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 114));
+						V_8 = L_32;
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 115));
 					}
 					try
 					{
+						STORE_TRY_ID(methodExecutionContext, 2);
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 116));
 						//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:116>
-						ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_32 = V_7;
-						NullCheck(L_32);
-						Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_33 = L_32->___Action;
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 117));
+						ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_33 = V_8;
 						NullCheck(L_33);
-						Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_33, NULL);
-						//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:117>
-						goto IL_00e1_2;
+						Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_34 = L_33->___Action;
+						STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 118));
+						NullCheck(L_34);
+						Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_34, NULL);
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 118));
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 119));
+						goto IL_00fb_2;
 					}
 					catch(Il2CppExceptionWrapper& e)
 					{
 						if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 						{
 							IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-							goto CATCH_00da_2;
+							goto CATCH_00ed_2;
 						}
 						throw e;
 					}
 
-CATCH_00da_2:
+CATCH_00ed_2:
 					{
-						Exception_t* L_34 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+						STORE_TRY_ID(methodExecutionContext, 1);
+						Exception_t* L_35 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+						//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:118>
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 120));
+						V_9 = L_35;
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 121));
 						//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:120>
-						CoreLogger_LogException_m7129C6F678E086232211CBC0347F2300D0A42F3C(L_34, NULL);
-						//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:121>
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 122));
+						Exception_t* L_36 = V_9;
+						STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 123));
+						CoreLogger_LogException_m7129C6F678E086232211CBC0347F2300D0A42F3C(L_36, NULL);
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 123));
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 124));
 						IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
-						goto IL_00e1_2;
+						goto IL_00fb_2;
 					}
 
-IL_00e1_2:
+IL_00fb_2:
+					{
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 125));
+					}
+
+IL_00fc_2:
 					{
 						//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:112>
-						bool L_35;
-						L_35 = Enumerator_MoveNext_m46C4F2A2917BB3C219137A08B6E29579FCBF6CA5((&V_6), Enumerator_MoveNext_m46C4F2A2917BB3C219137A08B6E29579FCBF6CA5_RuntimeMethod_var);
-						if (L_35)
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 126));
+						STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 127));
+						bool L_37;
+						L_37 = Enumerator_MoveNext_m46C4F2A2917BB3C219137A08B6E29579FCBF6CA5((&V_7), Enumerator_MoveNext_m46C4F2A2917BB3C219137A08B6E29579FCBF6CA5_RuntimeMethod_var);
+						CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 127));
+						if (L_37)
 						{
-							goto IL_00c3_2;
+							goto IL_00d2_2;
 						}
 					}
 					{
-						goto IL_0104;
+						goto IL_0116_1;
 					}
 				}
 				catch(Il2CppExceptionWrapper& e)
 				{
 					__finallyBlock.StoreException(e.ex);
 				}
+			}
+
+IL_0116_1:
+			{
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 130));
+				goto IL_0124;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -1379,88 +1659,134 @@ IL_00e1_2:
 		}
 	}
 
-IL_0104:
+IL_0124:
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:124>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 134));
 		return;
 	}
 }
-// Method Definition Index: 131488
+// Method Definition Index: 140001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler_UpdateCurrentPlayerLoopWith_m32DBF6F37F3D8776484265E95830FEFA40C6A230 (List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52* ___0_subSystemList, PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F ___1_currentPlayerLoop, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler_UpdateCurrentPlayerLoopWith_m32DBF6F37F3D8776484265E95830FEFA40C6A230_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_ToArray_mF1B4B099D6EC830C7AE856231485FF238F2985E3_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_subSystemList), (&___1_currentPlayerLoop));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ActionScheduler_UpdateCurrentPlayerLoopWith_m32DBF6F37F3D8776484265E95830FEFA40C6A230_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 135));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 136));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 137));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:129>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 138));
 		List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52* L_0 = ___0_subSystemList;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 139));
 		NullCheck(L_0);
 		PlayerLoopSystemU5BU5D_t07C04E53AAC3CDA17603E8BA1B41D7E1AC083C6D* L_1;
 		L_1 = List_1_ToArray_mF1B4B099D6EC830C7AE856231485FF238F2985E3(L_0, List_1_ToArray_mF1B4B099D6EC830C7AE856231485FF238F2985E3_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 139));
 		(&___1_currentPlayerLoop)->___subSystemList = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&___1_currentPlayerLoop)->___subSystemList), (void*)L_1);
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:130>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 140));
 		PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F L_2 = ___1_currentPlayerLoop;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 141));
 		PlayerLoop_SetPlayerLoop_m7D2DB1287D886B0AC17C24F86C897C82A813D01B(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 141));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:131>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 142));
 		return;
 	}
 }
-// Method Definition Index: 131489
+// Method Definition Index: 140002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler_JoinPlayerLoopSystem_mB998001E51285B4DF2406DE197A3A5377BD62892 (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler_JoinPlayerLoopSystem_mB998001E51285B4DF2406DE197A3A5377BD62892_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m20B47157F68B2A1C1C92F34C111874885F78607A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Contains_m040083A451046E87051FFEF6119F608D5B760BD4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mB04A90FFEEEF02B8DFAE87198BF601E3429D69AF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52* V_1 = NULL;
+	bool V_2 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ActionScheduler_JoinPlayerLoopSystem_mB998001E51285B4DF2406DE197A3A5377BD62892_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 143));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 144));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 145));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:135>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 146));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 147));
 		PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F L_0;
 		L_0 = PlayerLoop_GetCurrentPlayerLoop_mDC8CBE388799E9CF78200030C101875B1ABD4BA3(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 147));
 		V_0 = L_0;
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:136>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 148));
 		PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F L_1 = V_0;
 		PlayerLoopSystemU5BU5D_t07C04E53AAC3CDA17603E8BA1B41D7E1AC083C6D* L_2 = L_1.___subSystemList;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 149));
 		List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52* L_3 = (List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52*)il2cpp_codegen_object_new(List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52_il2cpp_TypeInfo_var);
 		List_1__ctor_mB04A90FFEEEF02B8DFAE87198BF601E3429D69AF(L_3, (RuntimeObject*)L_2, List_1__ctor_mB04A90FFEEEF02B8DFAE87198BF601E3429D69AF_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 149));
 		V_1 = L_3;
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:137>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 150));
 		List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52* L_4 = V_1;
 		PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F L_5 = __this->___SchedulerLoopSystem;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 151));
 		NullCheck(L_4);
 		bool L_6;
 		L_6 = List_1_Contains_m040083A451046E87051FFEF6119F608D5B760BD4(L_4, L_5, List_1_Contains_m040083A451046E87051FFEF6119F608D5B760BD4_RuntimeMethod_var);
-		if (L_6)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 151));
+		V_2 = (bool)((((int32_t)L_6) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 152));
+		bool L_7 = V_2;
+		if (!L_7)
 		{
-			goto IL_0033;
+			goto IL_003d;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 153));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:139>
-		List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52* L_7 = V_1;
-		PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F L_8 = __this->___SchedulerLoopSystem;
-		NullCheck(L_7);
-		List_1_Add_m20B47157F68B2A1C1C92F34C111874885F78607A_inline(L_7, L_8, List_1_Add_m20B47157F68B2A1C1C92F34C111874885F78607A_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 154));
+		List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52* L_8 = V_1;
+		PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F L_9 = __this->___SchedulerLoopSystem;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 155));
+		NullCheck(L_8);
+		List_1_Add_m20B47157F68B2A1C1C92F34C111874885F78607A_inline(L_8, L_9, List_1_Add_m20B47157F68B2A1C1C92F34C111874885F78607A_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 155));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:140>
-		List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52* L_9 = V_1;
-		PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F L_10 = V_0;
-		ActionScheduler_UpdateCurrentPlayerLoopWith_m32DBF6F37F3D8776484265E95830FEFA40C6A230(L_9, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 156));
+		List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52* L_10 = V_1;
+		PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F L_11 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 157));
+		ActionScheduler_UpdateCurrentPlayerLoopWith_m32DBF6F37F3D8776484265E95830FEFA40C6A230(L_10, L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 157));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 158));
 	}
 
-IL_0033:
+IL_003d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ActionScheduler.cs:142>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 159));
 		return;
 	}
 }
@@ -1472,9 +1798,17 @@ IL_0033:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131490
+// Method Definition Index: 140003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinimumBinaryHeap__ctor_mC63658A36EB912677E6346A2991932B83CED0B5F (MinimumBinaryHeap_tA55F58E6B1D3F482C11529BAB4C1D56F5BF745FE* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MinimumBinaryHeap__ctor_mC63658A36EB912677E6346A2991932B83CED0B5F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MinimumBinaryHeap__ctor_mC63658A36EB912677E6346A2991932B83CED0B5F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -1488,9 +1822,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinimumBinaryHeap__ctor_mC63658A36EB9126
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131509
+// Method Definition Index: 140022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScheduledInvocation__ctor_mB7D79780A933DBF3A750A1FABB2DAA45852513BD (ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScheduledInvocation__ctor_mB7D79780A933DBF3A750A1FABB2DAA45852513BD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ScheduledInvocation__ctor_mB7D79780A933DBF3A750A1FABB2DAA45852513BD_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -1504,101 +1846,166 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScheduledInvocation__ctor_mB7D79780A933D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131510
+// Method Definition Index: 140023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ScheduledInvocationComparer_Compare_m288DA5B3B9D15E393A57ADABBADD311975DD9FE4 (ScheduledInvocationComparer_t785D4501646D05413E8F88FAECD14D9902742CC2* __this, ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* ___0_x, ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* ___1_y, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScheduledInvocationComparer_Compare_m288DA5B3B9D15E393A57ADABBADD311975DD9FE4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScheduledInvocationComparer_t785D4501646D05413E8F88FAECD14D9902742CC2_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ScheduledInvocationComparer_Compare_m288DA5B3B9D15E393A57ADABBADD311975DD9FE4_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 430));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 431));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 432));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ScheduledInvocationComparer.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 433));
 		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_0 = ___0_x;
 		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_1 = ___1_y;
-		if ((!(((RuntimeObject*)(ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93*)L_0) == ((RuntimeObject*)(ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93*)L_1))))
+		V_1 = (bool)((((RuntimeObject*)(ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93*)L_0) == ((RuntimeObject*)(ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93*)L_1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 434));
+		bool L_2 = V_1;
+		if (!L_2)
 		{
-			goto IL_0006;
+			goto IL_000e;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 435));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ScheduledInvocationComparer.cs:11>
-		return 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 436));
+		V_2 = 0;
+		goto IL_005e;
 	}
 
-IL_0006:
+IL_000e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ScheduledInvocationComparer.cs:14>
-		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_2 = ___1_y;
-		if (L_2)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 437));
+		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_3 = ___1_y;
+		V_3 = (bool)((((RuntimeObject*)(ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93*)L_3) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 438));
+		bool L_4 = V_3;
+		if (!L_4)
 		{
-			goto IL_000b;
+			goto IL_001b;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 439));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ScheduledInvocationComparer.cs:16>
-		return 1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 440));
+		V_2 = 1;
+		goto IL_005e;
 	}
 
-IL_000b:
+IL_001b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ScheduledInvocationComparer.cs:19>
-		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_3 = ___0_x;
-		if (L_3)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 441));
+		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_5 = ___0_x;
+		V_4 = (bool)((((RuntimeObject*)(ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93*)L_5) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 442));
+		bool L_6 = V_4;
+		if (!L_6)
 		{
-			goto IL_0010;
+			goto IL_002a;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 443));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ScheduledInvocationComparer.cs:21>
-		return (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 444));
+		V_2 = (-1);
+		goto IL_005e;
 	}
 
-IL_0010:
+IL_002a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ScheduledInvocationComparer.cs:24>
-		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_4 = ___0_x;
-		NullCheck(L_4);
-		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_5 = (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)(&L_4->___InvocationTime);
-		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_6 = ___1_y;
-		NullCheck(L_6);
-		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_7 = L_6->___InvocationTime;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 445));
+		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_7 = ___0_x;
+		NullCheck(L_7);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_8 = (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)(&L_7->___InvocationTime);
+		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_9 = ___1_y;
+		NullCheck(L_9);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_10 = L_9->___InvocationTime;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 446));
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
-		int32_t L_8;
-		L_8 = DateTime_CompareTo_m4A3000CD4FF15EA7CA2E9C5C95A9D07F3AA8D35D(L_5, L_7, NULL);
-		V_0 = L_8;
+		int32_t L_11;
+		L_11 = DateTime_CompareTo_m4A3000CD4FF15EA7CA2E9C5C95A9D07F3AA8D35D(L_8, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 446));
+		V_0 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ScheduledInvocationComparer.cs:27>
-		int32_t L_9 = V_0;
-		if (L_9)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 447));
+		int32_t L_12 = V_0;
+		V_5 = (bool)((((int32_t)L_12) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 448));
+		bool L_13 = V_5;
+		if (!L_13)
 		{
-			goto IL_0037;
+			goto IL_005a;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 449));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ScheduledInvocationComparer.cs:29>
-		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_10 = ___0_x;
-		NullCheck(L_10);
-		int64_t* L_11 = (int64_t*)(&L_10->___ActionId);
-		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_12 = ___1_y;
-		NullCheck(L_12);
-		int64_t L_13 = L_12->___ActionId;
-		int32_t L_14;
-		L_14 = Int64_CompareTo_m63A0BDA03C5B1DEB7387B1C53D6BFD961E4F5490(L_11, L_13, NULL);
-		V_0 = L_14;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 450));
+		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_14 = ___0_x;
+		NullCheck(L_14);
+		int64_t* L_15 = (int64_t*)(&L_14->___ActionId);
+		ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* L_16 = ___1_y;
+		NullCheck(L_16);
+		int64_t L_17 = L_16->___ActionId;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 451));
+		int32_t L_18;
+		L_18 = Int64_CompareTo_m63A0BDA03C5B1DEB7387B1C53D6BFD961E4F5490(L_15, L_17, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 451));
+		V_0 = L_18;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 452));
 	}
 
-IL_0037:
+IL_005a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ScheduledInvocationComparer.cs:32>
-		int32_t L_15 = V_0;
-		return L_15;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 453));
+		int32_t L_19 = V_0;
+		V_2 = L_19;
+		goto IL_005e;
+	}
+
+IL_005e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/ScheduledInvocationComparer.cs:33>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 454));
+		int32_t L_20 = V_2;
+		return L_20;
 	}
 }
-// Method Definition Index: 131511
+// Method Definition Index: 140024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScheduledInvocationComparer__ctor_mBC023A46362D70B10A4FB65D8C0BB653C9F5F972 (ScheduledInvocationComparer_t785D4501646D05413E8F88FAECD14D9902742CC2* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScheduledInvocationComparer__ctor_mBC023A46362D70B10A4FB65D8C0BB653C9F5F972_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ScheduledInvocationComparer__ctor_mBC023A46362D70B10A4FB65D8C0BB653C9F5F972_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -1612,26 +2019,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScheduledInvocationComparer__ctor_mBC023
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131513
+// Method Definition Index: 140026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D UtcTimeProvider_get_Now_m2BBC0DB7893BDC8457768D897F441264BA779A3F (UtcTimeProvider_t45FE04D3C9372C9089808CBF396C87E62AA26743* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UtcTimeProvider_get_Now_m2BBC0DB7893BDC8457768D897F441264BA779A3F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UtcTimeProvider_t45FE04D3C9372C9089808CBF396C87E62AA26743_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UtcTimeProvider_get_Now_m2BBC0DB7893BDC8457768D897F441264BA779A3F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 455));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 456));
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/TimeProvider/UtcTimeProvider.cs:7>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 457));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 458));
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0;
 		L_0 = DateTime_get_UtcNow_m06B6E9995FE16846A0F71EC9DB23E90BE2C5F9FA(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 458));
 		return L_0;
 	}
 }
-// Method Definition Index: 131514
+// Method Definition Index: 140027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UtcTimeProvider__ctor_m0B5F5EE010F7BDBED40E139D11D931E90D82DFE2 (UtcTimeProvider_t45FE04D3C9372C9089808CBF396C87E62AA26743* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UtcTimeProvider__ctor_m0B5F5EE010F7BDBED40E139D11D931E90D82DFE2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UtcTimeProvider__ctor_m0B5F5EE010F7BDBED40E139D11D931E90D82DFE2_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -1646,10 +2070,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 11486
+// Method Definition Index: 11645
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____version;
 		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
@@ -1676,11 +2102,13 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 11478
+// Method Definition Index: 11637
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
 	int32_t V_1 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____version;
 		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
@@ -1710,48 +2138,67 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 IL_0034:
 	{
 		RuntimeObject* L_9 = ___0_item;
-		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
 		return;
 	}
 }
-// Method Definition Index: 131491
+// Method Definition Index: 140004
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MinimumBinaryHeap_1_get_Count_m502FCC9FFA768AF2759A364F3A8DE12A687FE49E_gshared_inline (MinimumBinaryHeap_1_tEE553DEE7A9880C6DB0CD490BFE9F1B9FC502EC2* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MinimumBinaryHeap_1_t37ED37312921F6F3B0804DA2BCFC700038FC615A_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 160));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 161));
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Scheduler/MinimumBinaryHeap.cs:28>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Scheduler + 162));
 		int32_t L_0 = __this->___U3CCountU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 2231
+// Method Definition Index: 2267
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m092C73DCE052BFB5C60A39EF9F4E3401AA95221C_gshared_inline (Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC* __this, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		bool L_0 = __this->___hasValue;
 		return L_0;
 	}
 }
-// Method Definition Index: 2233
+// Method Definition Index: 2269
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D Nullable_1_GetValueOrDefault_mBE26FDBA8873F7AE883FF290864E1D2665EAC52F_gshared_inline (Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC* __this, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = __this->___value;
 		return L_0;
 	}
 }
-// Method Definition Index: 11530
+// Method Definition Index: 11689
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject* L_0 = __this->____current;
 		return L_0;
 	}
 }
-// Method Definition Index: 11478
+// Method Definition Index: 11637
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m20B47157F68B2A1C1C92F34C111874885F78607A_gshared_inline (List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52* __this, PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F ___0_item, const RuntimeMethod* method) 
 {
 	PlayerLoopSystemU5BU5D_t07C04E53AAC3CDA17603E8BA1B41D7E1AC083C6D* V_0 = NULL;
 	int32_t V_1 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____version;
 		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
@@ -1781,7 +2228,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m20B47157F68B2A1C
 IL_0034:
 	{
 		PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F L_9 = ___0_item;
-		List_1_AddWithResize_m3315453B2B00D694353A29FE8E49681D72763A1D(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		List_1_AddWithResize_m3315453B2B00D694353A29FE8E49681D72763A1D(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
 		return;
 	}
 }

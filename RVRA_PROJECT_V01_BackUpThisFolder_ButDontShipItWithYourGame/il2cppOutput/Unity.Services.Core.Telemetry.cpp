@@ -22,10 +22,29 @@ struct Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1;
 struct MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05;
 struct String_t;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_Services_Core_Telemetry[];
 IL2CPP_EXTERN_C RuntimeClass* Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DiagnosticsFactory_Create_mE152323E55C07B54470CB90071252FF5F24A138B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DiagnosticsFactory__ctor_m6AFD4725FFA4F4054B13917A376B8BE059AF4D27_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DiagnosticsFactory_get_CommonTags_mA08B1FB6FCB5AB504EF2ED3C2ED27EF41C442B7C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Diagnostics_SendDiagnostic_mF569E18F0662E882CD37D4BC894BC085CB222D08_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Diagnostics__ctor_m2CF108329965DFBA2D13399A65E9D5D47BF63BD8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MetricsFactory_Create_m6DCE478FE70DE3D0533A150550812CE038D8CD46_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MetricsFactory__ctor_mD15F90B2C781DE2B48F41556FECEFAB2347AFC0C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MetricsFactory_get_CommonTags_m8B0B37504BB0C83E60181E6C273B5710E595B37E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendGaugeMetric_m44A74F915A2C4302A6BF07BE010D16D9793D7BE6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendHistogramMetric_mA7EB1B96D0F7E39A951A68AF58BF6A455E27C9ED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendSumMetric_m3698244EA67D8736E51D84935E05E2DEB290C6A8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Metrics__ctor_m6318435D0C0C0AD81ABC2B7D542FE92D7B5C7D79_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* IDiagnostics_tC5C252A201DC608FD4FA8B95CB546ACE5400345E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* IMetrics_tA68E45B18912AD74792533F57895E50599D4A7D5_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1_0_0_0_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -127,31 +146,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics__ctor_m6318435D0C0C0AD81ABC2B7D5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131630
+// Method Definition Index: 140204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Diagnostics_SendDiagnostic_mF569E18F0662E882CD37D4BC894BC085CB222D08 (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, String_t* ___0_name, String_t* ___1_message, RuntimeObject* ___2_tags, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Diagnostics_SendDiagnostic_mF569E18F0662E882CD37D4BC894BC085CB222D08_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_name), (&___1_message), (&___2_tags));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Diagnostics_SendDiagnostic_mF569E18F0662E882CD37D4BC894BC085CB222D08_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 1));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 2));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Diagnotstics/Diagnostics.cs:13>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 3));
 		return;
 	}
 }
-// Method Definition Index: 131631
+// Method Definition Index: 140205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Diagnostics__ctor_m2CF108329965DFBA2D13399A65E9D5D47BF63BD8 (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Diagnostics__ctor_m2CF108329965DFBA2D13399A65E9D5D47BF63BD8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Diagnostics__ctor_m2CF108329965DFBA2D13399A65E9D5D47BF63BD8_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 4));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 5));
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Diagnotstics/Diagnostics.cs:8>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 6));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 7));
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_0, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 7));
 		__this->___U3CPackageTagsU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CPackageTagsU3Ek__BackingField), (void*)L_0);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 8));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 8));
 		return;
 	}
 }
@@ -163,48 +207,93 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Diagnostics__ctor_m2CF108329965DFBA2D133
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131632
+// Method Definition Index: 140206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DiagnosticsFactory_get_CommonTags_mA08B1FB6FCB5AB504EF2ED3C2ED27EF41C442B7C (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiagnosticsFactory_get_CommonTags_mA08B1FB6FCB5AB504EF2ED3C2ED27EF41C442B7C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DiagnosticsFactory_get_CommonTags_mA08B1FB6FCB5AB504EF2ED3C2ED27EF41C442B7C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 9));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 10));
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Diagnotstics/DiagnosticsFactory.cs:8>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 11));
 		RuntimeObject* L_0 = __this->___U3CCommonTagsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131633
+// Method Definition Index: 140207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DiagnosticsFactory_Create_mE152323E55C07B54470CB90071252FF5F24A138B (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, String_t* ___0_packageName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiagnosticsFactory_Create_mE152323E55C07B54470CB90071252FF5F24A138B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDiagnostics_tC5C252A201DC608FD4FA8B95CB546ACE5400345E_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	RuntimeObject* V_0 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_packageName));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DiagnosticsFactory_Create_mE152323E55C07B54470CB90071252FF5F24A138B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 12));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 13));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 14));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Diagnotstics/DiagnosticsFactory.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 15));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 16));
 		Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* L_0 = (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012*)il2cpp_codegen_object_new(Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012_il2cpp_TypeInfo_var);
 		Diagnostics__ctor_m2CF108329965DFBA2D13399A65E9D5D47BF63BD8(L_0, NULL);
-		return L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 16));
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Diagnotstics/DiagnosticsFactory.cs:13>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 17));
+		RuntimeObject* L_1 = V_0;
+		return L_1;
 	}
 }
-// Method Definition Index: 131634
+// Method Definition Index: 140208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsFactory__ctor_m6AFD4725FFA4F4054B13917A376B8BE059AF4D27 (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiagnosticsFactory__ctor_m6AFD4725FFA4F4054B13917A376B8BE059AF4D27_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DiagnosticsFactory__ctor_m6AFD4725FFA4F4054B13917A376B8BE059AF4D27_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 18));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 19));
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Diagnotstics/DiagnosticsFactory.cs:8>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 20));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 21));
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_0, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 21));
 		__this->___U3CCommonTagsU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCommonTagsU3Ek__BackingField), (void*)L_0);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 22));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 22));
 		return;
 	}
 }
@@ -216,31 +305,73 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsFactory__ctor_m6AFD4725FFA4F4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131635
+// Method Definition Index: 140209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendGaugeMetric_m44A74F915A2C4302A6BF07BE010D16D9793D7BE6 (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, String_t* ___0_name, double ___1_value, RuntimeObject* ___2_tags, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendGaugeMetric_m44A74F915A2C4302A6BF07BE010D16D9793D7BE6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_name), (&___1_value), (&___2_tags));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendGaugeMetric_m44A74F915A2C4302A6BF07BE010D16D9793D7BE6_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 23));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 24));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 25));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/Metrics.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 26));
 		return;
 	}
 }
-// Method Definition Index: 131636
+// Method Definition Index: 140210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendHistogramMetric_mA7EB1B96D0F7E39A951A68AF58BF6A455E27C9ED (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, String_t* ___0_name, double ___1_time, RuntimeObject* ___2_tags, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendHistogramMetric_mA7EB1B96D0F7E39A951A68AF58BF6A455E27C9ED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_name), (&___1_time), (&___2_tags));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendHistogramMetric_mA7EB1B96D0F7E39A951A68AF58BF6A455E27C9ED_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 27));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 28));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 29));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/Metrics.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 30));
 		return;
 	}
 }
-// Method Definition Index: 131637
+// Method Definition Index: 140211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendSumMetric_m3698244EA67D8736E51D84935E05E2DEB290C6A8 (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, String_t* ___0_name, double ___1_value, RuntimeObject* ___2_tags, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendSumMetric_m3698244EA67D8736E51D84935E05E2DEB290C6A8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_name), (&___1_value), (&___2_tags));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendSumMetric_m3698244EA67D8736E51D84935E05E2DEB290C6A8_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 31));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 32));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 33));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/Metrics.cs:22>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 34));
 		return;
 	}
 }
-// Method Definition Index: 131638
+// Method Definition Index: 140212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics__ctor_m6318435D0C0C0AD81ABC2B7D542FE92D7B5C7D79 (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -248,15 +379,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics__ctor_m6318435D0C0C0AD81ABC2B7D5
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Metrics__ctor_m6318435D0C0C0AD81ABC2B7D542FE92D7B5C7D79_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Metrics__ctor_m6318435D0C0C0AD81ABC2B7D542FE92D7B5C7D79_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 35));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 36));
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/Metrics.cs:7>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 37));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 38));
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_0, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 38));
 		__this->___U3CPackageTagsU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CPackageTagsU3Ek__BackingField), (void*)L_0);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 39));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 39));
 		return;
 	}
 }
@@ -268,32 +410,66 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics__ctor_m6318435D0C0C0AD81ABC2B7D5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131639
+// Method Definition Index: 140213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MetricsFactory_get_CommonTags_m8B0B37504BB0C83E60181E6C273B5710E595B37E (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MetricsFactory_get_CommonTags_m8B0B37504BB0C83E60181E6C273B5710E595B37E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MetricsFactory_get_CommonTags_m8B0B37504BB0C83E60181E6C273B5710E595B37E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 40));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 41));
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/MetricsFactory.cs:8>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 42));
 		RuntimeObject* L_0 = __this->___U3CCommonTagsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 131640
+// Method Definition Index: 140214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MetricsFactory_Create_m6DCE478FE70DE3D0533A150550812CE038D8CD46 (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, String_t* ___0_packageName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IMetrics_tA68E45B18912AD74792533F57895E50599D4A7D5_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MetricsFactory_Create_m6DCE478FE70DE3D0533A150550812CE038D8CD46_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	RuntimeObject* V_0 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_packageName));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MetricsFactory_Create_m6DCE478FE70DE3D0533A150550812CE038D8CD46_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 43));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 44));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 45));
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/MetricsFactory.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 46));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 47));
 		Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* L_0 = (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1*)il2cpp_codegen_object_new(Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1_il2cpp_TypeInfo_var);
 		Metrics__ctor_m6318435D0C0C0AD81ABC2B7D542FE92D7B5C7D79(L_0, NULL);
-		return L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 47));
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/MetricsFactory.cs:13>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 48));
+		RuntimeObject* L_1 = V_0;
+		return L_1;
 	}
 }
-// Method Definition Index: 131641
+// Method Definition Index: 140215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsFactory__ctor_mD15F90B2C781DE2B48F41556FECEFAB2347AFC0C (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -301,15 +477,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsFactory__ctor_mD15F90B2C781DE2B48
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MetricsFactory__ctor_mD15F90B2C781DE2B48F41556FECEFAB2347AFC0C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MetricsFactory__ctor_mD15F90B2C781DE2B48F41556FECEFAB2347AFC0C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 49));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 50));
 	{
 		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/MetricsFactory.cs:8>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 51));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 52));
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_0, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 52));
 		__this->___U3CCommonTagsU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCommonTagsU3Ek__BackingField), (void*)L_0);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 53));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Services_Core_Telemetry + 53));
 		return;
 	}
 }

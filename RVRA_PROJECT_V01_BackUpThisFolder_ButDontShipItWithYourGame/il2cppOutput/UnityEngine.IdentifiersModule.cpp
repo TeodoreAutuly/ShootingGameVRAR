@@ -8,6 +8,9 @@
 struct String_t;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_IdentifiersModule[];
+IL2CPP_EXTERN_C const RuntimeMethod* Identifiers_GetInstallationId_mE83CB40B3E23BE88A50981DF00B8806D654D0A81_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Identifiers_get_installationId_mD3ECC6BF716CA29158D977D82861214A105AA6B9_RuntimeMethod_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -79,27 +82,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Identifiers_GetInstallationId_Injected_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131672
+// Method Definition Index: 140229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Identifiers_get_installationId_mD3ECC6BF716CA29158D977D82861214A105AA6B9 (const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Identifiers_get_installationId_mD3ECC6BF716CA29158D977D82861214A105AA6B9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Identifiers_get_installationId_mD3ECC6BF716CA29158D977D82861214A105AA6B9_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_IdentifiersModule + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_IdentifiersModule + 1));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_IdentifiersModule + 2));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_IdentifiersModule + 3));
 		String_t* L_0;
 		L_0 = Identifiers_GetInstallationId_mE83CB40B3E23BE88A50981DF00B8806D654D0A81(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_IdentifiersModule + 3));
 		return L_0;
 	}
 }
-// Method Definition Index: 131673
+// Method Definition Index: 140230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Identifiers_GetInstallationId_mE83CB40B3E23BE88A50981DF00B8806D654D0A81 (const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Identifiers_GetInstallationId_mE83CB40B3E23BE88A50981DF00B8806D654D0A81_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	String_t* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Identifiers_GetInstallationId_mE83CB40B3E23BE88A50981DF00B8806D654D0A81_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
 FINALLY_0009:
 			{
+				STORE_TRY_ID(methodExecutionContext, -1);
 				ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E L_0 = V_0;
 				String_t* L_1;
 				L_1 = OutStringMarshaller_GetStringAndDispose_mB15D41A9893BBC55074D4910259FA722129DB062(L_0, NULL);
@@ -109,6 +133,7 @@ FINALLY_0009:
 		});
 		try
 		{
+			STORE_TRY_ID(methodExecutionContext, 0);
 			Identifiers_GetInstallationId_Injected_mE29A1BB73C1587EACFF0A6104DD068DB4FA711CC((&V_0), NULL);
 			goto IL_0011;
 		}
@@ -124,7 +149,7 @@ IL_0011:
 		return L_2;
 	}
 }
-// Method Definition Index: 131674
+// Method Definition Index: 140231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Identifiers_GetInstallationId_Injected_mE29A1BB73C1587EACFF0A6104DD068DB4FA711CC (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_ret, const RuntimeMethod* method) 
 {
 	typedef void (*Identifiers_GetInstallationId_Injected_mE29A1BB73C1587EACFF0A6104DD068DB4FA711CC_ftn) (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E*);
