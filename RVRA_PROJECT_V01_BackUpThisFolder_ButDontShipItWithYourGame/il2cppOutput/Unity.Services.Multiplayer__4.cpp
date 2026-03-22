@@ -38106,7 +38106,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SessionHandler_get_IsHost_m2
 		return L_0;
 	}
 }
-// Method Definition Index: 139307
+// Method Definition Index: 139324
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* UnityServices_get_Instance_m5BA0D657E90B0A0837290E98A0CB13F9D39CA0CD_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41518,7 +41518,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218
 		return L_0;
 	}
 }
-// Method Definition Index: 139296
+// Method Definition Index: 139313
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ServiceObserver_1_get_Service_mE177926ABBB5396176ACC076A304A5C9D02A2FA6_gshared_inline (ServiceObserver_1_t693D0F1EB5FABC23B56178C5CE73C6233ED608FB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

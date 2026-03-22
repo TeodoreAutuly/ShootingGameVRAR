@@ -12336,7 +12336,7 @@ void ViewModelChangedEventHandler_Invoke_m5D467A94E59A41E7ED28D76EC875D399F0CE0E
 	NullCheck(___0_viewModel);
 	GenericInterfaceActionInvoker0::Invoke(method, ___0_viewModel);
 }
-// Method Definition Index: 135448
+// Method Definition Index: 135465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedEventHandler__ctor_mFD108CA176F9437B5F6ED5180074133A73AFF88A_gshared (ViewModelChangedEventHandler_tE8860B7F2C40355F964F2C4BD27DA2301476B52B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12389,20 +12389,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedEventHandler__ctor_mFD10
 	}
 	__this->___extra_arg = (intptr_t)&ViewModelChangedEventHandler_Invoke_m5D467A94E59A41E7ED28D76EC875D399F0CE0EA8_Multicast;
 }
-// Method Definition Index: 135449
+// Method Definition Index: 135466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedEventHandler_Invoke_m5D467A94E59A41E7ED28D76EC875D399F0CE0EA8_gshared (ViewModelChangedEventHandler_tE8860B7F2C40355F964F2C4BD27DA2301476B52B* __this, RuntimeObject* ___0_viewModel, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_viewModel, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 135450
+// Method Definition Index: 135467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ViewModelChangedEventHandler_BeginInvoke_m9838263A34473796BC1D4409509D8E888555DC9C_gshared (ViewModelChangedEventHandler_tE8860B7F2C40355F964F2C4BD27DA2301476B52B* __this, RuntimeObject* ___0_viewModel, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_viewModel;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 135451
+// Method Definition Index: 135468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedEventHandler_EndInvoke_m8D2E59D6D12F7F3304C70D391BF3A905140FB09B_gshared (ViewModelChangedEventHandler_tE8860B7F2C40355F964F2C4BD27DA2301476B52B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12463,7 +12463,7 @@ void ViewModelChangedEventHandler_Invoke_mC6DDCDCBAD15DB88113E70462CB1202811A379
 	NullCheck(___0_viewModel);
 	GenericInterfaceActionInvoker0Invoker::Invoke(method, (RuntimeObject*)___0_viewModel);
 }
-// Method Definition Index: 135448
+// Method Definition Index: 135465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedEventHandler__ctor_m4DCACDF8DC8C31FCCB22B496FF7D3A64C6FA5517_gshared (ViewModelChangedEventHandler_t81A0407A6CBAFCF788ED56904B631BDE28FDAEF6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12512,13 +12512,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedEventHandler__ctor_m4DCA
 	}
 	__this->___extra_arg = (intptr_t)&ViewModelChangedEventHandler_Invoke_mC6DDCDCBAD15DB88113E70462CB1202811A37955_Multicast;
 }
-// Method Definition Index: 135449
+// Method Definition Index: 135466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedEventHandler_Invoke_mC6DDCDCBAD15DB88113E70462CB1202811A37955_gshared (ViewModelChangedEventHandler_t81A0407A6CBAFCF788ED56904B631BDE28FDAEF6* __this, Il2CppFullySharedGenericAny ___0_viewModel, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_viewModel, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 135450
+// Method Definition Index: 135467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ViewModelChangedEventHandler_BeginInvoke_mD4E15F3A480EB64BC94A9FBEDE47AFFA9ACED256_gshared (ViewModelChangedEventHandler_t81A0407A6CBAFCF788ED56904B631BDE28FDAEF6* __this, Il2CppFullySharedGenericAny ___0_viewModel, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
@@ -12526,7 +12526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ViewModelChangedEventHandler_B
 	__d_args[0] = (il2cpp_codegen_class_is_value_type(___0_viewModel_klass) ? Box(___0_viewModel_klass, ___0_viewModel) : (void*)___0_viewModel);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 135451
+// Method Definition Index: 135468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedEventHandler_EndInvoke_m5FE9CE66642235ED5D0C62420982A291F1FF72D0_gshared (ViewModelChangedEventHandler_t81A0407A6CBAFCF788ED56904B631BDE28FDAEF6* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12581,7 +12581,7 @@ void ViewModelChangedPropertyEventHandler_Invoke_mABC179055C68F8BBF52047814C1D8E
 	NullCheck(___0_viewModel);
 	GenericInterfaceActionInvoker1< PropertyChangedEventArgs_tFA01343D8F2BD799951B40A3EBF4A6B38EE63321* >::Invoke(method, ___0_viewModel, ___1_eventArgs);
 }
-// Method Definition Index: 135452
+// Method Definition Index: 135469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedPropertyEventHandler__ctor_mFACE4BFA3ECEE4F345361BEAF854F0039A0FCB52_gshared (ViewModelChangedPropertyEventHandler_t1CD63361B7EA554F186EDE3B860B5456229D881F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12634,13 +12634,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedPropertyEventHandler__ct
 	}
 	__this->___extra_arg = (intptr_t)&ViewModelChangedPropertyEventHandler_Invoke_mABC179055C68F8BBF52047814C1D8EAB23C0415A_Multicast;
 }
-// Method Definition Index: 135453
+// Method Definition Index: 135470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedPropertyEventHandler_Invoke_mABC179055C68F8BBF52047814C1D8EAB23C0415A_gshared (ViewModelChangedPropertyEventHandler_t1CD63361B7EA554F186EDE3B860B5456229D881F* __this, RuntimeObject* ___0_viewModel, PropertyChangedEventArgs_tFA01343D8F2BD799951B40A3EBF4A6B38EE63321* ___1_eventArgs, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, PropertyChangedEventArgs_tFA01343D8F2BD799951B40A3EBF4A6B38EE63321*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_viewModel, ___1_eventArgs, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 135454
+// Method Definition Index: 135471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ViewModelChangedPropertyEventHandler_BeginInvoke_m1EE66644F990EA6EEAB01042AB41EFBC1DF218A6_gshared (ViewModelChangedPropertyEventHandler_t1CD63361B7EA554F186EDE3B860B5456229D881F* __this, RuntimeObject* ___0_viewModel, PropertyChangedEventArgs_tFA01343D8F2BD799951B40A3EBF4A6B38EE63321* ___1_eventArgs, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -12648,7 +12648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ViewModelChangedPropertyEventH
 	__d_args[1] = ___1_eventArgs;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 135455
+// Method Definition Index: 135472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedPropertyEventHandler_EndInvoke_m41D19A51F1AE942FF06520EDC022A2ECD8579C2E_gshared (ViewModelChangedPropertyEventHandler_t1CD63361B7EA554F186EDE3B860B5456229D881F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12709,7 +12709,7 @@ void ViewModelChangedPropertyEventHandler_Invoke_mF2B19D48D1081C5E490BB694161154
 	NullCheck(___0_viewModel);
 	GenericInterfaceActionInvoker1Invoker< PropertyChangedEventArgs_tFA01343D8F2BD799951B40A3EBF4A6B38EE63321* >::Invoke(method, (RuntimeObject*)___0_viewModel, ___1_eventArgs);
 }
-// Method Definition Index: 135452
+// Method Definition Index: 135469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedPropertyEventHandler__ctor_m0798C81EF1006A9678812519767C443DA4E76AC7_gshared (ViewModelChangedPropertyEventHandler_tD71AD542EE96E869384AB042934B5B33D1EF2145* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12758,13 +12758,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedPropertyEventHandler__ct
 	}
 	__this->___extra_arg = (intptr_t)&ViewModelChangedPropertyEventHandler_Invoke_mF2B19D48D1081C5E490BB694161154C75BDAE6AC_Multicast;
 }
-// Method Definition Index: 135453
+// Method Definition Index: 135470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedPropertyEventHandler_Invoke_mF2B19D48D1081C5E490BB694161154C75BDAE6AC_gshared (ViewModelChangedPropertyEventHandler_tD71AD542EE96E869384AB042934B5B33D1EF2145* __this, Il2CppFullySharedGenericAny ___0_viewModel, PropertyChangedEventArgs_tFA01343D8F2BD799951B40A3EBF4A6B38EE63321* ___1_eventArgs, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, PropertyChangedEventArgs_tFA01343D8F2BD799951B40A3EBF4A6B38EE63321*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_viewModel, ___1_eventArgs, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 135454
+// Method Definition Index: 135471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ViewModelChangedPropertyEventHandler_BeginInvoke_m7235572491F9ED5FD272291A887F1192ACE498D6_gshared (ViewModelChangedPropertyEventHandler_tD71AD542EE96E869384AB042934B5B33D1EF2145* __this, Il2CppFullySharedGenericAny ___0_viewModel, PropertyChangedEventArgs_tFA01343D8F2BD799951B40A3EBF4A6B38EE63321* ___1_eventArgs, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -12773,7 +12773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ViewModelChangedPropertyEventH
 	__d_args[1] = ___1_eventArgs;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 135455
+// Method Definition Index: 135472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedPropertyEventHandler_EndInvoke_mFA6B8D781CBB017D399621455B3E4613E8FCB385_gshared (ViewModelChangedPropertyEventHandler_tD71AD542EE96E869384AB042934B5B33D1EF2145* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -12786,7 +12786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModelChangedPropertyEventHandler_End
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 135456
+// Method Definition Index: 135473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModel_1_add_ViewModelChanged_m8056E2FDD50F7B656812E72A9CD98E13E77919E2_gshared (ViewModel_1_t077A2FFCE3D2C5C67AC5BC81EEB04921B504913E* __this, ViewModelChangedEventHandler_tE8860B7F2C40355F964F2C4BD27DA2301476B52B* ___0_value, const RuntimeMethod* method) 
 {
 	ViewModelChangedEventHandler_tE8860B7F2C40355F964F2C4BD27DA2301476B52B* V_0 = NULL;
@@ -12826,7 +12826,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 135457
+// Method Definition Index: 135474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModel_1_remove_ViewModelChanged_m5F6AA2539404CC5DCF45DA89D0358343C4C24501_gshared (ViewModel_1_t077A2FFCE3D2C5C67AC5BC81EEB04921B504913E* __this, ViewModelChangedEventHandler_tE8860B7F2C40355F964F2C4BD27DA2301476B52B* ___0_value, const RuntimeMethod* method) 
 {
 	ViewModelChangedEventHandler_tE8860B7F2C40355F964F2C4BD27DA2301476B52B* V_0 = NULL;
@@ -12866,7 +12866,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 135458
+// Method Definition Index: 135475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModel_1_add_PropertyChanged_mE627A2B99EF41EC2BBD44A59F91FCFD441898888_gshared (ViewModel_1_t077A2FFCE3D2C5C67AC5BC81EEB04921B504913E* __this, ViewModelChangedPropertyEventHandler_t1CD63361B7EA554F186EDE3B860B5456229D881F* ___0_value, const RuntimeMethod* method) 
 {
 	ViewModelChangedPropertyEventHandler_t1CD63361B7EA554F186EDE3B860B5456229D881F* V_0 = NULL;
@@ -12906,7 +12906,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 135459
+// Method Definition Index: 135476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModel_1_remove_PropertyChanged_m8E3F123B762EF5556EA1DDF1028371A1FF634603_gshared (ViewModel_1_t077A2FFCE3D2C5C67AC5BC81EEB04921B504913E* __this, ViewModelChangedPropertyEventHandler_t1CD63361B7EA554F186EDE3B860B5456229D881F* ___0_value, const RuntimeMethod* method) 
 {
 	ViewModelChangedPropertyEventHandler_t1CD63361B7EA554F186EDE3B860B5456229D881F* V_0 = NULL;
@@ -12946,7 +12946,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 135461
+// Method Definition Index: 135478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModel_1_OnViewModelChanged_mD75FAA38DDCD8F584416CBE875808E976BF1A3BC_gshared (ViewModel_1_t077A2FFCE3D2C5C67AC5BC81EEB04921B504913E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12993,7 +12993,7 @@ IL_0019:
 		return;
 	}
 }
-// Method Definition Index: 135462
+// Method Definition Index: 135479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModel_1_OnPropertyChanged_m4290E2BD124FAC945D3BF1FC01AF9BC06E878969_gshared (ViewModel_1_t077A2FFCE3D2C5C67AC5BC81EEB04921B504913E* __this, String_t* ___0_propertyName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13052,7 +13052,7 @@ IL_0026:
 		return;
 	}
 }
-// Method Definition Index: 135463
+// Method Definition Index: 135480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViewModel_1__ctor_m5C7E5F8AF9C7CE8024386F5B11E6404C0FA0D633_gshared (ViewModel_1_t077A2FFCE3D2C5C67AC5BC81EEB04921B504913E* __this, const RuntimeMethod* method) 
 {
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
@@ -38368,13 +38368,13 @@ IL_00a2:
 		return L_22;
 	}
 }
-// Method Definition Index: 135449
+// Method Definition Index: 135466
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViewModelChangedEventHandler_Invoke_m5D467A94E59A41E7ED28D76EC875D399F0CE0EA8_gshared_inline (ViewModelChangedEventHandler_tE8860B7F2C40355F964F2C4BD27DA2301476B52B* __this, RuntimeObject* ___0_viewModel, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_viewModel, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 135453
+// Method Definition Index: 135470
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViewModelChangedPropertyEventHandler_Invoke_mABC179055C68F8BBF52047814C1D8EAB23C0415A_gshared_inline (ViewModelChangedPropertyEventHandler_t1CD63361B7EA554F186EDE3B860B5456229D881F* __this, RuntimeObject* ___0_viewModel, PropertyChangedEventArgs_tFA01343D8F2BD799951B40A3EBF4A6B38EE63321* ___1_eventArgs, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, PropertyChangedEventArgs_tFA01343D8F2BD799951B40A3EBF4A6B38EE63321*, const RuntimeMethod*);

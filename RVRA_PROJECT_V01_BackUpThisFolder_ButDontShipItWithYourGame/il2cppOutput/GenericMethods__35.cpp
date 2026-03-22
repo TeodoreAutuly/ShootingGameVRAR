@@ -20562,7 +20562,7 @@ IL_007c:
 		return L_22;
 	}
 }
-// Method Definition Index: 134262
+// Method Definition Index: 134279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BitReader_ReadPartialValue_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m7CE9F8E7F571F935B51876F0D52CCD9DAF5C7221_gshared (BitReader_tC2C5972F82B2C666BA22750BC9D094A2A4196528* __this, uint64_t* ___0_value, int32_t ___1_bytesToRead, int32_t ___2_offsetBytes, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -20621,7 +20621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BitReader_ReadPartialValue_TisUInt64_t8F
 		return;
 	}
 }
-// Method Definition Index: 134262
+// Method Definition Index: 134279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BitReader_ReadPartialValue_TisIl2CppFullySharedGenericStruct_mF0591C0142C7FDB5F8AAC1A7A57485F3FCE50106_gshared (BitReader_tC2C5972F82B2C666BA22750BC9D094A2A4196528* __this, Il2CppFullySharedGenericStruct* ___0_value, int32_t ___1_bytesToRead, int32_t ___2_offsetBytes, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -20812,7 +20812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BitReader_ReadPartialValue_TisIl2CppFull
 		return;
 	}
 }
-// Method Definition Index: 134272
+// Method Definition Index: 134289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BitWriter_WritePartialValue_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m2141D5870D1F4E0362442402A575164053AD5BC3_gshared (BitWriter_tDD5F64ADBAEF0587AA8AE53E946AF0A2436A605C* __this, uint64_t ___0_value, int32_t ___1_bytesToWrite, int32_t ___2_offsetBytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20859,7 +20859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BitWriter_WritePartialValue_TisUInt64_t8
 		return;
 	}
 }
-// Method Definition Index: 134272
+// Method Definition Index: 134289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BitWriter_WritePartialValue_TisIl2CppFullySharedGenericStruct_m89B3775A8BCAC14100356588994AD4671F4A1685_gshared (BitWriter_tDD5F64ADBAEF0587AA8AE53E946AF0A2436A605C* __this, Il2CppFullySharedGenericStruct ___0_value, int32_t ___1_bytesToWrite, int32_t ___2_offsetBytes, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))

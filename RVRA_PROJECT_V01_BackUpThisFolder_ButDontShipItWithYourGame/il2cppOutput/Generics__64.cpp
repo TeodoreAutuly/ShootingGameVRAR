@@ -49683,7 +49683,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumField_1__cctor_mDFE900D06C1DD48F7B59
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 135228
+// Method Definition Index: 135245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2__cctor_mD1BF75582310C4DD0135B59F2A31EE243FD2A79E_gshared (const RuntimeMethod* method) 
 {
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
@@ -49703,7 +49703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2__cctor_mD1BF75582310C4DD0135B5
 		return;
 	}
 }
-// Method Definition Index: 135229
+// Method Definition Index: 135246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2__ctor_mA8E769AE115EE3792943EBD6E79E797D8F6F38BB_gshared (EnumMap_2_t209306C02DB9866730BA7F9AC3F5610946D8E5AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49735,7 +49735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2__ctor_mA8E769AE115EE3792943EBD
 		return;
 	}
 }
-// Method Definition Index: 135230
+// Method Definition Index: 135247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2__ctor_m9311193FCD1F92A7D41C865A2D8D6037C7F5A818_gshared (EnumMap_2_t209306C02DB9866730BA7F9AC3F5610946D8E5AB* __this, Il2CppFullySharedGenericAny ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49770,7 +49770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2__ctor_m9311193FCD1F92A7D41C865
 		return;
 	}
 }
-// Method Definition Index: 135231
+// Method Definition Index: 135248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2__ctor_m31930A027A240D6124675C5BFDE9E81E494DE897_gshared (EnumMap_2_t209306C02DB9866730BA7F9AC3F5610946D8E5AB* __this, __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ___0_values, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49812,7 +49812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2__ctor_m31930A027A240D6124675C5
 		return;
 	}
 }
-// Method Definition Index: 135232
+// Method Definition Index: 135249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2_get_Item_m0BB8080BB68588F729F0BDE81A4AC487E6748AC8_gshared (EnumMap_2_t209306C02DB9866730BA7F9AC3F5610946D8E5AB* __this, Il2CppFullySharedGenericStruct ___0_key, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49846,7 +49846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2_get_Item_m0BB8080BB68588F729F0
 		return;
 	}
 }
-// Method Definition Index: 135233
+// Method Definition Index: 135250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2_set_Item_m1609893051876A99F96C63FEBB4905528E1604B3_gshared (EnumMap_2_t209306C02DB9866730BA7F9AC3F5610946D8E5AB* __this, Il2CppFullySharedGenericStruct ___0_key, Il2CppFullySharedGenericAny ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49880,7 +49880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2_set_Item_m1609893051876A99F96C
 		return;
 	}
 }
-// Method Definition Index: 135234
+// Method Definition Index: 135251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EnumMap_2_get_Count_m5D28F1CD42FD023C06B75D3698BCD64594721F69_gshared (EnumMap_2_t209306C02DB9866730BA7F9AC3F5610946D8E5AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49901,7 +49901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EnumMap_2_get_Count_m5D28F1CD42FD023C
 		return L_0;
 	}
 }
-// Method Definition Index: 135235
+// Method Definition Index: 135252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* EnumMap_2_get_Values_mFED4A7EE22914847511756635FA200EC445BF644_gshared (EnumMap_2_t209306C02DB9866730BA7F9AC3F5610946D8E5AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49921,7 +49921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D06
 		return L_0;
 	}
 }
-// Method Definition Index: 135236
+// Method Definition Index: 135253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2_Add_m344A7DFA8CEEB30B6D6536B435041FD3ECEA0A41_gshared (EnumMap_2_t209306C02DB9866730BA7F9AC3F5610946D8E5AB* __this, Il2CppFullySharedGenericStruct ___0_key, Il2CppFullySharedGenericAny ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -49958,7 +49958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumMap_2_Add_m344A7DFA8CEEB30B6D6536B43
 		return;
 	}
 }
-// Method Definition Index: 135237
+// Method Definition Index: 135254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnumMap_2_GetEnumerator_mBB912007B76D0046F3B471CDA4B086B187A84B7C_gshared (EnumMap_2_t209306C02DB9866730BA7F9AC3F5610946D8E5AB* __this, const RuntimeMethod* method) 
 {
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
@@ -49972,7 +49972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnumMap_2_GetEnumerator_mBB912
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 135238
+// Method Definition Index: 135255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnumMap_2_System_Collections_IEnumerable_GetEnumerator_m2D60208E16956FA4D3F0F9C4835E4AC7B91D14B7_gshared (EnumMap_2_t209306C02DB9866730BA7F9AC3F5610946D8E5AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50086,7 +50086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumValues_1__cctor_mE541DE3CBDB8FCA5F8D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 135358
+// Method Definition Index: 135375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumWithoutFlagsAttributeException_1__ctor_m442CA0C9C1AFDFAE465FD80EB396321D561C0BD2_gshared (EnumWithoutFlagsAttributeException_1_t9C89968C27D3B8F20146ADB5AC00F8D3AB8FC9E4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -50123,7 +50123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumWithoutFlagsAttributeException_1__ct
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 135358
+// Method Definition Index: 135375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumWithoutFlagsAttributeException_1__ctor_m68FBF7BC01A1ED143ED573B6CAFFC53ED28A7A6F_gshared (EnumWithoutFlagsAttributeException_1_tFD0B997658E67CCDBB09E0BC888167A2AF95B7AA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

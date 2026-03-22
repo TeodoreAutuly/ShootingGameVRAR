@@ -17320,7 +17320,7 @@ IL_000a:
 		return L_2;
 	}
 }
-// Method Definition Index: 135479
+// Method Definition Index: 135496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BytesSentAndReceived_tA4A081F527BCFA0B5B6D5EBD55EEDEED4D5AFACC BytesSentAndReceivedExtensions_Sum_TisIl2CppFullySharedGenericAny_m2B107440D97850B81EEFD7C6D2B574E7AEC68406_gshared (RuntimeObject* ___0_ts, Func_2_tE3EFA8579598F492888FC89BB0A22617F425DF3B* ___1_f, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))

@@ -10637,7 +10637,7 @@ IL_0030:
 		return L_12;
 	}
 }
-// Method Definition Index: 136252
+// Method Definition Index: 136269
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ContactPairPoint_get_position_mD7D5690B579C6DF348EBBAD5523DAB1B90253C10_inline (ContactPairPoint_tEF790486AFD9D5C05672FE4F702A160FABF059C1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10695,7 +10695,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 136254
+// Method Definition Index: 136271
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ContactPairPoint_get_normal_m019987EB1D8883A212596E8BB418EB787050FECF_inline (ContactPairPoint_tEF790486AFD9D5C05672FE4F702A160FABF059C1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10715,7 +10715,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 136243
+// Method Definition Index: 136260
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ContactPair_get_contactCount_m88D1AAC41AD1CC351B0CE66CC508E0C05B233940_inline (ContactPair_t096319945A27108A2DA384393A9ED390BE4356FD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10735,7 +10735,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ContactPair_get_contactCo
 		return L_0;
 	}
 }
-// Method Definition Index: 136237
+// Method Definition Index: 136254
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ContactPairHeader_get_pairCount_m9C290B2D1D254D6A0BA4E4BA8B67D0D67401BBF2_inline (ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10790,7 +10790,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_9;
 	}
 }
-// Method Definition Index: 136233
+// Method Definition Index: 136250
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ContactPairHeader_get_bodyEntityId_m46F6E472A9C9E83C85C4BE601E9B587C12BF23AA_inline (ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10810,7 +10810,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EntityId_t982FBD037EAC5CA077B1602
 		return L_0;
 	}
 }
-// Method Definition Index: 136234
+// Method Definition Index: 136251
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ContactPairHeader_get_otherBodyEntityId_m1FB2A9091DD0ECBE14B642B1FDAB3AB37401F0A4_inline (ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

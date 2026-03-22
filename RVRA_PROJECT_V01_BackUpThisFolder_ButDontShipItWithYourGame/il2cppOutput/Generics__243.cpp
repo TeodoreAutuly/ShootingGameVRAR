@@ -19759,7 +19759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnexpectedEnumValueException_1_set_Value
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 135247
+// Method Definition Index: 135264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnhandledEnumBackingTypeException_2__ctor_m6D60F82575B064A91D1798E07DDF2CBBE18A794F_gshared (UnhandledEnumBackingTypeException_2_tC258224D50133C5DF17030D28535484DDAC54B5F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19819,7 +19819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnhandledEnumBackingTypeException_2__cto
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 135359
+// Method Definition Index: 135376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnhandledEnumUnderlyingTypeException_2__ctor_mFCEE0120C066B9542182D0192494915305A2F368_gshared (UnhandledEnumUnderlyingTypeException_2_tE300B01070975BD9138A4B1E8C4196DD6503176A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19888,7 +19888,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnhandledEnumUnderlyingTypeException_2__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 135359
+// Method Definition Index: 135376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnhandledEnumUnderlyingTypeException_2__ctor_m0F87690B27FA69570C8658F1DE6BC9EBBF5A970F_gshared (UnhandledEnumUnderlyingTypeException_2_t4DE18523D79593A87589EC234DE9301C5D65E941* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

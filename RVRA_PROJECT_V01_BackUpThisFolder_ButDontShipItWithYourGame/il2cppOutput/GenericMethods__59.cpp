@@ -11493,7 +11493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RuntimePropertyInfo_StaticGett
 		return L_2;
 	}
 }
-// Method Definition Index: 135190
+// Method Definition Index: 135207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeUtils_NoEffectWarning_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m88F540D677FA99EB05EA7A09FBEE58CED8F2F161_gshared (RuntimeObject* ___0_source, String_t* ___1_caller, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -11573,7 +11573,7 @@ IL_004a:
 		return L_13;
 	}
 }
-// Method Definition Index: 135190
+// Method Definition Index: 135207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RuntimeUtils_NoEffectWarning_TisRuntimeObject_mA9E21A58DB4C19678B545EAC079C8E5E62B6BDF5_gshared (RuntimeObject* ___0_source, String_t* ___1_caller, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -11653,7 +11653,7 @@ IL_004a:
 		return L_13;
 	}
 }
-// Method Definition Index: 135190
+// Method Definition Index: 135207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeUtils_NoEffectWarning_TisIl2CppFullySharedGenericAny_m390D228798C9F394565C4C243C19D4F800ECD836_gshared (RuntimeObject* ___0_source, String_t* ___1_caller, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))

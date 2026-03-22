@@ -5861,7 +5861,7 @@ IL_00e3:
 		return;
 	}
 }
-// Method Definition Index: 135365
+// Method Definition Index: 135382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ReadOnlyListExtensions_IndexOf_TisIl2CppFullySharedGenericAny_m774EDC36FAE549ED722523F9CEC0B609F365EDCA_gshared (RuntimeObject* ___0_list, Il2CppFullySharedGenericAny ___1_elementToFind, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))

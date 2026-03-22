@@ -13055,7 +13055,7 @@ IL_0015:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 135250
+// Method Definition Index: 135267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiscontinuousEnumException_2__ctor_mB02FD2C17E04E4F835AA3141821B5E2EA2E03981_gshared (DiscontinuousEnumException_2_t667FEF67392C9295CF27677E6409283B44229DD3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

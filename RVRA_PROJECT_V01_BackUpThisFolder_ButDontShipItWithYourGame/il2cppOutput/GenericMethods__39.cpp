@@ -27258,7 +27258,7 @@ IL_00da:
 		return L_34;
 	}
 }
-// Method Definition Index: 135332
+// Method Definition Index: 135349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictionaryExtensions_GetValueOrCreateNew_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_mA9C6B60DCE8F4E52DAEB0A9B35AFB8B26A07C47B_gshared (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E* ___0_dictionary, Il2CppFullySharedGenericAny ___1_key, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -34431,7 +34431,7 @@ IL_003e:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 135245
+// Method Definition Index: 135262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 EnumContinuity_GetMinMaxAndUniqueValueCount_TisIl2CppFullySharedGenericStruct_mC6A674D76790A503DDE946C20B6BD4547AED3D69_gshared (const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -34592,7 +34592,7 @@ IL_0077:
 		return L_27;
 	}
 }
-// Method Definition Index: 135246
+// Method Definition Index: 135263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EnumContinuity_ValidateEnumForEnumMap_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericAny_m58441CD6E1AE609C31637E1594FC7F022BE806BD_gshared (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -34854,7 +34854,7 @@ IL_0041:
 		return;
 	}
 }
-// Method Definition Index: 135341
+// Method Definition Index: 135358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnumUtil_ContainsAll_TisIl2CppFullySharedGenericStruct_mE719151A81BB5E4ED077EDDA1B795B63F22282DC_gshared (Il2CppFullySharedGenericStruct ___0_a, Il2CppFullySharedGenericStruct ___1_b, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -34889,7 +34889,7 @@ IL_000b:
 		return L_3;
 	}
 }
-// Method Definition Index: 135340
+// Method Definition Index: 135357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnumUtil_ContainsAny_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m9D008F4901A224C23AC60E8C282D3802D8E52230_gshared (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -34921,7 +34921,7 @@ IL_000b:
 		return L_3;
 	}
 }
-// Method Definition Index: 135340
+// Method Definition Index: 135357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EnumUtil_ContainsAny_TisIl2CppFullySharedGenericStruct_m9259EF9F82CCC371F5580CD31C40E282857CA09D_gshared (Il2CppFullySharedGenericStruct ___0_a, Il2CppFullySharedGenericStruct ___1_b, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -34956,7 +34956,7 @@ IL_000b:
 		return L_3;
 	}
 }
-// Method Definition Index: 135334
+// Method Definition Index: 135351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* EnumUtil_GetNames_TisIl2CppFullySharedGenericStruct_m2326AA762CB13E5C7242029E07248BF80E0ED97B_gshared (const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -34995,7 +34995,7 @@ IL_0013:
 		return L_3;
 	}
 }
-// Method Definition Index: 135333
+// Method Definition Index: 135350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* EnumUtil_GetValues_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m73A420988DADCDF4883C5155055C6C0DE3E82116_gshared (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -35030,7 +35030,7 @@ IL_0018:
 		return L_3;
 	}
 }
-// Method Definition Index: 135333
+// Method Definition Index: 135350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR __Il2CppFullySharedGenericStructTypeU5BU5D_tF3B929B6E80D0A8C109178E11CE8FF9957B014C1* EnumUtil_GetValues_TisIl2CppFullySharedGenericStruct_m5D88672D722C5FF72E58A4BCCF6D95D84D25DAD9_gshared (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -35065,7 +35065,7 @@ IL_0018:
 		return L_3;
 	}
 }
-// Method Definition Index: 135335
+// Method Definition Index: 135352
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnumUtil_GetValuesAndNames_TisIl2CppFullySharedGenericStruct_m8A436DEC49F020FFC15E263FED1F01B6C24136F1_gshared (__Il2CppFullySharedGenericStructTypeU5BU5D_tF3B929B6E80D0A8C109178E11CE8FF9957B014C1* ___0_skip, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -35081,7 +35081,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnumUtil_GetValuesAndNames_Tis
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 135342
+// Method Definition Index: 135359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumUtil_SetFlags_TisIl2CppFullySharedGenericStruct_m4F8422DEBB39172451075B924A226CFAFFFA1B00_gshared (Il2CppFullySharedGenericStruct ___0_a, Il2CppFullySharedGenericStruct ___1_b, bool ___2_value, Il2CppFullySharedGenericStruct* il2cppRetVal, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -35120,7 +35120,7 @@ IL_000c:
 		return;
 	}
 }
-// Method Definition Index: 135343
+// Method Definition Index: 135360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumUtil_SetFlagsInPlace_TisIl2CppFullySharedGenericStruct_m78605C203C3CC99B32EAD321E38DD44819EC89A7_gshared (Il2CppFullySharedGenericStruct* ___0_a, Il2CppFullySharedGenericStruct ___1_b, bool ___2_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -35152,7 +35152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumUtil_SetFlagsInPlace_TisIl2CppFullyS
 		return;
 	}
 }
-// Method Definition Index: 135338
+// Method Definition Index: 135355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EnumUtil_UnsafeCastToEnum_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m01FFC78EA96B7C79BCFD7F43DED65890DD222176_gshared (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -35178,7 +35178,7 @@ IL_000c:
 		return L_1;
 	}
 }
-// Method Definition Index: 135338
+// Method Definition Index: 135355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumUtil_UnsafeCastToEnum_TisIl2CppFullySharedGenericStruct_m8C1417AC3E3D2CF41548716C3F8FD526DF4EBD4C_gshared (int32_t ___0_value, Il2CppFullySharedGenericStruct* il2cppRetVal, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -35209,7 +35209,7 @@ IL_000c:
 		return;
 	}
 }
-// Method Definition Index: 135339
+// Method Definition Index: 135356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumUtil_UnsafeCastToEnum_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_mA97EC618BB85779E3AAEE1EA56633841C55EEA63_gshared (Il2CppFullySharedGenericStruct ___0_value, Il2CppFullySharedGenericStruct* il2cppRetVal, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -35240,7 +35240,7 @@ IL_000c:
 		return;
 	}
 }
-// Method Definition Index: 135337
+// Method Definition Index: 135354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EnumUtil_UnsafeCastToInt_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m607E4F23E45FBF4895A7ABA10CBF58BB7001F716_gshared (int32_t ___0_enumValue, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -35265,7 +35265,7 @@ IL_0008:
 		return L_1;
 	}
 }
-// Method Definition Index: 135337
+// Method Definition Index: 135354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EnumUtil_UnsafeCastToInt_TisIl2CppFullySharedGenericStruct_mD4E31CF382F00F3D78DA4CDCAEE93AB989D0CA4C_gshared (Il2CppFullySharedGenericStruct ___0_enumValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -35291,7 +35291,7 @@ IL_0008:
 		return L_1;
 	}
 }
-// Method Definition Index: 135336
+// Method Definition Index: 135353
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EnumUtil_UnsafeCastToUnderlying_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m8CC8CE7BD392140CBCB11C2FEC9B03CAE56F3DD0_gshared (int32_t ___0_enumValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -35317,7 +35317,7 @@ IL_000c:
 		return L_1;
 	}
 }
-// Method Definition Index: 135336
+// Method Definition Index: 135353
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumUtil_UnsafeCastToUnderlying_TisIl2CppFullySharedGenericStruct_TisIl2CppFullySharedGenericStruct_m382455D011BF96D4EF18B5C244D9C0952D47F6F8_gshared (Il2CppFullySharedGenericStruct ___0_enumValue, Il2CppFullySharedGenericStruct* il2cppRetVal, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);

@@ -74,24 +74,24 @@ public class ARNetworkPlayer : NetworkBehaviour
         if (!IsSpawned)
             return;
 
-        if (IsOwner)
+        // if (IsOwner)
+        // {
+        if (!_localRigBound)
         {
-            if (!_localRigBound)
-            {
-                TryLateBindLocalRig();
-                return;
-            }
+            TryLateBindLocalRig();
+            return;
+        }
 
-            CopyPose(_localArCamera, networkedCameraProxy);
-            
-            // Log owner
-            Debug.Log($"[ARNetworkPlayer] OWNER writing pos: {networkedCameraProxy.position}");
-        }
-        else
-        {
-            // Log non-owner — est-ce que la position bouge ?
-            Debug.Log($"[ARNetworkPlayer] NON-OWNER sees proxy pos: {networkedCameraProxy.position}");
-        }
+        CopyPose(_localArCamera, networkedCameraProxy);
+        
+        // Log owner
+        // Debug.Log($"[ARNetworkPlayer] OWNER writing pos: {networkedCameraProxy.position}");
+        // }
+        // else
+        // {
+        //     // Log non-owner — est-ce que la position bouge ?
+        //     Debug.Log($"[ARNetworkPlayer] NON-OWNER sees proxy pos: {networkedCameraProxy.position}");
+        // }
     }
 
     private void BindLocalRig()
@@ -129,7 +129,7 @@ public class ARNetworkPlayer : NetworkBehaviour
         if (ARBootstrapper.Instance == null)
             return;
 
-        Debug.Log("TryLateBindLocalRig Moving...");
+        // Debug.Log("TryLateBindLocalRig Moving...");
         BindLocalRig();
     }
 
@@ -164,12 +164,12 @@ public class ARNetworkPlayer : NetworkBehaviour
 
     private static void CopyPose(Transform source, Transform target)
     {
-        Debug.Log("AR CopyPose");
+        // Debug.Log("AR CopyPose");
 
         if (source == null || target == null)
             return;
 
-        Debug.Log("AR Passed CopyPose");
+        // Debug.Log("AR Passed CopyPose");
 
         Transform parent = target.parent;
 

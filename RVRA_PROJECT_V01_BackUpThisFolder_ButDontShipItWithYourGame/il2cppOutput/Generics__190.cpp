@@ -8622,7 +8622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139826
+// Method Definition Index: 139843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor_m87705CA320DA1EAD16E9CD082F16F70BB99EA900_gshared (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8676,7 +8676,7 @@ IL2CPP_EXTERN_C  void ProfilerCounterValue_1__ctor_m87705CA320DA1EAD16E9CD082F16
 	_thisAdjusted = reinterpret_cast<ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7*>(__this + _offset);
 	ProfilerCounterValue_1__ctor_m87705CA320DA1EAD16E9CD082F16F70BB99EA900_inline(_thisAdjusted, ___0_name, method);
 }
-// Method Definition Index: 139827
+// Method Definition Index: 139844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor_m0583811869311C9AEA0EA10A5F92E5E93C5D46E6_gshared (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, String_t* ___0_name, uint8_t ___1_dataUnit, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8731,7 +8731,7 @@ IL2CPP_EXTERN_C  void ProfilerCounterValue_1__ctor_m0583811869311C9AEA0EA10A5F92
 	_thisAdjusted = reinterpret_cast<ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7*>(__this + _offset);
 	ProfilerCounterValue_1__ctor_m0583811869311C9AEA0EA10A5F92E5E93C5D46E6_inline(_thisAdjusted, ___0_name, ___1_dataUnit, method);
 }
-// Method Definition Index: 139828
+// Method Definition Index: 139845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor_m380440132DF641C5D01A790C6A5B33F27F6DBDE6_gshared (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, String_t* ___0_name, uint8_t ___1_dataUnit, uint16_t ___2_counterOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8787,7 +8787,7 @@ IL2CPP_EXTERN_C  void ProfilerCounterValue_1__ctor_m380440132DF641C5D01A790C6A5B
 	_thisAdjusted = reinterpret_cast<ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7*>(__this + _offset);
 	ProfilerCounterValue_1__ctor_m380440132DF641C5D01A790C6A5B33F27F6DBDE6_inline(_thisAdjusted, ___0_name, ___1_dataUnit, ___2_counterOptions, method);
 }
-// Method Definition Index: 139829
+// Method Definition Index: 139846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor_m9F0A37EF02729B913386213C3CC469058D716C10_gshared (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, uint8_t ___2_dataUnit, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8847,7 +8847,7 @@ IL2CPP_EXTERN_C  void ProfilerCounterValue_1__ctor_m9F0A37EF02729B913386213C3CC4
 	_thisAdjusted = reinterpret_cast<ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7*>(__this + _offset);
 	ProfilerCounterValue_1__ctor_m9F0A37EF02729B913386213C3CC469058D716C10_inline(_thisAdjusted, ___0_category, ___1_name, ___2_dataUnit, method);
 }
-// Method Definition Index: 139830
+// Method Definition Index: 139847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor_mAE7E1C99FD4CC68319C5BA7AC7176C810C2993DC_gshared (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, uint8_t ___2_dataUnit, uint16_t ___3_counterOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8908,7 +8908,7 @@ IL2CPP_EXTERN_C  void ProfilerCounterValue_1__ctor_mAE7E1C99FD4CC68319C5BA7AC717
 	_thisAdjusted = reinterpret_cast<ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7*>(__this + _offset);
 	ProfilerCounterValue_1__ctor_mAE7E1C99FD4CC68319C5BA7AC7176C810C2993DC_inline(_thisAdjusted, ___0_category, ___1_name, ___2_dataUnit, ___3_counterOptions, method);
 }
-// Method Definition Index: 139831
+// Method Definition Index: 139848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounterValue_1_get_Value_mBA7A1605D4A0514BB9933489BDBA74D5D63D4D5F_gshared (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, Il2CppFullySharedGenericStruct* il2cppRetVal, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8954,7 +8954,7 @@ IL2CPP_EXTERN_C  void ProfilerCounterValue_1_get_Value_mBA7A1605D4A0514BB9933489
 	ProfilerCounterValue_1_get_Value_mBA7A1605D4A0514BB9933489BDBA74D5D63D4D5F_inline(_thisAdjusted, il2cppRetVal, method);
 	return;
 }
-// Method Definition Index: 139832
+// Method Definition Index: 139849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounterValue_1_set_Value_mC3F486A4815076B763B0260DE22C5A3C0DA2B411_gshared (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8992,7 +8992,7 @@ IL2CPP_EXTERN_C  void ProfilerCounterValue_1_set_Value_mC3F486A4815076B763B0260D
 	_thisAdjusted = reinterpret_cast<ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7*>(__this + _offset);
 	ProfilerCounterValue_1_set_Value_mC3F486A4815076B763B0260DE22C5A3C0DA2B411_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 139833
+// Method Definition Index: 139850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounterValue_1_Sample_m00D82473DAE880EC81AF59FEDEDF3D23D706D760_gshared (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9035,7 +9035,7 @@ IL2CPP_EXTERN_C  void ProfilerCounterValue_1_Sample_m00D82473DAE880EC81AF59FEDED
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139824
+// Method Definition Index: 139841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounter_1__ctor_m72EFD69FAA82C502E583EA8D3745B0DE476199ED_gshared (ProfilerCounter_1_t164CEA6505C01A0E203C256D3F24F0D943978945* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, uint8_t ___2_dataUnit, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9091,7 +9091,7 @@ IL2CPP_EXTERN_C  void ProfilerCounter_1__ctor_m72EFD69FAA82C502E583EA8D3745B0DE4
 	_thisAdjusted = reinterpret_cast<ProfilerCounter_1_t164CEA6505C01A0E203C256D3F24F0D943978945*>(__this + _offset);
 	ProfilerCounter_1__ctor_m72EFD69FAA82C502E583EA8D3745B0DE476199ED_inline(_thisAdjusted, ___0_category, ___1_name, ___2_dataUnit, method);
 }
-// Method Definition Index: 139825
+// Method Definition Index: 139842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounter_1_Sample_m20C358BFC346EA9A67033C5E2ECFFCD801EC8779_gshared (ProfilerCounter_1_t164CEA6505C01A0E203C256D3F24F0D943978945* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9163,7 +9163,7 @@ IL2CPP_EXTERN_C  void ProfilerCounter_1_Sample_m20C358BFC346EA9A67033C5E2ECFFCD8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139824
+// Method Definition Index: 139841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounter_1__ctor_mFE75350BBEBA66D493A737F2F97B0BE6557CCBEF_gshared (ProfilerCounter_1_t0E7F171E488DA91FBC871E5A5C2492269E86B579* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, uint8_t ___2_dataUnit, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9219,7 +9219,7 @@ IL2CPP_EXTERN_C  void ProfilerCounter_1__ctor_mFE75350BBEBA66D493A737F2F97B0BE65
 	_thisAdjusted = reinterpret_cast<ProfilerCounter_1_t0E7F171E488DA91FBC871E5A5C2492269E86B579*>(__this + _offset);
 	ProfilerCounter_1__ctor_mFE75350BBEBA66D493A737F2F97B0BE6557CCBEF_inline(_thisAdjusted, ___0_category, ___1_name, ___2_dataUnit, method);
 }
-// Method Definition Index: 139825
+// Method Definition Index: 139842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounter_1_Sample_m5D8331C0619B25292EF21FB2EF4B60AB983572E1_gshared (ProfilerCounter_1_t0E7F171E488DA91FBC871E5A5C2492269E86B579* __this, Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9291,7 +9291,7 @@ IL2CPP_EXTERN_C  void ProfilerCounter_1_Sample_m5D8331C0619B25292EF21FB2EF4B60AB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139834
+// Method Definition Index: 139851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarker_1__ctor_m0BCF4A07F709C86021936DA1BB8894682C1FFCF1_gshared (ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4* __this, String_t* ___0_name, String_t* ___1_param1Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9342,7 +9342,7 @@ IL2CPP_EXTERN_C  void ProfilerMarker_1__ctor_m0BCF4A07F709C86021936DA1BB8894682C
 	_thisAdjusted = reinterpret_cast<ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4*>(__this + _offset);
 	ProfilerMarker_1__ctor_m0BCF4A07F709C86021936DA1BB8894682C1FFCF1_inline(_thisAdjusted, ___0_name, ___1_param1Name, method);
 }
-// Method Definition Index: 139835
+// Method Definition Index: 139852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarker_1__ctor_mEE6AC6CD897AE808D57F1BF731F1C16D0593287B_gshared (ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, String_t* ___2_param1Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9398,7 +9398,7 @@ IL2CPP_EXTERN_C  void ProfilerMarker_1__ctor_mEE6AC6CD897AE808D57F1BF731F1C16D05
 	_thisAdjusted = reinterpret_cast<ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4*>(__this + _offset);
 	ProfilerMarker_1__ctor_mEE6AC6CD897AE808D57F1BF731F1C16D0593287B_inline(_thisAdjusted, ___0_category, ___1_name, ___2_param1Name, method);
 }
-// Method Definition Index: 139836
+// Method Definition Index: 139853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarker_1_Begin_m03E913BD59C5414D05D642C659857E6A48972907_gshared (ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4* __this, Il2CppFullySharedGenericStruct ___0_p1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9460,7 +9460,7 @@ IL2CPP_EXTERN_C  void ProfilerMarker_1_Begin_m03E913BD59C5414D05D642C659857E6A48
 	_thisAdjusted = reinterpret_cast<ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4*>(__this + _offset);
 	ProfilerMarker_1_Begin_m03E913BD59C5414D05D642C659857E6A48972907_inline(_thisAdjusted, ___0_p1, method);
 }
-// Method Definition Index: 139837
+// Method Definition Index: 139854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarker_1_End_mC7FD2E5CAA31B16FA6C5B1FA9D9E299DF9426136_gshared (ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9493,7 +9493,7 @@ IL2CPP_EXTERN_C  void ProfilerMarker_1_End_mC7FD2E5CAA31B16FA6C5B1FA9D9E299DF942
 	_thisAdjusted = reinterpret_cast<ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4*>(__this + _offset);
 	ProfilerMarker_1_End_mC7FD2E5CAA31B16FA6C5B1FA9D9E299DF9426136_inline(_thisAdjusted, method);
 }
-// Method Definition Index: 139838
+// Method Definition Index: 139855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AutoScope_tC7219C223F5B6227F8A7551EB90151A435FCE5FB ProfilerMarker_1_Auto_mB048CE8D925A279D4A7928095D5C34FB4E98A074_gshared (ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4* __this, Il2CppFullySharedGenericStruct ___0_p1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9552,7 +9552,7 @@ IL2CPP_EXTERN_C  AutoScope_tC7219C223F5B6227F8A7551EB90151A435FCE5FB ProfilerMar
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139841
+// Method Definition Index: 139858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarker_2__ctor_mD4F6251FB2369B8EA038F4F59F3641F24E7FE870_gshared (ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4* __this, String_t* ___0_name, String_t* ___1_param1Name, String_t* ___2_param2Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9618,7 +9618,7 @@ IL2CPP_EXTERN_C  void ProfilerMarker_2__ctor_mD4F6251FB2369B8EA038F4F59F3641F24E
 	_thisAdjusted = reinterpret_cast<ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4*>(__this + _offset);
 	ProfilerMarker_2__ctor_mD4F6251FB2369B8EA038F4F59F3641F24E7FE870_inline(_thisAdjusted, ___0_name, ___1_param1Name, ___2_param2Name, method);
 }
-// Method Definition Index: 139842
+// Method Definition Index: 139859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarker_2__ctor_m483EE922A70264BA280805DA63A398A96AF04726_gshared (ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, String_t* ___2_param1Name, String_t* ___3_param2Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9689,7 +9689,7 @@ IL2CPP_EXTERN_C  void ProfilerMarker_2__ctor_m483EE922A70264BA280805DA63A398A96A
 	_thisAdjusted = reinterpret_cast<ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4*>(__this + _offset);
 	ProfilerMarker_2__ctor_m483EE922A70264BA280805DA63A398A96AF04726_inline(_thisAdjusted, ___0_category, ___1_name, ___2_param1Name, ___3_param2Name, method);
 }
-// Method Definition Index: 139843
+// Method Definition Index: 139860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarker_2_Begin_m955947C9F07B1249AB2106BE22FC0880BCAC9137_gshared (ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4* __this, Il2CppFullySharedGenericStruct ___0_p1, Il2CppFullySharedGenericStruct ___1_p2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9787,7 +9787,7 @@ IL2CPP_EXTERN_C  void ProfilerMarker_2_Begin_m955947C9F07B1249AB2106BE22FC0880BC
 	_thisAdjusted = reinterpret_cast<ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4*>(__this + _offset);
 	ProfilerMarker_2_Begin_m955947C9F07B1249AB2106BE22FC0880BCAC9137_inline(_thisAdjusted, ___0_p1, ___1_p2, method);
 }
-// Method Definition Index: 139844
+// Method Definition Index: 139861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarker_2_End_mD28AB65BC2E9AAAE87F9DBA9DB530F75752DEE79_gshared (ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9820,7 +9820,7 @@ IL2CPP_EXTERN_C  void ProfilerMarker_2_End_mD28AB65BC2E9AAAE87F9DBA9DB530F75752D
 	_thisAdjusted = reinterpret_cast<ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4*>(__this + _offset);
 	ProfilerMarker_2_End_mD28AB65BC2E9AAAE87F9DBA9DB530F75752DEE79_inline(_thisAdjusted, method);
 }
-// Method Definition Index: 139845
+// Method Definition Index: 139862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AutoScope_tD73850F963D47CA96D0D3B643C720BDF69DCE43A ProfilerMarker_2_Auto_m9B96A08BB8A4E5CFBB41B97253157E8384FD9415_gshared (ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4* __this, Il2CppFullySharedGenericStruct ___0_p1, Il2CppFullySharedGenericStruct ___1_p2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9883,7 +9883,7 @@ IL2CPP_EXTERN_C  AutoScope_tD73850F963D47CA96D0D3B643C720BDF69DCE43A ProfilerMar
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139848
+// Method Definition Index: 139865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarker_3__ctor_m7B9BA17BBB0D4247C660676C8A6BDDF939640036_gshared (ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF* __this, String_t* ___0_name, String_t* ___1_param1Name, String_t* ___2_param2Name, String_t* ___3_param3Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9964,7 +9964,7 @@ IL2CPP_EXTERN_C  void ProfilerMarker_3__ctor_m7B9BA17BBB0D4247C660676C8A6BDDF939
 	_thisAdjusted = reinterpret_cast<ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF*>(__this + _offset);
 	ProfilerMarker_3__ctor_m7B9BA17BBB0D4247C660676C8A6BDDF939640036_inline(_thisAdjusted, ___0_name, ___1_param1Name, ___2_param2Name, ___3_param3Name, method);
 }
-// Method Definition Index: 139849
+// Method Definition Index: 139866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarker_3__ctor_m8C8AE069EF2379D89986133FE563A004EA8DA5C8_gshared (ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, String_t* ___2_param1Name, String_t* ___3_param2Name, String_t* ___4_param3Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10050,7 +10050,7 @@ IL2CPP_EXTERN_C  void ProfilerMarker_3__ctor_m8C8AE069EF2379D89986133FE563A004EA
 	_thisAdjusted = reinterpret_cast<ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF*>(__this + _offset);
 	ProfilerMarker_3__ctor_m8C8AE069EF2379D89986133FE563A004EA8DA5C8_inline(_thisAdjusted, ___0_category, ___1_name, ___2_param1Name, ___3_param2Name, ___4_param3Name, method);
 }
-// Method Definition Index: 139850
+// Method Definition Index: 139867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarker_3_Begin_m4EC09ACCC76309D7537F144E145070C0C99CA7E9_gshared (ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF* __this, Il2CppFullySharedGenericStruct ___0_p1, Il2CppFullySharedGenericStruct ___1_p2, Il2CppFullySharedGenericStruct ___2_p3, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10175,7 +10175,7 @@ IL2CPP_EXTERN_C  void ProfilerMarker_3_Begin_m4EC09ACCC76309D7537F144E145070C0C9
 	_thisAdjusted = reinterpret_cast<ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF*>(__this + _offset);
 	ProfilerMarker_3_Begin_m4EC09ACCC76309D7537F144E145070C0C99CA7E9_inline(_thisAdjusted, ___0_p1, ___1_p2, ___2_p3, method);
 }
-// Method Definition Index: 139851
+// Method Definition Index: 139868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerMarker_3_End_m2DF4E0A0FA3E703C81E7320ED937C19C3505AE72_gshared (ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10208,7 +10208,7 @@ IL2CPP_EXTERN_C  void ProfilerMarker_3_End_m2DF4E0A0FA3E703C81E7320ED937C19C3505
 	_thisAdjusted = reinterpret_cast<ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF*>(__this + _offset);
 	ProfilerMarker_3_End_m2DF4E0A0FA3E703C81E7320ED937C19C3505AE72_inline(_thisAdjusted, method);
 }
-// Method Definition Index: 139852
+// Method Definition Index: 139869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AutoScope_t629C3F6C246FA69A48E1863056FB2D55711FD126 ProfilerMarker_3_Auto_m07268C63116AD09F7F00102BD707FC84086B584C_gshared (ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF* __this, Il2CppFullySharedGenericStruct ___0_p1, Il2CppFullySharedGenericStruct ___1_p2, Il2CppFullySharedGenericStruct ___2_p3, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47462,7 +47462,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyCollection_1__cctor_m04A0805EB11
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 139826
+// Method Definition Index: 139843
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor_m87705CA320DA1EAD16E9CD082F16F70BB99EA900_gshared_inline (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47509,7 +47509,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor
 		return;
 	}
 }
-// Method Definition Index: 139827
+// Method Definition Index: 139844
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor_m0583811869311C9AEA0EA10A5F92E5E93C5D46E6_gshared_inline (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, String_t* ___0_name, uint8_t ___1_dataUnit, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47557,7 +47557,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor
 		return;
 	}
 }
-// Method Definition Index: 139828
+// Method Definition Index: 139845
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor_m380440132DF641C5D01A790C6A5B33F27F6DBDE6_gshared_inline (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, String_t* ___0_name, uint8_t ___1_dataUnit, uint16_t ___2_counterOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47606,7 +47606,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor
 		return;
 	}
 }
-// Method Definition Index: 139829
+// Method Definition Index: 139846
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor_m9F0A37EF02729B913386213C3CC469058D716C10_gshared_inline (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, uint8_t ___2_dataUnit, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47659,7 +47659,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor
 		return;
 	}
 }
-// Method Definition Index: 139830
+// Method Definition Index: 139847
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor_mAE7E1C99FD4CC68319C5BA7AC7176C810C2993DC_gshared_inline (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, uint8_t ___2_dataUnit, uint16_t ___3_counterOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47713,7 +47713,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor
 		return;
 	}
 }
-// Method Definition Index: 139831
+// Method Definition Index: 139848
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1_get_Value_mBA7A1605D4A0514BB9933489BDBA74D5D63D4D5F_gshared_inline (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, Il2CppFullySharedGenericStruct* il2cppRetVal, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47751,7 +47751,7 @@ IL_0010:
 		return;
 	}
 }
-// Method Definition Index: 139832
+// Method Definition Index: 139849
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1_set_Value_mC3F486A4815076B763B0260DE22C5A3C0DA2B411_gshared_inline (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47782,7 +47782,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1_set_V
 		return;
 	}
 }
-// Method Definition Index: 139824
+// Method Definition Index: 139841
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounter_1__ctor_m72EFD69FAA82C502E583EA8D3745B0DE476199ED_gshared_inline (ProfilerCounter_1_t164CEA6505C01A0E203C256D3F24F0D943978945* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, uint8_t ___2_dataUnit, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47843,7 +47843,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisI
 		return (int32_t)L_0;
 	}
 }
-// Method Definition Index: 139825
+// Method Definition Index: 139842
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounter_1_Sample_m20C358BFC346EA9A67033C5E2ECFFCD801EC8779_gshared_inline (ProfilerCounter_1_t164CEA6505C01A0E203C256D3F24F0D943978945* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47900,7 +47900,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounter_1_Sample_m20
 		return;
 	}
 }
-// Method Definition Index: 139824
+// Method Definition Index: 139841
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounter_1__ctor_mFE75350BBEBA66D493A737F2F97B0BE6557CCBEF_gshared_inline (ProfilerCounter_1_t0E7F171E488DA91FBC871E5A5C2492269E86B579* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, uint8_t ___2_dataUnit, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -47949,7 +47949,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounter_1__ctor_mFE7
 		return;
 	}
 }
-// Method Definition Index: 139825
+// Method Definition Index: 139842
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounter_1_Sample_m5D8331C0619B25292EF21FB2EF4B60AB983572E1_gshared_inline (ProfilerCounter_1_t0E7F171E488DA91FBC871E5A5C2492269E86B579* __this, Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48006,7 +48006,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounter_1_Sample_m5D
 		return;
 	}
 }
-// Method Definition Index: 139834
+// Method Definition Index: 139851
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_1__ctor_m0BCF4A07F709C86021936DA1BB8894682C1FFCF1_gshared_inline (ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4* __this, String_t* ___0_name, String_t* ___1_param1Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48050,7 +48050,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_1__ctor_m0BCF
 		return;
 	}
 }
-// Method Definition Index: 139835
+// Method Definition Index: 139852
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_1__ctor_mEE6AC6CD897AE808D57F1BF731F1C16D0593287B_gshared_inline (ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, String_t* ___2_param1Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48099,7 +48099,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_1__ctor_mEE6A
 		return;
 	}
 }
-// Method Definition Index: 139836
+// Method Definition Index: 139853
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_1_Begin_m03E913BD59C5414D05D642C659857E6A48972907_gshared_inline (ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4* __this, Il2CppFullySharedGenericStruct ___0_p1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48154,7 +48154,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_1_Begin_m03E9
 		return;
 	}
 }
-// Method Definition Index: 139837
+// Method Definition Index: 139854
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_1_End_mC7FD2E5CAA31B16FA6C5B1FA9D9E299DF9426136_gshared_inline (ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48180,7 +48180,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_1_End_mC7FD2E
 		return;
 	}
 }
-// Method Definition Index: 139839
+// Method Definition Index: 139856
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AutoScope__ctor_mA1EFD0D0B98AEF4B0859D8E24D5532CBE105B46E_gshared_inline (AutoScope_tC7219C223F5B6227F8A7551EB90151A435FCE5FB* __this, ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4 ___0_marker, Il2CppFullySharedGenericStruct ___1_p1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48214,7 +48214,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AutoScope__ctor_mA1EFD0D0B98
 		return;
 	}
 }
-// Method Definition Index: 139838
+// Method Definition Index: 139855
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AutoScope_tC7219C223F5B6227F8A7551EB90151A435FCE5FB ProfilerMarker_1_Auto_mB048CE8D925A279D4A7928095D5C34FB4E98A074_gshared_inline (ProfilerMarker_1_tCA89FA9FA48F67E4AC54BF3BFD09F0A62F5D54E4* __this, Il2CppFullySharedGenericStruct ___0_p1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48256,7 +48256,7 @@ IL_0010:
 		return L_4;
 	}
 }
-// Method Definition Index: 139841
+// Method Definition Index: 139858
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_2__ctor_mD4F6251FB2369B8EA038F4F59F3641F24E7FE870_gshared_inline (ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4* __this, String_t* ___0_name, String_t* ___1_param1Name, String_t* ___2_param2Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48315,7 +48315,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_2__ctor_mD4F6
 		return;
 	}
 }
-// Method Definition Index: 139842
+// Method Definition Index: 139859
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_2__ctor_m483EE922A70264BA280805DA63A398A96AF04726_gshared_inline (ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, String_t* ___2_param1Name, String_t* ___3_param2Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48379,7 +48379,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_2__ctor_m483E
 		return;
 	}
 }
-// Method Definition Index: 139843
+// Method Definition Index: 139860
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_2_Begin_m955947C9F07B1249AB2106BE22FC0880BCAC9137_gshared_inline (ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4* __this, Il2CppFullySharedGenericStruct ___0_p1, Il2CppFullySharedGenericStruct ___1_p2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48470,7 +48470,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_2_Begin_m9559
 		return;
 	}
 }
-// Method Definition Index: 139844
+// Method Definition Index: 139861
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_2_End_mD28AB65BC2E9AAAE87F9DBA9DB530F75752DEE79_gshared_inline (ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48496,7 +48496,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_2_End_mD28AB6
 		return;
 	}
 }
-// Method Definition Index: 139846
+// Method Definition Index: 139863
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AutoScope__ctor_m12760C89131B4EAFF43D837791FDD14FECAAB728_gshared_inline (AutoScope_tD73850F963D47CA96D0D3B643C720BDF69DCE43A* __this, ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4 ___0_marker, Il2CppFullySharedGenericStruct ___1_p1, Il2CppFullySharedGenericStruct ___2_p2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48533,7 +48533,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AutoScope__ctor_m12760C89131
 		return;
 	}
 }
-// Method Definition Index: 139845
+// Method Definition Index: 139862
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AutoScope_tD73850F963D47CA96D0D3B643C720BDF69DCE43A ProfilerMarker_2_Auto_m9B96A08BB8A4E5CFBB41B97253157E8384FD9415_gshared_inline (ProfilerMarker_2_tBDA2EAB383E153521662F12E4F56AEA21DF3B5F4* __this, Il2CppFullySharedGenericStruct ___0_p1, Il2CppFullySharedGenericStruct ___1_p2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48579,7 +48579,7 @@ IL_0011:
 		return L_6;
 	}
 }
-// Method Definition Index: 139848
+// Method Definition Index: 139865
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_3__ctor_m7B9BA17BBB0D4247C660676C8A6BDDF939640036_gshared_inline (ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF* __this, String_t* ___0_name, String_t* ___1_param1Name, String_t* ___2_param2Name, String_t* ___3_param3Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48653,7 +48653,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_3__ctor_m7B9B
 		return;
 	}
 }
-// Method Definition Index: 139849
+// Method Definition Index: 139866
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_3__ctor_m8C8AE069EF2379D89986133FE563A004EA8DA5C8_gshared_inline (ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, String_t* ___2_param1Name, String_t* ___3_param2Name, String_t* ___4_param3Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48732,7 +48732,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_3__ctor_m8C8A
 		return;
 	}
 }
-// Method Definition Index: 139850
+// Method Definition Index: 139867
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_3_Begin_m4EC09ACCC76309D7537F144E145070C0C99CA7E9_gshared_inline (ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF* __this, Il2CppFullySharedGenericStruct ___0_p1, Il2CppFullySharedGenericStruct ___1_p2, Il2CppFullySharedGenericStruct ___2_p3, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48850,7 +48850,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_3_Begin_m4EC0
 		return;
 	}
 }
-// Method Definition Index: 139851
+// Method Definition Index: 139868
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_3_End_m2DF4E0A0FA3E703C81E7320ED937C19C3505AE72_gshared_inline (ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48876,7 +48876,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker_3_End_m2DF4E0
 		return;
 	}
 }
-// Method Definition Index: 139853
+// Method Definition Index: 139870
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AutoScope__ctor_m1CCB0847EFE398A1951D1EF500FE8A43C659803D_gshared_inline (AutoScope_t629C3F6C246FA69A48E1863056FB2D55711FD126* __this, ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF ___0_marker, Il2CppFullySharedGenericStruct ___1_p1, Il2CppFullySharedGenericStruct ___2_p2, Il2CppFullySharedGenericStruct ___3_p3, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -48916,7 +48916,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AutoScope__ctor_m1CCB0847EFE
 		return;
 	}
 }
-// Method Definition Index: 139852
+// Method Definition Index: 139869
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AutoScope_t629C3F6C246FA69A48E1863056FB2D55711FD126 ProfilerMarker_3_Auto_m07268C63116AD09F7F00102BD707FC84086B584C_gshared_inline (ProfilerMarker_3_t434A9A9C27DC5A2259825239C015D71DB1EA35AF* __this, Il2CppFullySharedGenericStruct ___0_p1, Il2CppFullySharedGenericStruct ___1_p2, Il2CppFullySharedGenericStruct ___2_p3, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

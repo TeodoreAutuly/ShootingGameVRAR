@@ -36121,7 +36121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CheckExceedsDirtinessThresholdDelegate_E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 135352
+// Method Definition Index: 135369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckedEnumUtils_2__cctor_m68747C6EC4F0A99B5430E4B76E8F90ACD30A73E7_gshared (const RuntimeMethod* method) 
 {
 	Type_t* V_0 = NULL;
@@ -36184,7 +36184,7 @@ IL_002c:
 		return;
 	}
 }
-// Method Definition Index: 135353
+// Method Definition Index: 135370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CheckedEnumUtils_2_CheckedCastToUnderlying_mDA5B9B0AA9CAD828154752F5AD9C308EE460726C_gshared (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -36221,7 +36221,7 @@ IL_000a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 135352
+// Method Definition Index: 135369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckedEnumUtils_2__cctor_m2C3ACB5D3641B41CAAFD55DA67A9AA14B95245FD_gshared (const RuntimeMethod* method) 
 {
 	Type_t* V_0 = NULL;
@@ -36284,7 +36284,7 @@ IL_002c:
 		return;
 	}
 }
-// Method Definition Index: 135353
+// Method Definition Index: 135370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckedEnumUtils_2_CheckedCastToUnderlying_m209EAED61A56AAAE7B3FB84847AFD5542CB02153_gshared (Il2CppFullySharedGenericStruct ___0_value, Il2CppFullySharedGenericStruct* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TUnderlying_t896AD3B7CF608F3FAC2A0CF9381BC4FDCFFBC0ED = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 6));

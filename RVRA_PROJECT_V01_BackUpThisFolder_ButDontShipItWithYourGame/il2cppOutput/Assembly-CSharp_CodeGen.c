@@ -66,6 +66,10 @@ extern void ARControlBootstrapper_Start_m9CFB5CFDF7F03C6C6A1E918C14238E434E44908
 extern void ARControlBootstrapper_Update_m27A2D744AD80DBB3A9B6D72E4295883B44CE1873 (void);
 extern void ARControlBootstrapper_OnDestroy_m4E974DB91EFE31B9FDD343426878F928B96E37BA (void);
 extern void ARControlBootstrapper__ctor_m08A26531CE1D2E9D70C2600F92A427F754B41F05 (void);
+extern void ARNavigationMapBootstrapper_OnBoardInstantiated_mED837C2E30A95FD4EFC89B03F5622B5BA5E92390 (void);
+extern void ARNavigationMapBootstrapper_OnBoardLost_m17BC7985DFAE411EFEDBB5653102C112CE678848 (void);
+extern void ARNavigationMapBootstrapper_Update_m3B803923EE3A143D941B8DFB89C6257E5A73AA2C (void);
+extern void ARNavigationMapBootstrapper__ctor_mBB75BF7813A83DB9BCC72C04F0AB795BB2613F60 (void);
 extern void CodeDisplayInstaller_get_Controller_m6C4ACA57A8BE72EB01F1214F6BDB48C28620E78F (void);
 extern void CodeDisplayInstaller_Awake_m5C46C9F38EA0D44ADE5637A42D75CA5B30566833 (void);
 extern void CodeDisplayInstaller_Update_m455850CDCDDB1ACD0C2CC7271FE97CD51634EF34 (void);
@@ -89,6 +93,11 @@ extern void CodeDisplayController__ctor_mAFB017C655DE5AAE48E48444F5C7D220995E0E4
 extern void CodeDisplayController_OnGenerateButtonClicked_mF66B374902E72C9FBB5C1BF1ECA67400DB3D78AA (void);
 extern void CodeDisplayController_Tick_m77CC1CA69BFB6D9A101ACBD379FF926950E33307 (void);
 extern void CodeDisplayController_Dispose_mC8850E330595BA31A7C5E6478CF05F8947471810 (void);
+extern void NavigationBoardInstaller_Start_mC1066E2BC27B35521D9715FBA644BE9B4A295750 (void);
+extern void NavigationBoardInstaller_OnDestroy_mB69A6FAA70E59CEA05B3A2E9AE470B86F622CEDB (void);
+extern void NavigationBoardInstaller__ctor_mE48E18BD5A078EC721DB8BAF0774C8F32F83C7DF (void);
+extern void ARNavigationMapController__ctor_mCAD4C9E8DFD541A1F76CB385B9FCD905F355A233 (void);
+extern void ARNavigationMapController_Tick_mD4A4A3F0A0F865D8CBA1776475291458F47D7875 (void);
 extern void HoverColorChanger_Awake_mFCDFE8D4D1D0F07EAAEBADCE9EDDCF4D307FB4ED (void);
 extern void HoverColorChanger_OnEnable_m81646DFB01BC7D45F1C851D8B05C0286E2B9CD13 (void);
 extern void HoverColorChanger_OnDisable_m9902BCF80650BD6E278AA63673E674222E7233D1 (void);
@@ -102,6 +111,12 @@ extern void HoverColorChanger___initializeVariables_mD249C19B1A61FB6F048ED6C6D8B
 extern void HoverColorChanger___initializeRpcs_m74248C00A87576C9008CA5E2047AB4FD7D4B97E7 (void);
 extern void HoverColorChanger___rpc_handler_944093007_m03D13532E76FD886F3058ECF558C1C32C8796DB5 (void);
 extern void HoverColorChanger___getTypeName_m643AB2D3897410FA6DB9593E6687971A4F629BDB (void);
+extern void ARNavigationMapModel_get_NormalizedPosition_mBF3E12970E8538C59BEBD7E3BA24E1A08C3D6468 (void);
+extern void ARNavigationMapModel_set_NormalizedPosition_mC7B33DBDB744008D5B5A437F49BF9BF238513DC9 (void);
+extern void ARNavigationMapModel_get_RotationY_m19C8D5E8F065557A8513EBC2BCE47F950AC65806 (void);
+extern void ARNavigationMapModel_set_RotationY_mFB4BA5907F865179FA4569F5C19A806CD45DFC36 (void);
+extern void ARNavigationMapModel__ctor_mFF008C4D5E2615A5595CEC3F06A6C2D8C4149E66 (void);
+extern void ARNavigationMapModel_UpdateFromWorldPosition_m41A4C88A6CD424D86BF36FDF7458C6591AD6DBBF (void);
 extern void ARLocomotionService__ctor_mF4480C139E6CB913DBDA5D9B65D9280C22F09C58 (void);
 extern void ARLocomotionService_MoveUp_m9F5E72B36BFBC813197DE2D688C743C9DEC4A35F (void);
 extern void ARLocomotionService_MoveDown_mA120DAEF2DF0F1C761A451D97C23F06982F6FF82 (void);
@@ -175,6 +190,8 @@ extern void ARControlView_U3CAwakeU3Eb__28_7_mCA65FF1D33E64209D670B765D9015F09F2
 extern void U3CU3Ec__DisplayClass29_0__ctor_m9CF339B06DA81A9865F971E84DB4123AF1349CFB (void);
 extern void U3CU3Ec__DisplayClass29_0_U3CRegisterU3Eb__0_m5A923A71B3960EF1DB5A5D39362AB305CED093EF (void);
 extern void U3CU3Ec__DisplayClass29_0_U3CRegisterU3Eb__1_mBCC328772629156C2D8E87A2C426366537035755 (void);
+extern void ARNavigationMapView_UpdateArrow_m798B0843F83EA46269C2D05558584A480E16AA3A (void);
+extern void ARNavigationMapView__ctor_mB989FBA31BE12F17C0536C798DF50C645F0A4086 (void);
 extern void CodeDisplayView_add_GenerateButtonClicked_mF3359C36BDEE96D2BBF9F112E7B3BE68D1039CF6 (void);
 extern void CodeDisplayView_remove_GenerateButtonClicked_mA674D84A0970A90582B45C0AEB7BF849750240EB (void);
 extern void CodeDisplayView_Awake_m232413609A46D54227E8092CE8D952240232888B (void);
@@ -322,7 +339,7 @@ extern void SpineProxy_Awake_mA1AE125E457248590AAEB31D19ED488C0A9FE2DF (void);
 extern void SpineProxy_LateUpdate_m5284164A630FB1FA6AA7D1CA815E057644EF8942 (void);
 extern void SpineProxy__ctor_mB3DFAC08ECD80A6DBE08DAC116300AE1C08578E6 (void);
 extern void NetworkVariableSerializationHelper_InitializeSerialization_mA4F17C9D8F4934C552263003358AF8CC0E55E6E3 (void);
-static Il2CppMethodPointer s_methodPointers[325] = 
+static Il2CppMethodPointer s_methodPointers[342] = 
 {
 	ARBootstrapper_get_Instance_mA9547774DD0A288337DFF0BFE3B4124F49E977F8,
 	ARBootstrapper_set_Instance_mA414104B2C76CD094BB943FA28B1F18F1756CFEA,
@@ -383,6 +400,10 @@ static Il2CppMethodPointer s_methodPointers[325] =
 	ARControlBootstrapper_Update_m27A2D744AD80DBB3A9B6D72E4295883B44CE1873,
 	ARControlBootstrapper_OnDestroy_m4E974DB91EFE31B9FDD343426878F928B96E37BA,
 	ARControlBootstrapper__ctor_m08A26531CE1D2E9D70C2600F92A427F754B41F05,
+	ARNavigationMapBootstrapper_OnBoardInstantiated_mED837C2E30A95FD4EFC89B03F5622B5BA5E92390,
+	ARNavigationMapBootstrapper_OnBoardLost_m17BC7985DFAE411EFEDBB5653102C112CE678848,
+	ARNavigationMapBootstrapper_Update_m3B803923EE3A143D941B8DFB89C6257E5A73AA2C,
+	ARNavigationMapBootstrapper__ctor_mBB75BF7813A83DB9BCC72C04F0AB795BB2613F60,
 	CodeDisplayInstaller_get_Controller_m6C4ACA57A8BE72EB01F1214F6BDB48C28620E78F,
 	CodeDisplayInstaller_Awake_m5C46C9F38EA0D44ADE5637A42D75CA5B30566833,
 	CodeDisplayInstaller_Update_m455850CDCDDB1ACD0C2CC7271FE97CD51634EF34,
@@ -406,6 +427,11 @@ static Il2CppMethodPointer s_methodPointers[325] =
 	CodeDisplayController_OnGenerateButtonClicked_mF66B374902E72C9FBB5C1BF1ECA67400DB3D78AA,
 	CodeDisplayController_Tick_m77CC1CA69BFB6D9A101ACBD379FF926950E33307,
 	CodeDisplayController_Dispose_mC8850E330595BA31A7C5E6478CF05F8947471810,
+	NavigationBoardInstaller_Start_mC1066E2BC27B35521D9715FBA644BE9B4A295750,
+	NavigationBoardInstaller_OnDestroy_mB69A6FAA70E59CEA05B3A2E9AE470B86F622CEDB,
+	NavigationBoardInstaller__ctor_mE48E18BD5A078EC721DB8BAF0774C8F32F83C7DF,
+	ARNavigationMapController__ctor_mCAD4C9E8DFD541A1F76CB385B9FCD905F355A233,
+	ARNavigationMapController_Tick_mD4A4A3F0A0F865D8CBA1776475291458F47D7875,
 	HoverColorChanger_Awake_mFCDFE8D4D1D0F07EAAEBADCE9EDDCF4D307FB4ED,
 	HoverColorChanger_OnEnable_m81646DFB01BC7D45F1C851D8B05C0286E2B9CD13,
 	HoverColorChanger_OnDisable_m9902BCF80650BD6E278AA63673E674222E7233D1,
@@ -419,6 +445,12 @@ static Il2CppMethodPointer s_methodPointers[325] =
 	HoverColorChanger___initializeRpcs_m74248C00A87576C9008CA5E2047AB4FD7D4B97E7,
 	HoverColorChanger___rpc_handler_944093007_m03D13532E76FD886F3058ECF558C1C32C8796DB5,
 	HoverColorChanger___getTypeName_m643AB2D3897410FA6DB9593E6687971A4F629BDB,
+	ARNavigationMapModel_get_NormalizedPosition_mBF3E12970E8538C59BEBD7E3BA24E1A08C3D6468,
+	ARNavigationMapModel_set_NormalizedPosition_mC7B33DBDB744008D5B5A437F49BF9BF238513DC9,
+	ARNavigationMapModel_get_RotationY_m19C8D5E8F065557A8513EBC2BCE47F950AC65806,
+	ARNavigationMapModel_set_RotationY_mFB4BA5907F865179FA4569F5C19A806CD45DFC36,
+	ARNavigationMapModel__ctor_mFF008C4D5E2615A5595CEC3F06A6C2D8C4149E66,
+	ARNavigationMapModel_UpdateFromWorldPosition_m41A4C88A6CD424D86BF36FDF7458C6591AD6DBBF,
 	ARLocomotionService__ctor_mF4480C139E6CB913DBDA5D9B65D9280C22F09C58,
 	ARLocomotionService_MoveUp_m9F5E72B36BFBC813197DE2D688C743C9DEC4A35F,
 	ARLocomotionService_MoveDown_mA120DAEF2DF0F1C761A451D97C23F06982F6FF82,
@@ -497,6 +529,8 @@ static Il2CppMethodPointer s_methodPointers[325] =
 	U3CU3Ec__DisplayClass29_0__ctor_m9CF339B06DA81A9865F971E84DB4123AF1349CFB,
 	U3CU3Ec__DisplayClass29_0_U3CRegisterU3Eb__0_m5A923A71B3960EF1DB5A5D39362AB305CED093EF,
 	U3CU3Ec__DisplayClass29_0_U3CRegisterU3Eb__1_mBCC328772629156C2D8E87A2C426366537035755,
+	ARNavigationMapView_UpdateArrow_m798B0843F83EA46269C2D05558584A480E16AA3A,
+	ARNavigationMapView__ctor_mB989FBA31BE12F17C0536C798DF50C645F0A4086,
 	NULL,
 	NULL,
 	NULL,
@@ -650,7 +684,7 @@ static Il2CppMethodPointer s_methodPointers[325] =
 	SpineProxy__ctor_mB3DFAC08ECD80A6DBE08DAC116300AE1C08578E6,
 	NetworkVariableSerializationHelper_InitializeSerialization_mA4F17C9D8F4934C552263003358AF8CC0E55E6E3,
 };
-static const int32_t s_InvokerIndices[325] = 
+static const int32_t s_InvokerIndices[342] = 
 {
 	43006,
 	41057,
@@ -711,6 +745,10 @@ static const int32_t s_InvokerIndices[325] =
 	25527,
 	25527,
 	25527,
+	19155,
+	25527,
+	25527,
+	25527,
 	25243,
 	25527,
 	25527,
@@ -737,6 +775,11 @@ static const int32_t s_InvokerIndices[325] =
 	25527,
 	25527,
 	25527,
+	3177,
+	25527,
+	25527,
+	25527,
+	25527,
 	25527,
 	19155,
 	19155,
@@ -747,6 +790,12 @@ static const int32_t s_InvokerIndices[325] =
 	25527,
 	32799,
 	25243,
+	25514,
+	19418,
+	25390,
+	19294,
+	19294,
+	10024,
 	4619,
 	19294,
 	19294,
@@ -825,6 +874,8 @@ static const int32_t s_InvokerIndices[325] =
 	25527,
 	19155,
 	19155,
+	10015,
+	25527,
 	-1,
 	-1,
 	-1,
@@ -983,7 +1034,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	325,
+	342,
 	s_methodPointers,
 	0,
 	NULL,
