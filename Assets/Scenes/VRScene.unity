@@ -499,6 +499,10 @@ PrefabInstance:
       propertyPath: vrLobbyView
       value: 
       objectReference: {fileID: 2002442955}
+    - target: {fileID: 4306303808878111461, guid: 13a8da3ac536c514ab90dd276e42f704, type: 3}
+      propertyPath: _targetsManagerVRPrefab
+      value: 
+      objectReference: {fileID: 2813344821517101587, guid: 6b9120ecfda0aba47861731ce0abc841, type: 3}
     - target: {fileID: 9104425371117137886, guid: 13a8da3ac536c514ab90dd276e42f704, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5

@@ -15,6 +15,7 @@ public class ConnectionManager : MonoBehaviour
     [Header("Session")]
     [SerializeField] private CodeDisplayInstaller installer;
     [SerializeField] private CodeDisplayView vrLobbyView;
+    [SerializeField] private NetworkObject _targetsManagerVRPrefab;
     [SerializeField] private int maxPlayers = 10;
 
     [Header("Debug")]
@@ -174,17 +175,26 @@ public class ConnectionManager : MonoBehaviour
         {
             if (enableLogs)
                 Debug.Log($"[VRConnectionManager] Local client connected. ClientId = {clientId}", this);
+    
+            // Spawn du manager de targets VR avec ownership VR
+            if (_targetsManagerVRPrefab != null)
+            {
+                NetworkObject managerInstance = Instantiate(_targetsManagerVRPrefab);
+                managerInstance.SpawnWithOwnership(clientId);
+            }
+            else
+            {
+                Debug.LogWarning("[VRConnectionManager] _targetsManagerVRPrefab non assigné.", this);
+            }
         }
-
+    
         int count = _networkManager.ConnectedClientsIds.Count;
-
+    
         if (enableLogs)
             Debug.Log($"[VRConnectionManager] Joueurs connectés : {count}");
-
+    
         if (count >= 2)
-        {
             vrLobbyView.HideLobby();
-        }
     }
 
     private void OnClientDisconnected(ulong clientId)

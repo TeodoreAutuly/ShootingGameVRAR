@@ -8,13 +8,16 @@ using UnityEngine;
 
 [DisallowMultipleComponent]
 public class ARConnectionManager : MonoBehaviour
-{
+{ 
     private string sessionName = "";
 
     [Header("Session")]
     [SerializeField] private ARConnectionUIView lobbyView ;     
 
     [SerializeField] private int maxPlayers = 10;
+
+    [SerializeField] private NetworkObject playerPrefab;
+    [SerializeField] private NetworkObject _targetsManagerARPrefab;
 
     [Header("Debug")]
     [SerializeField] private bool enableLogs = true;
@@ -128,17 +131,29 @@ public class ARConnectionManager : MonoBehaviour
             );
             lobbyView.HideUI();
         }
+    
     }
-
-    [SerializeField] private NetworkObject playerPrefab;
 
     private void OnClientConnected(ulong clientId)
     {
         if (_networkManager.LocalClientId != clientId)
             return;
+    
+        // Spawn du player AR
         NetworkObject playerInstance = Instantiate(playerPrefab);
         playerInstance.SpawnWithOwnership(clientId);
-        
+    
+        // Spawn du manager de targets AR avec ownership AR
+        if (_targetsManagerARPrefab != null)
+        {
+            NetworkObject managerInstance = Instantiate(_targetsManagerARPrefab);
+            managerInstance.SpawnWithOwnership(clientId);
+        }
+        else
+        {
+            Debug.LogWarning("[ARConnectionManager] _targetsManagerARPrefab non assigné.", this);
+        }
+    
         Debug.Log($"[ARConnectionManager] Local client connected. ClientId = {clientId}", this);
     }
 

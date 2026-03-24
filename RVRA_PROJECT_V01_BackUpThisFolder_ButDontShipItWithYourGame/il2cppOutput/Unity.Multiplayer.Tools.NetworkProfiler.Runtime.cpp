@@ -876,7 +876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerUnsafeUtility_SingleSampleWithMe
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139803
+// Method Definition Index: 139935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t10EC088C87702F597E3E4D1DA20BE26DEA28DAC4 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m26761998FF53875431A3F3372351DC8EB573789F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -931,7 +931,7 @@ IL_005f:
 		return L_7;
 	}
 }
-// Method Definition Index: 139804
+// Method Definition Index: 139936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m53F59AF3D717CE6238BD3E7C3ADB5F9421D7B2A0 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tBA5ACE5D46C24BFD43FDEEBFCC65AAC587B53479* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1025,7 +1025,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t10EC088C87702F597E3E4D1DA20BE26DEA28DAC4_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139805
+// Method Definition Index: 139937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ByteCounterFactory_Construct_m8A1A2CC18FB1140AC1D89D0353CEAC82E6B8C282 (ByteCounterFactory_t77A05E9859E185C56FFAA6829EC3D5C45272DF03* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1064,7 +1064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ByteCounterFactory_Construct_m
 		return L_3;
 	}
 }
-// Method Definition Index: 139806
+// Method Definition Index: 139938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ByteCounterFactory__ctor_mA8E17E6D3EA7E058CE93D4DC9DC14BC1B022E1D6 (ByteCounterFactory_t77A05E9859E185C56FFAA6829EC3D5C45272DF03* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1088,7 +1088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ByteCounterFactory__ctor_mA8E17E6D3EA7E0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139807
+// Method Definition Index: 139939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CounterWrapper__ctor_m37735EED16E0349741D489482253790D47C864C2 (CounterWrapper_t66372376907DC445BA05E96ABAC10E760B83319E* __this, ProfilerCounter_1_t164CEA6505C01A0E203C256D3F24F0D943978945 ___0_counter, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1119,7 +1119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CounterWrapper__ctor_m37735EED16E0349741
 		return;
 	}
 }
-// Method Definition Index: 139808
+// Method Definition Index: 139940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CounterWrapper_Sample_m59073B4F0E40734844C12A7F5D0863CA220FFF7B (CounterWrapper_t66372376907DC445BA05E96ABAC10E760B83319E* __this, int64_t ___0_inValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1157,7 +1157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CounterWrapper_Sample_m59073B4F0E4073484
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139809
+// Method Definition Index: 139941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EventCounterFactory_Construct_m03130019B1B30CB13DF4501B9310E029902DE2F2 (EventCounterFactory_tB381B04E06434F06171FC4594BFF08F8332A0CAD* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1196,7 +1196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EventCounterFactory_Construct_
 		return L_3;
 	}
 }
-// Method Definition Index: 139810
+// Method Definition Index: 139942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventCounterFactory__ctor_m06A4FB7FBE5FEDFA31B6D6C5CE0D37E774A9E6B3 (EventCounterFactory_tB381B04E06434F06171FC4594BFF08F8332A0CAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1220,7 +1220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventCounterFactory__ctor_m06A4FB7FBE5FE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139813
+// Method Definition Index: 139945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricByteCounters__ctor_m44351F0FF084F187182477B4DD7F7EE19DD0F023 (MetricByteCounters_t93939B32EAFF5C62DEAC49479C24B257BED5AC16* __this, String_t* ___0_displayName, RuntimeObject* ___1_counterFactory, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1296,7 +1296,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricByteCounters__ctor_m44351F0FF084F1
 		return;
 	}
 }
-// Method Definition Index: 139814
+// Method Definition Index: 139946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MetricByteCounters_get_Sent_mC97D8190FB75086A6566747A73E5CEA1EECFB4E6 (MetricByteCounters_t93939B32EAFF5C62DEAC49479C24B257BED5AC16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1317,7 +1317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MetricByteCounters_get_Sent_mC97D81
 		return L_0;
 	}
 }
-// Method Definition Index: 139815
+// Method Definition Index: 139947
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MetricByteCounters_get_Received_m59C838195C22C352ABA8D7F0AB49FC09ED7E93F2 (MetricByteCounters_t93939B32EAFF5C62DEAC49479C24B257BED5AC16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1338,7 +1338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MetricByteCounters_get_Received_m59
 		return L_0;
 	}
 }
-// Method Definition Index: 139817
+// Method Definition Index: 139949
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricByteCounters_Sample_m1927F17A64286D9EAEA1B63ED92C86FB09CE7045 (MetricByteCounters_t93939B32EAFF5C62DEAC49479C24B257BED5AC16* __this, int64_t ___0_sent, int64_t ___1_received, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1385,7 +1385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricByteCounters_Sample_m1927F17A64286
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139818
+// Method Definition Index: 139950
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricCounters__ctor_m43C1A8C767A6A90CAC226CDCAE69A34BF1F71B7B (MetricCounters_t5EED6DBE4970C6486197333F04361A49608FC5A0* __this, String_t* ___0_displayName, RuntimeObject* ___1_byteCounterFactory, RuntimeObject* ___2_eventCounterFactory, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1445,7 +1445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricCounters__ctor_m43C1A8C767A6A90CAC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139820
+// Method Definition Index: 139952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MetricEventCounters_get_Sent_m78BE5E723C71AB0CAAF3BBC0F5FDC6DC35871D7F (MetricEventCounters_t6018F3D388A02986183F5884F3D18564D9F6C172* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1466,7 +1466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MetricEventCounters_get_Sent_m78BE5
 		return L_0;
 	}
 }
-// Method Definition Index: 139821
+// Method Definition Index: 139953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MetricEventCounters_get_Received_m8B0522797455165C4CA584D2351D008182DF0C42 (MetricEventCounters_t6018F3D388A02986183F5884F3D18564D9F6C172* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1487,7 +1487,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MetricEventCounters_get_Received_m8
 		return L_0;
 	}
 }
-// Method Definition Index: 139822
+// Method Definition Index: 139954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricEventCounters__ctor_m34751E1F30D66C6D45690621898DD0DC3D467C15 (MetricEventCounters_t6018F3D388A02986183F5884F3D18564D9F6C172* __this, String_t* ___0_displayName, RuntimeObject* ___1_counterFactory, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1571,7 +1571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricEventCounters__ctor_m34751E1F30D66
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139824
+// Method Definition Index: 139956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProfilerCounters_t1C839C38EFDAC44F3D884ADD616F6AF8F23A00C3* ProfilerCounters_get_Instance_m55A0FA5692DC4C5C6E0E37A8C247DAE78328383B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1614,7 +1614,7 @@ IL_0016:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 139825
+// Method Definition Index: 139957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounters__ctor_m98EDA29C1F0F4B614803C8E0B7FC86342E0CAC84 (ProfilerCounters_t1C839C38EFDAC44F3D884ADD616F6AF8F23A00C3* __this, RuntimeObject* ___0_byteCounterFactory, RuntimeObject* ___1_eventCounterFactory, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1807,7 +1807,7 @@ IL_0023:
 		return;
 	}
 }
-// Method Definition Index: 139826
+// Method Definition Index: 139958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MetricByteCounters_t93939B32EAFF5C62DEAC49479C24B257BED5AC16* ProfilerCounters_ConstructMetricByteCounters_m5F1E1E208D3ADE2E551FBC1E79152D2183792710 (ProfilerCounters_t1C839C38EFDAC44F3D884ADD616F6AF8F23A00C3* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1837,7 +1837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MetricByteCounters_t93939B32EAFF5C62DEAC49479
 		return L_2;
 	}
 }
-// Method Definition Index: 139827
+// Method Definition Index: 139959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MetricCounters_t5EED6DBE4970C6486197333F04361A49608FC5A0* ProfilerCounters_ConstructMetricCounters_m7A5BC7EB97AE5A9EA28998EC5DB296A6943CAB90 (ProfilerCounters_t1C839C38EFDAC44F3D884ADD616F6AF8F23A00C3* __this, int32_t ___0_metricType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1867,7 +1867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MetricCounters_t5EED6DBE4970C6486197333F04361
 		return L_2;
 	}
 }
-// Method Definition Index: 139828
+// Method Definition Index: 139960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MetricCounters_t5EED6DBE4970C6486197333F04361A49608FC5A0* ProfilerCounters_ConstructMetricCounters_mC8C2650935AE7D7EE0D603A3AFA89C76CE3BC3FC (ProfilerCounters_t1C839C38EFDAC44F3D884ADD616F6AF8F23A00C3* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1896,7 +1896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MetricCounters_t5EED6DBE4970C6486197333F04361
 		return L_3;
 	}
 }
-// Method Definition Index: 139829
+// Method Definition Index: 139961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerCounters_UpdateFromMetrics_mD3171E543D39C1180FD915DF42AD0130628C677E (ProfilerCounters_t1C839C38EFDAC44F3D884ADD616F6AF8F23A00C3* __this, MetricCollection_tC854AC2B17132ADE592D32683C1EF00AB6B2B8AA* ___0_collection, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2381,7 +2381,7 @@ IL_003b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139830
+// Method Definition Index: 139962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameInfo__cctor_m9B13BF4C44239CDAC464AA765ED32865EC413E34 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2415,7 +2415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameInfo__cctor_m9B13BF4C44239CDAC464AA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 139831
+// Method Definition Index: 139963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener_SubscribeToAdapterAndMetricEvents_mD5C1B513417F2C0D86A7851DE04261960EB523F3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2480,7 +2480,7 @@ IL_0033:
 		return;
 	}
 }
-// Method Definition Index: 139832
+// Method Definition Index: 139964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener_OnAdapterAdded_mE8FFB57D503CDB4FEB9BB80A62C489436689CD71 (RuntimeObject* ___0_adapter, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2546,7 +2546,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 139833
+// Method Definition Index: 139965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener_OnAdapterRemoved_m2D96FF92DE1111A3CAB6B07E1852C80C1B03A6BB (RuntimeObject* ___0_adapter, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2612,7 +2612,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 139834
+// Method Definition Index: 139966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener_OnMetricsReceived_m23E7098C67648C4CC541351C6ADEA74C638C6D97 (MetricCollection_tC854AC2B17132ADE592D32683C1EF00AB6B2B8AA* ___0_metricCollection, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2640,7 +2640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener_OnMetricsRe
 		return;
 	}
 }
-// Method Definition Index: 139835
+// Method Definition Index: 139967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener_PopulateProfilerIfEnabled_mA1EE8D6408312BC481F95A8E9E91E17B23EEAA23 (MetricCollection_tC854AC2B17132ADE592D32683C1EF00AB6B2B8AA* ___0_collection, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2731,7 +2731,7 @@ IL_0037:
 		return;
 	}
 }
-// Method Definition Index: 139836
+// Method Definition Index: 139968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener__cctor_m95F9F00DD1794CD7AE0D1578EB785861B798A8C9 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2784,7 +2784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener__cctor_m95F
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 139814
+// Method Definition Index: 139946
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MetricByteCounters_get_Sent_mC97D8190FB75086A6566747A73E5CEA1EECFB4E6_inline (MetricByteCounters_t93939B32EAFF5C62DEAC49479C24B257BED5AC16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2805,7 +2805,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MetricByteCounters_get_
 		return L_0;
 	}
 }
-// Method Definition Index: 139815
+// Method Definition Index: 139947
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MetricByteCounters_get_Received_m59C838195C22C352ABA8D7F0AB49FC09ED7E93F2_inline (MetricByteCounters_t93939B32EAFF5C62DEAC49479C24B257BED5AC16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2826,7 +2826,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MetricByteCounters_get_
 		return L_0;
 	}
 }
-// Method Definition Index: 139820
+// Method Definition Index: 139952
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MetricEventCounters_get_Sent_m78BE5E723C71AB0CAAF3BBC0F5FDC6DC35871D7F_inline (MetricEventCounters_t6018F3D388A02986183F5884F3D18564D9F6C172* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2847,7 +2847,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MetricEventCounters_get
 		return L_0;
 	}
 }
-// Method Definition Index: 139821
+// Method Definition Index: 139953
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MetricEventCounters_get_Received_m8B0522797455165C4CA584D2351D008182DF0C42_inline (MetricEventCounters_t6018F3D388A02986183F5884F3D18564D9F6C172* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2868,7 +2868,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MetricEventCounters_get
 		return L_0;
 	}
 }
-// Method Definition Index: 139841
+// Method Definition Index: 139973
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounter_1__ctor_m72EFD69FAA82C502E583EA8D3745B0DE476199ED_gshared_inline (ProfilerCounter_1_t164CEA6505C01A0E203C256D3F24F0D943978945* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, uint8_t ___2_dataUnit, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2917,7 +2917,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounter_1__ctor_m72E
 		return;
 	}
 }
-// Method Definition Index: 139842
+// Method Definition Index: 139974
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounter_1_Sample_m20C358BFC346EA9A67033C5E2ECFFCD801EC8779_gshared_inline (ProfilerCounter_1_t164CEA6505C01A0E203C256D3F24F0D943978945* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
