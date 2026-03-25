@@ -42,6 +42,8 @@ public class NetworkedTargetsManagerAR : NetworkBehaviour
 
         if (!IsOwner) return;
 
+        Debug.Log("[AR] [Test] Manager > " + NetworkedTargetsManagerVR.Instance == null);
+
         SpawnLocalARTargets();
     }
 
@@ -79,8 +81,10 @@ public class NetworkedTargetsManagerAR : NetworkBehaviour
 
     public void NotifyARHit(Vector3 position)
     {
-        // DestroyARTarget(position);
-        NotifyARHitRpc(position);
+        // Le RPC doit être déclaré sur le VR Manager (dont l'Authority = VR),
+        // pas sur ce Manager (dont l'Authority = AR).
+        if (NetworkedTargetsManagerVR.Instance != null)
+            NetworkedTargetsManagerVR.Instance.ReceiveARHitRpc(position);
     }
 
     private void DestroyARTarget(Vector3 position)
@@ -95,15 +99,6 @@ public class NetworkedTargetsManagerAR : NetworkBehaviour
         }
     }
 
-    // ── Rpc ──────────────────────────────────────────────────────────────────
-
-    [Rpc(SendTo.Authority)]
-    private void NotifyARHitRpc(Vector3 position)
-    {
-        NetworkedTargetsManagerVR.Instance?.HandleARHit(position);
-    }
-
-    [Rpc(SendTo.NotAuthority)]
     public void TargetDestroyedByVRRpc(Vector3 position)
     {
         if (_localARTargets.ContainsKey(position))

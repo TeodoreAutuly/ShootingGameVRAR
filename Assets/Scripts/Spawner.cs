@@ -10,6 +10,10 @@ public class LocalXRSpawner : MonoBehaviour
     [Header("Spawn point")]
     [SerializeField] private Transform spawnPoint;
 
+    [Header("Propulsion")]
+    [SerializeField] private Transform controller;
+    [SerializeField] private float launchForce = 10f;
+
     [Header("Input Action")]
     [SerializeField] private InputActionProperty spawnAction;
 
@@ -95,6 +99,12 @@ public class LocalXRSpawner : MonoBehaviour
             );
             Destroy(instance);
             return;
+        }
+
+        if (instance.TryGetComponent(out Rigidbody rb))
+        {
+            Transform dirSource = controller != null ? controller : (spawnPoint != null ? spawnPoint : transform);
+            rb.linearVelocity = dirSource.forward * launchForce; // vélocité directe plutôt que AddForce
         }
 
         networkObject.Spawn();

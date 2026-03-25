@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit;
@@ -5,7 +6,8 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 /// <summary>
 /// VIEW — Affiche et anime un prefab target.
-/// Deux variantes selon le côté : AR (écoute "ARUser") ou VR (écoute "VRBullet").
+/// AR  : détection via XRBaseInteractable.selectEntered uniquement.
+/// VR  : détection via OnTriggerEnter (tag "VRBullet") uniquement.
 /// Pas de logique réseau. Délègue via UnityEvents au Controller.
 /// Compatible Distributed Authority — aucune dépendance NGO.
 /// </summary>
@@ -14,7 +16,7 @@ public class SingleTargetView : MonoBehaviour
     public enum Side { AR, VR }
 
     [Header("Côté")]
-    [Tooltip("AR : réagit au tag ARUser et XR Hover. VR : réagit au tag VRBullet.")]
+    [Tooltip("AR : réagit à selectEntered (XR). VR : réagit au tag VRBullet (trigger physique).")]
     [SerializeField] private Side _side = Side.AR;
 
     [Header("Références visuelles")]
@@ -36,40 +38,38 @@ public class SingleTargetView : MonoBehaviour
 
     private void Awake()
     {
-        // Abonnement automatique au XR Interactable si présent sur le GO
+        if (_side != Side.AR) return;
+
         var interactable = GetComponent<XRBaseInteractable>();
         if (interactable != null)
-        {
-            interactable.hoverEntered.AddListener(OnHoverEntered);
-            Debug.Log($"[SingleTargetView] Abonné au hoverEntered du XRBaseInteractable ({_side}).", this);
-        }
+            interactable.selectEntered.AddListener(OnSelectEntered);
         else
-        {
             Debug.LogWarning($"[SingleTargetView] Aucun XRBaseInteractable trouvé sur {gameObject.name}.", this);
-        }
     }
 
     private void OnDestroy()
     {
+        if (_side != Side.AR) return;
+
         var interactable = GetComponent<XRBaseInteractable>();
         if (interactable != null)
-            interactable.hoverEntered.RemoveListener(OnHoverEntered);
+            interactable.selectEntered.RemoveListener(OnSelectEntered);
     }
 
-    // ── Handler XR Hover ─────────────────────────────────────────────────────
+    // ── Handler XR Select (AR uniquement) ────────────────────────────────────
 
-    private void OnHoverEntered(HoverEnterEventArgs args)
+    private void OnSelectEntered(SelectEnterEventArgs args)
     {
-        Debug.Log($"[SingleTargetView] HoverEntered détecté sur {gameObject.name} (Side={_side}).", this);
+        OnARUserHit.Invoke();
+    }
 
-        switch (_side)
-        {
-            case Side.AR:
-                OnARUserHit.Invoke();
-                break;
-            case Side.VR:
-                OnVRBulletHit.Invoke();
-                break;
+    // ── Détection de collision (VR uniquement) ────────────────────────────────
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (_side == Side.VR && other.CompareTag("VRBullet")){
+            Debug.Log("[VR] Touché !");
+            OnVRBulletHit.Invoke();    
         }
     }
 
@@ -97,26 +97,14 @@ public class SingleTargetView : MonoBehaviour
             _renderer.material.color = _defaultColor;
     }
 
-    // ── Détection de collision (alternative au XR Interactable) ──────────────
-
-    private void OnTriggerEnter(Collider other)
-    {
-        switch (_side)
-        {
-            case Side.AR when other.CompareTag("ARUser"):
-                OnARUserHit.Invoke();
-                break;
-            case Side.VR when other.CompareTag("VRBullet"):
-                OnVRBulletHit.Invoke();
-                break;
-        }
-    }
-
     // ── Helpers ──────────────────────────────────────────────────────────────
 
-    private System.Collections.IEnumerator AnimateThenCallback(UnityAction onComplete)
+    private IEnumerator AnimateThenCallback(UnityAction onComplete)
     {
         _animator.SetTrigger(_destroyAnimTrigger);
+        // Deux frames : une pour que le trigger soit pris en compte,
+        // une pour que la transition d'état soit effectuée.
+        yield return null;
         yield return null;
         AnimatorStateInfo info = _animator.GetCurrentAnimatorStateInfo(0);
         yield return new WaitForSeconds(info.length);

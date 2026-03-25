@@ -10349,7 +10349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BindableVariable_1_ValueEquals_mA0C21AEA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134423
+// Method Definition Index: 134429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_get_IsReader_m58748CDF48539B3C4E80EE45FDA5DA9D15D4B2C8_gshared (BufferSerializer_1_tDF9EDCBE9CCEF100D9CDACCEBB4420EAE47BFD0E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10373,7 +10373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_get_IsReader_m58748CD
 		return L_1;
 	}
 }
-// Method Definition Index: 134424
+// Method Definition Index: 134430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_get_IsWriter_mD33237EF0FA6271797BEDD3599FEEB91560EA01B_gshared (BufferSerializer_1_tDF9EDCBE9CCEF100D9CDACCEBB4420EAE47BFD0E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10397,7 +10397,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_get_IsWriter_mD33237E
 		return L_1;
 	}
 }
-// Method Definition Index: 134425
+// Method Definition Index: 134431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1__ctor_m2746FCC9597181EB13FD43FA2F9B4C998D44EB8D_gshared (BufferSerializer_1_tDF9EDCBE9CCEF100D9CDACCEBB4420EAE47BFD0E* __this, BufferSerializerReader_t2DFEA0B561760DA58E0E7B99045EE8643459B8C3 ___0_implementation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10422,7 +10422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1__ctor_m2746FCC9597181
 		return;
 	}
 }
-// Method Definition Index: 134426
+// Method Definition Index: 134432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FastBufferReader_t6A21E108478D9135887B4FA4CCEE013493B22141 BufferSerializer_1_GetFastBufferReader_mB5482680CAD959084B1287521D11BDB9273ECEB3_gshared (BufferSerializer_1_tDF9EDCBE9CCEF100D9CDACCEBB4420EAE47BFD0E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10459,7 +10459,7 @@ IL_0015:
 		return L_2;
 	}
 }
-// Method Definition Index: 134427
+// Method Definition Index: 134433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FastBufferWriter_tF193B61974B2583495CB76604E0FF864145385D2 BufferSerializer_1_GetFastBufferWriter_mE12A6345F7D87B4E5CC4D24C8DE974AB3C8327AB_gshared (BufferSerializer_1_tDF9EDCBE9CCEF100D9CDACCEBB4420EAE47BFD0E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10496,7 +10496,7 @@ IL_0015:
 		return L_2;
 	}
 }
-// Method Definition Index: 134429
+// Method Definition Index: 134435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValue_mB973D2A462682449A9C2B5349D054F4FFE7CE9A6_gshared (BufferSerializer_1_tDF9EDCBE9CCEF100D9CDACCEBB4420EAE47BFD0E* __this, String_t** ___0_s, bool ___1_oneByteChars, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10525,7 +10525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValue_mB973D
 		return;
 	}
 }
-// Method Definition Index: 134431
+// Method Definition Index: 134437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValue_m5DF593B43D1320811C4BA4ACEC098FED4627B480_gshared (BufferSerializer_1_tDF9EDCBE9CCEF100D9CDACCEBB4420EAE47BFD0E* __this, uint8_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10553,7 +10553,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValue_m5DF59
 		return;
 	}
 }
-// Method Definition Index: 134433
+// Method Definition Index: 134439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_PreCheck_m547BF687A8F37E2F6EC3150D7CCB54BB0B384C58_gshared (BufferSerializer_1_tDF9EDCBE9CCEF100D9CDACCEBB4420EAE47BFD0E* __this, int32_t ___0_amount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10590,7 +10590,7 @@ IL_0016:
 		return L_3;
 	}
 }
-// Method Definition Index: 134434
+// Method Definition Index: 134440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValuePreChecked_m257463EE5448672EAC6A50B2C1D6F678D288A80E_gshared (BufferSerializer_1_tDF9EDCBE9CCEF100D9CDACCEBB4420EAE47BFD0E* __this, String_t** ___0_s, bool ___1_oneByteChars, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10619,7 +10619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValuePreChec
 		return;
 	}
 }
-// Method Definition Index: 134436
+// Method Definition Index: 134442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValuePreChecked_mEC04AC1A8BAECE3B8450D8EC2486F8CE83C88843_gshared (BufferSerializer_1_tDF9EDCBE9CCEF100D9CDACCEBB4420EAE47BFD0E* __this, uint8_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10655,7 +10655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValuePreChec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134423
+// Method Definition Index: 134429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_get_IsReader_mB78972DAAEB36557B70B31ECFD994A7CAA804BCC_gshared (BufferSerializer_1_t7625DC55714B4BDE011F3E504329BD96ED7745AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10679,7 +10679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_get_IsReader_mB78972D
 		return L_1;
 	}
 }
-// Method Definition Index: 134424
+// Method Definition Index: 134430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_get_IsWriter_mB8DB336E0681AFC5B192997C5A25A3FF768CAD49_gshared (BufferSerializer_1_t7625DC55714B4BDE011F3E504329BD96ED7745AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10703,7 +10703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_get_IsWriter_mB8DB336
 		return L_1;
 	}
 }
-// Method Definition Index: 134425
+// Method Definition Index: 134431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1__ctor_m79052B4DC13A05F11B39BAF7F36477FFD242FD85_gshared (BufferSerializer_1_t7625DC55714B4BDE011F3E504329BD96ED7745AB* __this, BufferSerializerWriter_t882E97688DEB19905E53A05828A1247608920231 ___0_implementation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10728,7 +10728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1__ctor_m79052B4DC13A05
 		return;
 	}
 }
-// Method Definition Index: 134426
+// Method Definition Index: 134432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FastBufferReader_t6A21E108478D9135887B4FA4CCEE013493B22141 BufferSerializer_1_GetFastBufferReader_m27C98B6F4EC7809D8223F1FCB91388D757B6C6E3_gshared (BufferSerializer_1_t7625DC55714B4BDE011F3E504329BD96ED7745AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10765,7 +10765,7 @@ IL_0015:
 		return L_2;
 	}
 }
-// Method Definition Index: 134427
+// Method Definition Index: 134433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FastBufferWriter_tF193B61974B2583495CB76604E0FF864145385D2 BufferSerializer_1_GetFastBufferWriter_mF464EEDA7AECE6CC65663E16676AD5490A21F297_gshared (BufferSerializer_1_t7625DC55714B4BDE011F3E504329BD96ED7745AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10802,7 +10802,7 @@ IL_0015:
 		return L_2;
 	}
 }
-// Method Definition Index: 134429
+// Method Definition Index: 134435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValue_m4B470842183D73E8D8AAACD1A134051942FBDB1E_gshared (BufferSerializer_1_t7625DC55714B4BDE011F3E504329BD96ED7745AB* __this, String_t** ___0_s, bool ___1_oneByteChars, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10831,7 +10831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValue_m4B470
 		return;
 	}
 }
-// Method Definition Index: 134431
+// Method Definition Index: 134437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValue_mEBF812DB0F9F424F5441895FE46C274B96D790B0_gshared (BufferSerializer_1_t7625DC55714B4BDE011F3E504329BD96ED7745AB* __this, uint8_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10859,7 +10859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValue_mEBF81
 		return;
 	}
 }
-// Method Definition Index: 134433
+// Method Definition Index: 134439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_PreCheck_m4C8F6533CA77F271C7231861FD6EDF4E32A8E663_gshared (BufferSerializer_1_t7625DC55714B4BDE011F3E504329BD96ED7745AB* __this, int32_t ___0_amount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10896,7 +10896,7 @@ IL_0016:
 		return L_3;
 	}
 }
-// Method Definition Index: 134434
+// Method Definition Index: 134440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValuePreChecked_m973094C7F438A8926CACB973B4DC8BBC71BEB07F_gshared (BufferSerializer_1_t7625DC55714B4BDE011F3E504329BD96ED7745AB* __this, String_t** ___0_s, bool ___1_oneByteChars, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10925,7 +10925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValuePreChec
 		return;
 	}
 }
-// Method Definition Index: 134436
+// Method Definition Index: 134442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValuePreChecked_mE69CAA1E51C82C309F8E62F19362584CA22C62CC_gshared (BufferSerializer_1_t7625DC55714B4BDE011F3E504329BD96ED7745AB* __this, uint8_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10961,7 +10961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValuePreChec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134423
+// Method Definition Index: 134429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_get_IsReader_m910CD93A4CD7A789C5813A76CA8168B18E8D89A9_gshared (BufferSerializer_1_t1AF3346F10A3E0D6E1E28B237801F3A8285DEEAA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10985,7 +10985,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_get_IsReader_m910CD93
 		return L_1;
 	}
 }
-// Method Definition Index: 134424
+// Method Definition Index: 134430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_get_IsWriter_mBFD62D8D5DAB800C554C152DA618501D93BF0B92_gshared (BufferSerializer_1_t1AF3346F10A3E0D6E1E28B237801F3A8285DEEAA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11009,7 +11009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_get_IsWriter_mBFD62D8
 		return L_1;
 	}
 }
-// Method Definition Index: 134425
+// Method Definition Index: 134431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1__ctor_mD11B07AAB990E158D2521BEBEB558342905F3830_gshared (BufferSerializer_1_t1AF3346F10A3E0D6E1E28B237801F3A8285DEEAA* __this, Il2CppFullySharedGenericAny ___0_implementation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11036,7 +11036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1__ctor_mD11B07AAB990E1
 		return;
 	}
 }
-// Method Definition Index: 134426
+// Method Definition Index: 134432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FastBufferReader_t6A21E108478D9135887B4FA4CCEE013493B22141 BufferSerializer_1_GetFastBufferReader_m6544F75A78FDDDD669297C04080C2CE11F0525F3_gshared (BufferSerializer_1_t1AF3346F10A3E0D6E1E28B237801F3A8285DEEAA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11073,7 +11073,7 @@ IL_0015:
 		return L_2;
 	}
 }
-// Method Definition Index: 134427
+// Method Definition Index: 134433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FastBufferWriter_tF193B61974B2583495CB76604E0FF864145385D2 BufferSerializer_1_GetFastBufferWriter_mF0B682CBE89F2C1CD7B3AB66D597398F3CECCCA5_gshared (BufferSerializer_1_t1AF3346F10A3E0D6E1E28B237801F3A8285DEEAA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11110,7 +11110,7 @@ IL_0015:
 		return L_2;
 	}
 }
-// Method Definition Index: 134429
+// Method Definition Index: 134435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValue_m843ED8C9D9838F7BDF6BFA195F8EAAFB776BF919_gshared (BufferSerializer_1_t1AF3346F10A3E0D6E1E28B237801F3A8285DEEAA* __this, String_t** ___0_s, bool ___1_oneByteChars, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11139,7 +11139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValue_m843ED
 		return;
 	}
 }
-// Method Definition Index: 134431
+// Method Definition Index: 134437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValue_mDB1940FCF47BB527D085E0B96BA06B9AA2072B4D_gshared (BufferSerializer_1_t1AF3346F10A3E0D6E1E28B237801F3A8285DEEAA* __this, uint8_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11167,7 +11167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValue_mDB194
 		return;
 	}
 }
-// Method Definition Index: 134433
+// Method Definition Index: 134439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BufferSerializer_1_PreCheck_m3C1D9968130B57BC72E53BF276D0CE25798003C9_gshared (BufferSerializer_1_t1AF3346F10A3E0D6E1E28B237801F3A8285DEEAA* __this, int32_t ___0_amount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11204,7 +11204,7 @@ IL_0016:
 		return L_3;
 	}
 }
-// Method Definition Index: 134434
+// Method Definition Index: 134440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValuePreChecked_mECE9A6DE2F3F8DA530A498020439593DB0A04B87_gshared (BufferSerializer_1_t1AF3346F10A3E0D6E1E28B237801F3A8285DEEAA* __this, String_t** ___0_s, bool ___1_oneByteChars, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11233,7 +11233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValuePreChec
 		return;
 	}
 }
-// Method Definition Index: 134436
+// Method Definition Index: 134442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferSerializer_1_SerializeValuePreChecked_m68443A1FCDA1B1EB7065FA70B1013169DF9781E0_gshared (BufferSerializer_1_t1AF3346F10A3E0D6E1E28B237801F3A8285DEEAA* __this, uint8_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

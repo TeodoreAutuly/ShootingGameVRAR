@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 3527766453
+  GlobalObjectIdHash: 3169993552
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 1
@@ -71,4 +71,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NetworkedTargetsManagerVR
   ShowTopMostFoldoutHeaderGroup: 1
-  _vrTargetPrefab: {fileID: 6311077955420828596, guid: c9f8aa11b25f4a145ad9ee6c95db4e46, type: 3}
+  _vrTargetPrefab: {fileID: 5395040765778966973, guid: 44b73d18e0b42ab4e837d25d52021417, type: 3}

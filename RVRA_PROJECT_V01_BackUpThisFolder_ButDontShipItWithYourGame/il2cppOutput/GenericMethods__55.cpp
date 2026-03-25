@@ -23033,7 +23033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Profiler_EmitFrameMetaData_TisIl2CppFull
 		return;
 	}
 }
-// Method Definition Index: 140011
+// Method Definition Index: 140017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ProfilerUtility_GetProfilerMarkerDataType_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_mFEA9A9D2DBAF423513797DF56A48F9E1B18A9DF2_gshared (const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -23200,7 +23200,7 @@ IL_007d:
 		return L_9;
 	}
 }
-// Method Definition Index: 140011
+// Method Definition Index: 140017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ProfilerUtility_GetProfilerMarkerDataType_TisIl2CppFullySharedGenericAny_m52FCF8AA54650C16BCF4EEC8F21C66757AEB72B1_gshared (const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))

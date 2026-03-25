@@ -78,7 +78,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 140381
+// Method Definition Index: 140387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Environments_get_Current_m672842AC5C842317A6EE2D4EBE3AEDAE201D141C (Environments_tC4B2F50A927F4B9798E0EA1415765D81DC7C0A00* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -99,7 +99,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Environments_get_Current_m672842AC5
 		return L_0;
 	}
 }
-// Method Definition Index: 140382
+// Method Definition Index: 140388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Environments_set_Current_mF2F9146800431DE9BBE5F95E94919DF01477BB84 (Environments_tC4B2F50A927F4B9798E0EA1415765D81DC7C0A00* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -126,7 +126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Environments_set_Current_mF2F9146800431D
 		return;
 	}
 }
-// Method Definition Index: 140383
+// Method Definition Index: 140389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Environments__ctor_m907828E3A910416469C90CF39C6D863F6C0B5A6B (Environments_tC4B2F50A927F4B9798E0EA1415765D81DC7C0A00* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

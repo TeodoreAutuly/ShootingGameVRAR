@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 /// <summary>
@@ -5,6 +6,7 @@ using UnityEngine;
 /// Écoute les events de la View, prend les décisions, délègue au manager.
 ///
 /// Côté AR : hit ARUser → notifie NetworkedTargetsManagerAR (qui envoie un Rpc à l'Authority VR).
+///           Si VR ne confirme pas dans _arHitResetTimeout secondes, la target revient à son état initial.
 /// Côté VR : hit VRBullet → joue l'animation → notifie NetworkedTargetsManagerVR (qui broadcast).
 ///
 /// Compatible Distributed Authority — aucune dépendance NGO directe.
@@ -12,11 +14,16 @@ using UnityEngine;
 [RequireComponent(typeof(SingleTargetView))]
 public class SingleTargetController : MonoBehaviour
 {
+    [Header("AR")]
+    [Tooltip("Durée (s) avant reset automatique si VR ne confirme pas le hit.")]
+    [SerializeField] private float _arHitResetTimeout = 30f;
+
     private SingleTargetView _view;
     private NetworkedTargetsManagerAR _managerAR;
     private NetworkedTargetsManagerVR _managerVR;
 
-    private bool _destroyRequested = false;
+    private bool      _destroyRequested = false;
+    private Coroutine _resetCoroutine;
 
     // ── Initialisation ───────────────────────────────────────────────────────
 
@@ -33,7 +40,7 @@ public class SingleTargetController : MonoBehaviour
     {
         _managerVR = manager;
         _view = GetComponent<SingleTargetView>();
-        _view.OnVRBulletHit.AddListener(HandleVRBulletHit); 
+        _view.OnVRBulletHit.AddListener(HandleVRBulletHit);
     }
 
     // ── Handlers ─────────────────────────────────────────────────────────────
@@ -44,10 +51,17 @@ public class SingleTargetController : MonoBehaviour
         _destroyRequested = true;
 
         _view.SetHitColor();
-
-        // Notifie le manager AR : il détruira cette target locale
-        // et enverra un Rpc à l'Authority (VR) pour spawner côté VR.
         _managerAR?.NotifyARHit(transform.position);
+
+        // Lance le timeout : si VR ne confirme pas, on remet la target à zéro.
+        _resetCoroutine = StartCoroutine(ResetAfterTimeout());
+    }
+
+    private IEnumerator ResetAfterTimeout()
+    {
+        yield return new WaitForSeconds(_arHitResetTimeout);
+        _destroyRequested = false;
+        _view.ResetColor();
     }
 
     private void HandleVRBulletHit()
@@ -56,14 +70,17 @@ public class SingleTargetController : MonoBehaviour
         _destroyRequested = true;
 
         _view.SetHitColor();
-
-        // Joue l'animation avant de notifier — destruction après l'anim.
         _view.PlayDestroyAnimation(OnVRDestroyAnimComplete);
     }
 
     private void OnVRDestroyAnimComplete()
     {
-        // Notifie le manager VR : il détruira localement et broadcastera vers AR.
+        // VR confirme la destruction : on annule le timeout AR si encore actif.
+        if (_resetCoroutine != null)
+        {
+            StopCoroutine(_resetCoroutine);
+            _resetCoroutine = null;
+        }
         _managerVR?.NotifyVRHit(transform.position);
     }
 
@@ -71,6 +88,8 @@ public class SingleTargetController : MonoBehaviour
 
     private void OnDestroy()
     {
+        if (_resetCoroutine != null) StopCoroutine(_resetCoroutine);
+
         if (_view == null) return;
         _view.OnARUserHit.RemoveListener(HandleARUserHit);
         _view.OnVRBulletHit.RemoveListener(HandleVRBulletHit);

@@ -45,16 +45,30 @@ public class NetworkedTargetsManagerVR : NetworkBehaviour
         DestroyAllVRTargets();
     }
 
-    // ── Appelé par NetworkedTargetsManagerAR.NotifyARHitRpc ──────────────────
+    // ── Rpc entrant depuis AR ─────────────────────────────────────────────────
 
-    /// Reçu depuis AR (via Rpc Authority) : spawne la target côté VR.
-    public void HandleARHit(Vector3 position)
+    /// Reçu depuis AR : Authority de ce NetworkObject = VR, donc le RPC arrive bien sur VR.
+    [Rpc(SendTo.Authority)]
+    public void ReceiveARHitRpc(Vector3 position)
     {
-        if (!IsOwner) return;
+        HandleARHit(position);
+    }
+
+    // ── Logique interne ───────────────────────────────────────────────────────
+
+    private void HandleARHit(Vector3 position)
+    {
+        Debug.Log("[VR] [HandleARHit]");
+
+        if (!IsOwner)
+        {
+            Debug.LogWarning("[VR] HandleARHit recu sur un client non-owner — RPC mal route.");
+            return;
+        }
 
         if (_vrTargets.ContainsKey(position))
         {
-            Debug.LogWarning($"[VR] Target déjà présente en {position}, hit AR ignoré.");
+            Debug.LogWarning($"[VR] Target deja presente en {position}, hit AR ignore.");
             return;
         }
 

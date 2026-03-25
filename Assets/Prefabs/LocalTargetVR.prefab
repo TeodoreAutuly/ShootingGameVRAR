@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 2013456198484264723}
   - component: {fileID: 5265451815960043074}
   - component: {fileID: 1711684458471810185}
+  - component: {fileID: 3160196426063180252}
   m_Layer: 0
   m_Name: LocalTargetVR
   m_TagString: Untagged
@@ -184,3 +185,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a3e7fc4fe7192b498f0dc87c7092851, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SingleTargetController
+  _arHitResetTimeout: 30
+--- !u!136 &3160196426063180252
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6311077955420828596}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
