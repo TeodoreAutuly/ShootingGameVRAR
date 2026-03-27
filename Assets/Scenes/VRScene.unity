@@ -1304,6 +1304,10 @@ PrefabInstance:
       propertyPath: vrLobbyView
       value: 
       objectReference: {fileID: 2002442955}
+    - target: {fileID: 4306303808878111461, guid: 13a8da3ac536c514ab90dd276e42f704, type: 3}
+      propertyPath: _targetsManagerVRPrefab
+      value: 
+      objectReference: {fileID: 2813344821517101587, guid: 6b9120ecfda0aba47861731ce0abc841, type: 3}
     - target: {fileID: 9104425371117137886, guid: 13a8da3ac536c514ab90dd276e42f704, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5
@@ -1683,6 +1687,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3419660573623651976, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 2088775201}
+    - target: {fileID: 3419660573623651976, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: launchForce
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3419660573623651976, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: prefabToSpawn
+      value: 
+      objectReference: {fileID: 1985892705632607315, guid: 24938b3dfdfa9d9468c4e7016c861411, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

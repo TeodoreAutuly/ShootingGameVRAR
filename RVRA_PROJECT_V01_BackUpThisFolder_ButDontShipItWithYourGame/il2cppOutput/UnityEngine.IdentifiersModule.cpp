@@ -82,7 +82,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Identifiers_GetInstallationId_Injected_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 140246
+// Method Definition Index: 140384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Identifiers_get_installationId_mD3ECC6BF716CA29158D977D82861214A105AA6B9 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -103,7 +103,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Identifiers_get_installationId_mD3E
 		return L_0;
 	}
 }
-// Method Definition Index: 140247
+// Method Definition Index: 140385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Identifiers_GetInstallationId_mE83CB40B3E23BE88A50981DF00B8806D654D0A81 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -149,7 +149,7 @@ IL_0011:
 		return L_2;
 	}
 }
-// Method Definition Index: 140248
+// Method Definition Index: 140386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Identifiers_GetInstallationId_Injected_mE29A1BB73C1587EACFF0A6104DD068DB4FA711CC (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_ret, const RuntimeMethod* method) 
 {
 	typedef void (*Identifiers_GetInstallationId_Injected_mE29A1BB73C1587EACFF0A6104DD068DB4FA711CC_ftn) (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E*);
