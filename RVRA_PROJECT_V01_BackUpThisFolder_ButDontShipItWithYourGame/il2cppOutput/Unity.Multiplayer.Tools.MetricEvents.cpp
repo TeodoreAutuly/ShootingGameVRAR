@@ -311,7 +311,7 @@ inline void Action_1_Invoke_m4036EB3B05642DFF32D8DBE1F4AEB7A33205CD2E_inline (Ac
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 140263
+// Method Definition Index: 140459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F7246FB358DBC28DBC9422CE359D012E5EDB237 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mC5F028B71488568A967158CE84D8346379AEA22D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -366,7 +366,7 @@ IL_005a:
 		return L_7;
 	}
 }
-// Method Definition Index: 140264
+// Method Definition Index: 140460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m6FD02B3FB070D305FAFFC1C0C83E540C34C39D2B (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t6DAC58CF64985718B4D44C7D60BFD43D4B695B82* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -460,7 +460,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F7246FB358DBC28DBC9422CE359D012E5EDB237_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 140265
+// Method Definition Index: 140461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricObserver_Observe_mB28F8E3DDD32221B1A610630AEF42500EFD322A5 (MetricObserver_t69990AE7E36765C6F5F9108572F3D1588AD9DE3B* __this, MetricCollection_tC854AC2B17132ADE592D32683C1EF00AB6B2B8AA* ___0_collection, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -488,7 +488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricObserver_Observe_mB28F8E3DDD32221B
 		return;
 	}
 }
-// Method Definition Index: 140266
+// Method Definition Index: 140462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricObserver__ctor_mD010C3261BC937F926D5CF0BDC1C1410F22BEB1C (MetricObserver_t69990AE7E36765C6F5F9108572F3D1588AD9DE3B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -512,7 +512,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricObserver__ctor_mD010C3261BC937F926
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 140267
+// Method Definition Index: 140463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricEventPublisher_add_OnMetricsReceived_m2307BDA3A26A1EE1D7C51E0C5772499048E2FAEB (Action_1_t76E00A62308B4884D5FBE7973531637E07E7B079* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -559,7 +559,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 140268
+// Method Definition Index: 140464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricEventPublisher_remove_OnMetricsReceived_m020640DD0D777A4C7C81E9F331B3421CDB90D976 (Action_1_t76E00A62308B4884D5FBE7973531637E07E7B079* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -606,7 +606,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 140269
+// Method Definition Index: 140465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricEventPublisher_RaiseOnMetricsReceived_mFBC4AFBAC22CE751930790E53E29ADF7648BBB79 (MetricCollection_tC854AC2B17132ADE592D32683C1EF00AB6B2B8AA* ___0_metricCollection, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

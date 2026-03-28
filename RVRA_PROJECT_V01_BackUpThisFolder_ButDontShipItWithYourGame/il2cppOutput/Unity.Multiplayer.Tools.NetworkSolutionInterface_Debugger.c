@@ -35,26 +35,26 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_Multiplayer_Tools_NetworkSolutionInterface[];
 Il2CppSequencePoint g_sequencePointsUnity_Multiplayer_Tools_NetworkSolutionInterface[20] = 
 {
-	{ 140270, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
-	{ 140270, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
-	{ 140270, 1, 48, 48, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
-	{ 140270, 1, 49, 55, 13, 15, 1, kSequencePointKind_Normal, 0, 3 },
-	{ 140270, 1, 49, 55, 13, 15, 27, kSequencePointKind_StepOut, 0, 4 },
-	{ 140270, 1, 49, 55, 13, 15, 55, kSequencePointKind_StepOut, 0, 5 },
-	{ 140270, 1, 56, 56, 9, 10, 93, kSequencePointKind_Normal, 0, 6 },
-	{ 140273, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 7 },
-	{ 140273, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 8 },
-	{ 140273, 2, 13, 13, 9, 10, 0, kSequencePointKind_Normal, 0, 9 },
-	{ 140273, 2, 14, 14, 13, 82, 1, kSequencePointKind_Normal, 0, 10 },
-	{ 140273, 2, 14, 14, 13, 82, 14, kSequencePointKind_StepOut, 0, 11 },
-	{ 140273, 2, 15, 15, 13, 39, 20, kSequencePointKind_Normal, 0, 12 },
-	{ 140273, 2, 16, 16, 9, 10, 26, kSequencePointKind_Normal, 0, 13 },
-	{ 140274, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 14 },
-	{ 140274, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 15 },
-	{ 140274, 2, 18, 18, 73, 107, 0, kSequencePointKind_Normal, 0, 16 },
-	{ 140275, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 17 },
-	{ 140275, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 18 },
-	{ 140275, 3, 7, 7, 82, 86, 0, kSequencePointKind_Normal, 0, 19 },
+	{ 140466, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
+	{ 140466, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
+	{ 140466, 1, 48, 48, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
+	{ 140466, 1, 49, 55, 13, 15, 1, kSequencePointKind_Normal, 0, 3 },
+	{ 140466, 1, 49, 55, 13, 15, 27, kSequencePointKind_StepOut, 0, 4 },
+	{ 140466, 1, 49, 55, 13, 15, 55, kSequencePointKind_StepOut, 0, 5 },
+	{ 140466, 1, 56, 56, 9, 10, 93, kSequencePointKind_Normal, 0, 6 },
+	{ 140469, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 7 },
+	{ 140469, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 8 },
+	{ 140469, 2, 13, 13, 9, 10, 0, kSequencePointKind_Normal, 0, 9 },
+	{ 140469, 2, 14, 14, 13, 82, 1, kSequencePointKind_Normal, 0, 10 },
+	{ 140469, 2, 14, 14, 13, 82, 14, kSequencePointKind_StepOut, 0, 11 },
+	{ 140469, 2, 15, 15, 13, 39, 20, kSequencePointKind_Normal, 0, 12 },
+	{ 140469, 2, 16, 16, 9, 10, 26, kSequencePointKind_Normal, 0, 13 },
+	{ 140470, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 14 },
+	{ 140470, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 15 },
+	{ 140470, 2, 18, 18, 73, 107, 0, kSequencePointKind_Normal, 0, 16 },
+	{ 140471, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 17 },
+	{ 140471, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 18 },
+	{ 140471, 3, 7, 7, 82, 86, 0, kSequencePointKind_Normal, 0, 19 },
 };
 #else
 extern Il2CppSequencePoint g_sequencePointsUnity_Multiplayer_Tools_NetworkSolutionInterface[];
@@ -78,9 +78,9 @@ static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[1] = { NUL
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[3] = 
 {
-	{ 18284, 1 },
-	{ 18287, 2 },
-	{ 18288, 3 },
+	{ 18310, 1 },
+	{ 18313, 2 },
+	{ 18314, 3 },
 };
 #else
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = { { 0, 0 } };

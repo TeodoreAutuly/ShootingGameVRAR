@@ -36,19 +36,19 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_AIModule[];
 Il2CppSequencePoint g_sequencePointsUnityEngine_AIModule[13] = 
 {
-	{ 139862, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
-	{ 139862, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
-	{ 139862, 1, 182, 182, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
-	{ 139862, 1, 183, 183, 13, 32, 1, kSequencePointKind_Normal, 0, 3 },
-	{ 139862, 1, 184, 184, 9, 10, 7, kSequencePointKind_Normal, 0, 4 },
-	{ 139863, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 5 },
-	{ 139863, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 6 },
-	{ 139863, 1, 188, 188, 9, 10, 0, kSequencePointKind_Normal, 0, 7 },
-	{ 139863, 1, 189, 189, 13, 37, 1, kSequencePointKind_Normal, 0, 8 },
-	{ 139863, 1, 189, 189, 0, 0, 10, kSequencePointKind_Normal, 0, 9 },
-	{ 139863, 1, 190, 190, 17, 31, 13, kSequencePointKind_Normal, 0, 10 },
-	{ 139863, 1, 190, 190, 17, 31, 18, kSequencePointKind_StepOut, 0, 11 },
-	{ 139863, 1, 191, 191, 9, 10, 24, kSequencePointKind_Normal, 0, 12 },
+	{ 140058, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
+	{ 140058, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
+	{ 140058, 1, 182, 182, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
+	{ 140058, 1, 183, 183, 13, 32, 1, kSequencePointKind_Normal, 0, 3 },
+	{ 140058, 1, 184, 184, 9, 10, 7, kSequencePointKind_Normal, 0, 4 },
+	{ 140059, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 5 },
+	{ 140059, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 6 },
+	{ 140059, 1, 188, 188, 9, 10, 0, kSequencePointKind_Normal, 0, 7 },
+	{ 140059, 1, 189, 189, 13, 37, 1, kSequencePointKind_Normal, 0, 8 },
+	{ 140059, 1, 189, 189, 0, 0, 10, kSequencePointKind_Normal, 0, 9 },
+	{ 140059, 1, 190, 190, 17, 31, 13, kSequencePointKind_Normal, 0, 10 },
+	{ 140059, 1, 190, 190, 17, 31, 18, kSequencePointKind_StepOut, 0, 11 },
+	{ 140059, 1, 191, 191, 9, 10, 24, kSequencePointKind_Normal, 0, 12 },
 };
 #else
 extern Il2CppSequencePoint g_sequencePointsUnityEngine_AIModule[];
@@ -70,7 +70,7 @@ static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[1] = { NUL
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = 
 {
-	{ 18076, 1 },
+	{ 18102, 1 },
 };
 #else
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = { { 0, 0 } };
