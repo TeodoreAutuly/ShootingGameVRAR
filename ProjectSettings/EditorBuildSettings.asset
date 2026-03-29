@@ -6,10 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/LobbyScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 0a1a1f2475c1fa5209348bdccb46376b
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4ec635e1864bae33b88cd9e913e09df9, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: da1771283879cd029823a3e0d32c4487, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3d898c59d5eadbe6ab47bea349b2ac3d, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8f0b016744f81d981abf6d7b129aacbe, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 578593d6a0c85efec9a40d82c67f1965, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ea9dddc0ad7dfaae4a95d603380e83be, type: 2}
   m_UseUCBPForAssetBundles: 0
