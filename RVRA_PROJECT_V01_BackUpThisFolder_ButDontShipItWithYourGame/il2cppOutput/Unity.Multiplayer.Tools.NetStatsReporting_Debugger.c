@@ -1,0 +1,106 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+#if IL2CPP_MONO_DEBUGGER
+static const Il2CppMethodExecutionContextInfo g_methodExecutionContextInfos[1] = { { 0, 0, 0 } };
+#else
+static const Il2CppMethodExecutionContextInfo g_methodExecutionContextInfos[1] = { { 0, 0, 0 } };
+#endif
+#if IL2CPP_MONO_DEBUGGER
+static const char* g_methodExecutionContextInfoStrings[1] = { NULL };
+#else
+static const char* g_methodExecutionContextInfoStrings[1] = { NULL };
+#endif
+#if IL2CPP_MONO_DEBUGGER
+static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoIndexes[3] = 
+{
+	{ 0, 0 },
+	{ 0, 0 },
+	{ 0, 0 },
+};
+#else
+static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoIndexes[1] = { { 0, 0} };
+#endif
+#if IL2CPP_MONO_DEBUGGER
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_Multiplayer_Tools_NetStatsReporting[];
+Il2CppSequencePoint g_sequencePointsUnity_Multiplayer_Tools_NetStatsReporting[11] = 
+{
+	{ 140353, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
+	{ 140353, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
+	{ 140353, 1, 41, 41, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
+	{ 140353, 1, 42, 48, 13, 15, 1, kSequencePointKind_Normal, 0, 3 },
+	{ 140353, 1, 42, 48, 13, 15, 24, kSequencePointKind_StepOut, 0, 4 },
+	{ 140353, 1, 42, 48, 13, 15, 49, kSequencePointKind_StepOut, 0, 5 },
+	{ 140353, 1, 49, 49, 9, 10, 87, kSequencePointKind_Normal, 0, 6 },
+	{ 140355, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 7 },
+	{ 140355, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 8 },
+	{ 140355, 2, 7, 7, 56, 76, 0, kSequencePointKind_Normal, 0, 9 },
+	{ 140355, 2, 7, 7, 56, 76, 0, kSequencePointKind_StepOut, 0, 10 },
+};
+#else
+extern Il2CppSequencePoint g_sequencePointsUnity_Multiplayer_Tools_NetStatsReporting[];
+Il2CppSequencePoint g_sequencePointsUnity_Multiplayer_Tools_NetStatsReporting[1] = { { 0, 0, 0, 0, 0, 0, 0, kSequencePointKind_Normal, 0, 0, } };
+#endif
+#if IL2CPP_MONO_DEBUGGER
+static const Il2CppCatchPoint g_catchPoints[1] = { { 0, 0, 0, 0, } };
+#else
+static const Il2CppCatchPoint g_catchPoints[1] = { { 0, 0, 0, 0, } };
+#endif
+#if IL2CPP_MONO_DEBUGGER
+static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[] = {
+{ "", { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} },
+{ ".\\Unity.SourceGenerators\\Unity.MonoScriptGenerator.MonoScriptInfoGenerator\\AssemblyMonoScriptTypes.generated.cs", { 221, 26, 250, 154, 148, 133, 124, 91, 209, 77, 123, 43, 141, 28, 15, 191} },
+{ ".\\Library\\PackageCache\\com.unity.multiplayer.tools@acc3b25185bb\\NetStatsReporting\\Runtime\\MetricObserverFactory.cs", { 127, 37, 17, 94, 216, 112, 84, 40, 153, 154, 58, 28, 97, 102, 101, 198} },
+};
+#else
+static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[1] = { NULL, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+#endif
+#if IL2CPP_MONO_DEBUGGER
+static const Il2CppTypeSourceFilePair g_typeSourceFiles[2] = 
+{
+	{ 18317, 1 },
+	{ 18318, 2 },
+};
+#else
+static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = { { 0, 0 } };
+#endif
+#if IL2CPP_MONO_DEBUGGER
+static const Il2CppMethodScope g_methodScopes[1] = 
+{
+	{ 0, 89 },
+};
+#else
+static const Il2CppMethodScope g_methodScopes[1] = { { 0, 0 } };
+#endif
+#if IL2CPP_MONO_DEBUGGER
+static const Il2CppMethodHeaderInfo g_methodHeaderInfos[3] = 
+{
+	{ 89, 0, 1 },
+	{ 0, 0, 0 },
+	{ 0, 0, 0 },
+};
+#else
+static const Il2CppMethodHeaderInfo g_methodHeaderInfos[1] = { { 0, 0, 0 } };
+#endif
+IL2CPP_EXTERN_C const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_Multiplayer_Tools_NetStatsReporting;
+const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_Multiplayer_Tools_NetStatsReporting = 
+{
+	(Il2CppMethodExecutionContextInfo*)g_methodExecutionContextInfos,
+	(Il2CppMethodExecutionContextInfoIndex*)g_methodExecutionContextInfoIndexes,
+	(Il2CppMethodScope*)g_methodScopes,
+	(Il2CppMethodHeaderInfo*)g_methodHeaderInfos,
+	(Il2CppSequencePointSourceFile*)g_sequencePointSourceFiles,
+	11,
+	(Il2CppSequencePoint*)g_sequencePointsUnity_Multiplayer_Tools_NetStatsReporting,
+	0,
+	(Il2CppCatchPoint*)g_catchPoints,
+	2,
+	(Il2CppTypeSourceFilePair*)g_typeSourceFiles,
+	(const char**)g_methodExecutionContextInfoStrings,
+};
